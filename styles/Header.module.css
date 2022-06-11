@@ -1,5 +1,5 @@
 .header {
-  height:30vh;
+  height:45vh;
   display:flex;
   justify-content: space-around;
   background-position:top;
@@ -24,4 +24,8 @@
 
 .homeBackground {
   background-image:url("../public/images/HomeBackground.jpg")
+}
+
+.writingsBackground {
+  background-image:url("../public/images/WritingsBackground.jpg")
 }
