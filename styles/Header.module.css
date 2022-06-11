@@ -1,0 +1,27 @@
+.header {
+  height:30vh;
+  display:flex;
+  justify-content: space-around;
+  background-position:top;
+  background-size:contain;
+  background-color:black;
+}
+
+.header > button {
+  margin:5vh 0;
+  padding:1vw;
+  border:none;
+  cursor:pointer;
+}
+
+.header > button:hover {
+  letter-spacing:0.2vw;
+}
+
+.active {
+  margin:10vh 0;
+}
+
+.homeBackground {
+  background-image:url("../public/images/HomeBackground.jpg")
+}
