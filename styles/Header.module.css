@@ -2,20 +2,29 @@
   height:45vh;
   display:flex;
   justify-content: space-around;
+  align-items: center;
   background-position:top;
   background-size:contain;
   background-color:black;
 }
 
 .header > button {
-  margin:5vh 0;
-  padding:1vw;
+  height:10%;
+  font-family:"ccclobberintimesmooth";
+  font-size:2rem;
+  color:white;
+  text-shadow:2px 3px black,
+               4px 5px 10px dimgray;
+  letter-spacing:0.2vw;
+  background:none;
   border:none;
   cursor:pointer;
 }
 
 .header > button:hover {
-  letter-spacing:0.2vw;
+  letter-spacing:0.4vw;
+  text-shadow:2px 3px dimgray,
+               4px 5px 10px black;
 }
 
 .active {
