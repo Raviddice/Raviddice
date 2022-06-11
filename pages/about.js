@@ -3,7 +3,7 @@ import Header from '../components/header.js'
 export default function About() {
   return (
     <>
-    <Header/>
+    <Header headerBackground="aboutBackground"/>
     <div>About</div>
     </>
   )
