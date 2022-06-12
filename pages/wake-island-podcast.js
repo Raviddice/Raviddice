@@ -3,7 +3,7 @@ import Header from '../components/header.js'
 export default function WakeIsland() {
   return (
     <>
-    <Header/>
+    <Header headerBackground="wakeIslandBackground"/>
     <div>Wake Island Podcast</div>
     </>
   )
