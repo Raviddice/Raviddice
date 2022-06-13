@@ -49,7 +49,7 @@ const handleEmailChange = (event) => {
     br / >
     <div className={styles.containerTwo}>
     <
-    div className={styles.aboutPageProseFour}>And to subscribe to David's Mailing List for updates on new work, enter your email address here:</div>
+    div className={styles.aboutPageProseFour}>And to subscribe to David's<br/> Mailing List for updates on new work, enter <br/>your email address here:</div>
     <form className={styles.mailingListForm}>
      <input
        aria-label="Your email address"
