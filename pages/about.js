@@ -18,6 +18,7 @@ const handleEmailChange = (event) => {
     >
     <
     Header headerBackground = "aboutBackground" / >
+    <div className={styles.containerZero}>
     <div className={styles.containerOne}>
     <
     div className={styles.aboutPageProseOne}> David Leo Rice is a writer and animator from Northampton, MA. His interests cluster around metaphysical horror, dark comedy, dreams, myth, hauntings, the uncanniness of small towns, and the grotesque. < /div>
@@ -35,19 +36,13 @@ const handleEmailChange = (event) => {
     <
     br / >
     <
-    div className={styles.aboutPageProseTwo}> David's first three novels, < strong > A ROOM IN DODGE CITY < /strong>, <strong>A ROOM IN DODGE CITY: VOL. 2</strong > , and < strong > ANGEL HOUSE < /strong>, are out now, as is his first story collection, <strong>DRIFTER: STORIES</strong > . David's fourth novel, < strong > THE NEW HOUSE < /strong>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
-    <
-    br / >
-    <
-    br / >
+    div className={styles.aboutPageProseTwo}> David's first three novels, < strong > A ROOM IN DODGE CITY < /strong>, <strong>A ROOM IN DODGE CITY: VOL. 2</strong > , and < strong > ANGEL HOUSE < /strong>, are out now, as is his first story collection, <strong>DRIFTER: STORIES</strong >. David's fourth novel, < strong > THE NEW HOUSE < /strong>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
     <
     br / >
     <
     br / >
     <
     div className={styles.aboutPageProseThree}>Contact David (for private workshops, review and interview queries, or for manuscript editing and development services) at: <a className={styles.externalLink} href="mailto:raviddice@gmail.com">raviddice@gmail.com</a></div>
-    <
-    br / >
     <
     br / >
     <
@@ -67,6 +62,11 @@ const handleEmailChange = (event) => {
      />
      <button>SUBSCRIBE</button>
    </form>
+   <
+   br / >
+   <
+   br / >
+   </div>
    </div>
     <
     />
