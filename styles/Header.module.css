@@ -66,10 +66,15 @@
   top:2vh;
   right:5vw;
   cursor:pointer;
+  letter-spacing:0.2vw;
 }
 
 .social > a:not(first-child) {
   margin-top:6px;
+}
+
+.social > a:hover {
+  color:black;
 }
 
 .homeBackground {
