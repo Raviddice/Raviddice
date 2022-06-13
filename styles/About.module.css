@@ -1,3 +1,9 @@
+.containerZero {
+  font-family:"futura-pt";
+  font-size:1.7rem;
+  line-height:1.7em;
+}
+
 .containerOne {
   display:flex;
   justify-content: space-around;
@@ -7,8 +13,6 @@
 .aboutPageProseOne {
   max-width:70vw;
   margin:18vh 5vw 0 7vw;
-  font-size:1.3rem;
-  line-height:1.7em;
 }
 
  .photoContainer {
@@ -18,18 +22,11 @@
 .aboutPageProseTwo {
   max-width:90vw;
   margin:0 auto;
-  margin-top:3vh;
-  font-size:1.3rem;
-  letter-spacing:-0.02rem;
-  line-height:1.7em;
 }
 
 .aboutPageProseThree {
   max-width:80vw;
   margin-left:9vw;
-  margin-top:3vh;
-  font-size:1.3rem;
-  line-height:1.7em;
 }
 
 
@@ -53,12 +50,10 @@
 
 .aboutPageProseFour {
   max-width:98vw;
-  font-size:1.3rem;
-  line-height:1.7em;
 }
 
 .mailingListForm {
-  margin:0.5vh 5vw 0 0.5vw;
+  margin:0 5vw 0 0.5vw;
 }
 
 @media (max-width: 991.98px) {
