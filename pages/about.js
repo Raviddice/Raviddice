@@ -1,9 +1,19 @@
 import Header from '../components/header.js'
 import Image from 'next/image'
+import {useState} from 'react'
 import styles from '../styles/About.module.css'
 import AuthorPhoto from '../public/images/AboutPageImage.jpg'
 
 export default function About() {
+
+  const [email, setEmail] = useState("")
+
+
+const handleEmailChange = (event) => {
+  const { value } = event.target
+  setEmail(value)
+}
+
   return ( <
     >
     <
@@ -25,7 +35,7 @@ export default function About() {
     <
     br / >
     <
-    div className={styles.aboutPageProseTwo}> David Leo Rice's first three novels, < strong > A ROOM IN DODGE CITY < /strong>, <strong>A ROOM IN DODGE CITY: VOL. 2</strong > , and < strong > ANGEL HOUSE < /strong>, are out now, as is his first story collection, <strong>DRIFTER: STORIES</strong > . David's fourth novel, < strong > THE NEW HOUSE < /strong>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
+    div className={styles.aboutPageProseTwo}> David's first three novels, < strong > A ROOM IN DODGE CITY < /strong>, <strong>A ROOM IN DODGE CITY: VOL. 2</strong > , and < strong > ANGEL HOUSE < /strong>, are out now, as is his first story collection, <strong>DRIFTER: STORIES</strong > . David's fourth novel, < strong > THE NEW HOUSE < /strong>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
     <
     br / >
     <
@@ -35,7 +45,29 @@ export default function About() {
     <
     br / >
     <
-    div className={styles.aboutPageProseTwo}>Contact David (for private workshops, review and interview queries, or for manuscript editing & development services) at: <a className={styles.externalLink} href="mailto:raviddice@gmail.com">raviddice@gmail.com</a></div>
+    div className={styles.aboutPageProseThree}>Contact David (for private workshops, review and interview queries, or for manuscript editing and development services) at: <a className={styles.externalLink} href="mailto:raviddice@gmail.com">raviddice@gmail.com</a></div>
+    <
+    br / >
+    <
+    br / >
+    <
+    br / >
+    <div className={styles.containerTwo}>
+    <
+    div className={styles.aboutPageProseFour}>And to subscribe to David's Mailing List for updates on new work, enter your email address here:</div>
+    <form className={styles.mailingListForm}>
+     <input
+       aria-label="Your email address"
+       name="email_address"
+       placeholder="Your email address"
+       required
+       type="email"
+       onChange={handleEmailChange}
+       value={email}
+     />
+     <button>SUBSCRIBE</button>
+   </form>
+   </div>
     <
     />
 
