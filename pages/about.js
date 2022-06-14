@@ -3,6 +3,11 @@ import Image from 'next/image'
 import {useState} from 'react'
 import styles from '../styles/About.module.css'
 import AuthorPhoto from '../public/images/AboutPageImage.jpg'
+About.title = 'david_leo_rice ~ about + contact page'
+About.pieceName = 'david_leo_rice ~ about +contact page'
+About.description = 'david_leo_rice ~ biography + interconnective info'
+// About.image = INSERT LINK TO HEADER!!
+
 
 export default function About() {
 
