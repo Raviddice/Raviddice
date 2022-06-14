@@ -1,9 +1,9 @@
 import Header from '../components/header.js'
 import ReactPlayer from "react-player"
 import styles from '../styles/Animations.module.css'
-Animations.title = 'david_leo_rice ~ animations'
-Animations.pieceName = 'david_leo_rice ~ animations page'
-Animations.description = 'david_leo_rice ~ links to animations'
+Animations.title = 'david leo rice ~ animations'
+Animations.pieceName = 'david leo rice ~ animations page'
+Animations.description = 'david leo rice ~ links to animations'
 // Animations.image = INSERT LINK TO HEADER!!
 
 export default function Animations() {
