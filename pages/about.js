@@ -26,7 +26,7 @@ const handleEmailChange = (event) => {
     <div className={styles.containerZero}>
     <div className={styles.containerOne}>
     <
-    div className={styles.aboutPageProseOne}> David Leo Rice is a writer and animator from Northampton, MA. His interests cluster around metaphysical horror, dark comedy, dreams, myth, hauntings, the uncanniness of small towns, and the grotesque. < /div>
+    div className={styles.aboutPageProseOne}> <span className={styles.nameFont}>David Leo Rice</span> is a writer and animator from Northampton, MA. His interests cluster around metaphysical horror, dark comedy, dreams, myth, hauntings, the uncanniness of small towns, and the grotesque. < /div>
 
     <
     br / >

@@ -15,6 +15,14 @@
   margin:18vh 5vw 0 7vw;
 }
 
+.nameFont {
+  font-family:"ccclobberintimecrunchy";
+  font-size:2.5rem;
+  letter-spacing:0.3rem;
+  font-style:italic;
+  margin-right:5px;
+}
+
  .photoContainer {
    margin: 7vh 10vw 0 0;
  }
