@@ -32,7 +32,7 @@ export default function Home() {
   <>
   <Header headerBackground="homeBackground"/>
   Home
-  return <div>{bookEntries()}</div>;
+   <div>{bookEntries()}</div>;
   </>
 )
   }
