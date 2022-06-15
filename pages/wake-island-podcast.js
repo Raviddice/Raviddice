@@ -10,7 +10,7 @@ export default function WakeIsland() {
     <>
     <Header headerBackground="wakeIslandBackground"/>
     <p className={styles.title}>... Wake Island Podcast ...</p>
-    <p className={styles.subtitle}>David Leo Rice cohosts this podcast about contemporary art and literature, transgression, escape, and the darkening undercurrents of American life in the 2020s).</p>
+    <p className={styles.subtitle}>David Leo Rice cohosts this podcast about contemporary art and literature, transgression, escape, and the darkening undercurrents of American life in the 2020s</p>
     <div className={styles.socialBox}>
     <a href="https://twitter.com/wakeislandpod?lang=en" target="_blank" rel="noreferrer">&#10239;twitter&#8668;</a>
     <a href="https://www.instagram.com/wakeislandpod/?hl=en" target="_blank" rel="noreferrer">&#8668;instagram&#8668;</a>

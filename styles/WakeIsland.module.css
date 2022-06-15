@@ -11,7 +11,32 @@
   font-family:"futura-pt";
   font-size:1.3rem;
   text-align:center;
-  margin-bottom:7.5vh;
+  margin-bottom:2.5vh;
+}
+
+.socialBox {
+  display:flex;
+  flex-flow:column;
+  align-items: flex-end;
+  row-gap:2vh;
+  margin:0 15vw 5vh 0;
+}
+
+.socialBox > a {
+  cursor:pointer;
+  font-family:"ccclobberintimesmooth";
+  font-size:1.2rem;
+  letter-spacing:1rem;
+  color:snow;
+  text-shadow:2px 3px dimgray,
+               4px 5px 10px black;
+}
+
+.socialBox > a:hover {
+  color:black;
+  text-shadow:2px 3px white,
+               4px 5px 10px #b0b0b0;
+
 }
 
 .wakeIslandContainer {
