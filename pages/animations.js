@@ -11,7 +11,6 @@ export default function Animations() {
     <>
     <Header headerBackground="animationsBackground"/>
     <div className={styles.videoContainer}>
-    <br/>
     <p>... Animations ...</p>
     <ReactPlayer
          url="https://vimeo.com/203852613"

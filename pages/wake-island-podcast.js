@@ -1,4 +1,5 @@
 import Header from '../components/header.js'
+import styles from '../styles/WakeIsland.module.css'
 WakeIsland.title = 'david leo rice ~ wake island podcast'
 WakeIsland.pieceName = 'david leo rice ~ wake island podcast'
 WakeIsland.description = 'david leo rice ~ links to wake island podcast episodes'
@@ -8,7 +9,11 @@ export default function WakeIsland() {
   return (
     <>
     <Header headerBackground="wakeIslandBackground"/>
-    <div>Wake Island Podcast</div>
+    <p className={styles.title}>... Wake Island Podcast ...</p>
+    <p className={styles.subtitle}>David Leo Rice cohosts this podcast about contemporary art and literature, transgression, escape, and the darkening undercurrents of American life in the 2020s).</p>
+    <div className={styles.wakeIslandContainer}>
+    <iframe frameborder="0" height="450" width="600" src="https://embed.podcasts.apple.com/us/podcast/wake-island/id1485799907"></iframe>
+    </div>
     </>
   )
 }
