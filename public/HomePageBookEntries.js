@@ -1,15 +1,15 @@
 export const books = {
   CLOAK: {
-    imgUrl: "/images/CLOAK_coverspread.png",
-    title: "CLOAK",
-    url: "/catalogue/CLOAK",
-    thumbHeight: "270",
-    thumbWidth: "360",
+    imgUrl: "/images/DrifterCover.jpg",
+    title: "Drifter: Stories",
+    url: "/catalogue/drifter",
+    thumbHeight: "670",
+    thumbWidth: "760",
     height: "600",
     width: "800",
-    projectUrl: "https://bookshop.org/books/cloak-on-the-textobject-its-concealment/9780578360850",
+    projectUrl: "https://1111press.com/drifter-stories",
     objectDetails:
-      "CLOAK: On the Textobject & its Concealment / Color / 22 pages / $10",
+      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
     text: [
       {
         className: "italic",
@@ -18,7 +18,7 @@ export const books = {
       },
       {
         text:
-          "In this self-titled inaugural release, we`ve set out to explore the textobject and its relationship to ideations of concealment / surveillance / visibility. ",
+          "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
       },
       {
         text:
@@ -27,7 +27,7 @@ export const books = {
       { text: "What shapes it can be contorted into are yet to be seen." },
     ],
     shortText:
-      "CLOAK // In this self-titled inaugural release, we've set out to explore the textobject and its relationship to ideations of concealment / surveillance / visibility. We have assembled CLOAK as a starting point. The first flourish of the stealth weapon / integumentary drape / vestigial skin. ",
+      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
   },
   POLICELUCIFER: {
     imgUrl: "/images/PL-Coverspread.png",
