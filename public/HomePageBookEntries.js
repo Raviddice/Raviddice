@@ -9,7 +9,7 @@ export const books = {
     width: "800",
     projectUrl: "hhttps://whiskeytit.com/product/the-new-house/",
     objectDetails:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere.",
     text: [
       {
         className: "italic",
@@ -26,7 +26,7 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "THE NEW HOUSE is dream novel exploring a family of outsider artists roaming the American interior in search of the New Jerusalem, loosely inspired by the hermetic worlds of Joseph Cornell",
   },
   CHILDRENOFTHENEWFLESH: {
     imgUrl: "/images/ChildrenCover.jpg",
@@ -54,7 +54,7 @@ export const books = {
       },
     ],
     shortText:
-      "POLICE LUCIFER // CLICK HERE TO DOWNLOAD ADDITIONAL AMORALITY DRIVERS"
+      "CHILDREN OF THE NEW FLESH is a wide-ranging compendium of reflections on the enduring impact of David Cronenberg, one of the most significant filmmakers of all time.",
   },
   DRIFTER: {
     imgUrl: "/images/DrifterCover.jpg",
@@ -83,7 +83,7 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere.",
   },
   ANGELHOUSE: {
     imgUrl: "/images/AngelHouseCover.jpg",
@@ -112,7 +112,7 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "After crossing a vast inland sea in an ark called ANGEL HOUSE, Professor Squimbop docks on a distant shore.",
   },
   AROOMINDOGDECITY: {
     imgUrl: "/images/DodgeCityCover.jpg",
@@ -141,7 +141,7 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "A ROOM IN DODGE CITY follows a nameless drifter into an American heart of darkness.",
   },
   AROOMINDOGDECITYTWO: {
     imgUrl: "/images/DodgeCityTwoCover.jpg",
@@ -170,7 +170,7 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "A ROOM IN DODGE CITY VOLUME 2 is a Bildungsroman couched in a tale of folk horror and cosmic paranoia and an elegy for the declining art of cinema.",
   },
   THEPORNMETRILOGY: {
     imgUrl: "/images/PornMeCover.jpg",
@@ -199,6 +199,6 @@ export const books = {
       },
     ],
     shortText:
-      "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
+      "THE PORNME TRILOGY is a novella exploring the surveillance state psychology and solitary consolations of pornography.",
   }
 };
