@@ -13,7 +13,7 @@ export default function Home() {
     for (const entry in books) {
       let currentEntry = books[entry];
       booksHtml.push(
-        <div key={currentEntry.title}>
+        <div className={styles.bookContainer} key={currentEntry.title}>
           <Link href={"/" + currentEntry.title}>
             <img
               src={currentEntry.imgUrl}
@@ -21,7 +21,7 @@ export default function Home() {
               width={currentEntry["thumbWidth"] || 300}
             />
           </Link>
-          <div>{books[entry].shortText}</div>
+          <div className={styles.bookDescription}>{books[entry].shortText}</div>
         </div>
       );
     }
@@ -31,8 +31,7 @@ export default function Home() {
   return (
   <>
   <Header headerBackground="homeBackground"/>
-  Home
-   <div>{bookEntries()}</div>;
+   <div className={styles.pageContainer}>{bookEntries()}</div>;
   </>
 )
   }
