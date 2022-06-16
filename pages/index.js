@@ -15,7 +15,7 @@ export default function Home() {
       booksHtml.push(
         <div className={styles.bookContainer} key={currentEntry.title}>
           <Link href={"/" + currentEntry.title}>
-            <img
+            <img className={styles.coverImage}
               src={currentEntry.imgUrl}
               height={currentEntry["thumbHeight"] || 300}
               width={currentEntry["thumbWidth"] || 300}
