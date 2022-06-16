@@ -18,6 +18,7 @@
 .coverImage {
   cursor:pointer;
   box-shadow:2px 2px 33px black;
+  transform:rotate(2deg);
 }
 
 .coverImage:hover {
