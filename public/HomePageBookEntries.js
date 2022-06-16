@@ -199,6 +199,6 @@ export const books = {
       },
     ],
     shortText:
-      "THE PORNME TRILOGY is a novella exploring the surveillance state psychology and solitary consolations of pornography.",
+      "THE PORNME TRILOGY is a novella exploring surveillance state psychology and the solitary consolations of pornography.",
   }
 };

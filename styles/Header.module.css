@@ -19,9 +19,13 @@
   background:none;
   border:none;
   cursor:pointer;
+  box-shadow:2px 2px 33px snow;
+  border:6px double gainsboro;
+  border-radius:32px;
 }
 
 .header > button:hover {
+  border:6px solid white;
   letter-spacing:0.4vw;
   text-shadow:2px 3px dimgray,
                4px 5px 10px black;
@@ -30,17 +34,17 @@
 
 .header > button:nth-child(1) {
   align-self:flex-start;
-  margin:2vh 0 0 7.5vw;
+  margin:1vh 0 0 7.5vw;
 }
 
 .header > button:nth-child(2) {
   align-self:flex-start;
-  margin:2vh 0 0 25vw;
+  margin:0 0 0 25vw;
 }
 
 .header > button:nth-child(3) {
   align-self:flex-start;
-  margin:2vh 0 0 45vw;
+  margin:0 0 0 45vw;
 }
 
 .header > button:nth-child(4) {
