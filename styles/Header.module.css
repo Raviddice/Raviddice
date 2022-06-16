@@ -71,7 +71,7 @@
   right:5vw;
   cursor:pointer;
   letter-spacing:0.2vw;
-  transform:rotate(3deg);
+  transform:rotate(11deg);
 }
 
 .social > a:not(first-child) {
