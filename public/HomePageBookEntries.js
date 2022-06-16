@@ -26,7 +26,7 @@ export const books = {
       },
     ],
     shortText:
-      "THE NEW HOUSE is dream novel exploring a family of outsider artists roaming the American interior in search of the New Jerusalem, loosely inspired by the hermetic worlds of Joseph Cornell",
+      "THE NEW HOUSE is dream novel exploring a family of outsider artists roaming the American interior in search of the New Jerusalem, loosely inspired by the hermetic worlds of Joseph Cornell.",
   },
   CHILDRENOFTHENEWFLESH: {
     imgUrl: "/images/ChildrenCover.jpg",

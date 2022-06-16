@@ -8,9 +8,13 @@
   flex-flow:column;
   align-items:center;
   row-gap:3vh;
+  font-family:"futura-pt";
+  font-size:1.7rem;
+  text-shadow:2px 4px snow,
+              4px 6px 22px dimgray;
 }
 
 .bookDescription {
-  max-width:50%;
+  max-width:75%;
   margin-bottom:7vh;
 }
