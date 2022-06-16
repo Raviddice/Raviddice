@@ -25,11 +25,17 @@
 .socialBox > a {
   cursor:pointer;
   font-family:"ccclobberintimesmooth";
-  font-size:1.2rem;
+  font-size:1.5rem;
   letter-spacing:1rem;
-  color:snow;
+  color:whitesmoke;
   text-shadow:2px 3px dimgray,
                4px 5px 10px black;
+}
+
+.arrows {
+  color:black;
+  text-shadow:2px 3px white,
+               4px 5px 10px dimgray;
 }
 
 .socialBox > a:hover {
