@@ -111,9 +111,9 @@ return readingsHtml;
    <div className={styles.entryContainer}>{storyEntries()}</div>
    <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
    <div className={styles.entryContainer}>{essayEntries()}</div>
-   <h2 className={styles.groupHeader}>... INTERVIEWS ... EXCERPTS ... EVENTS ...</h2>
+   <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
    <div className={styles.entryContainer}>{interviewEntries()}</div>
-   <h2 className={styles.groupHeader}>... PODCAST ... APPEARANCES ...</h2>
+   <h2 className={styles.groupHeader}>... PODCAST ... <br/> ... APPEARANCES ...</h2>
    <div className={styles.entryContainer}>{podcastEntries()}</div>
    </div>
    <div className={styles.readingContainer}>
