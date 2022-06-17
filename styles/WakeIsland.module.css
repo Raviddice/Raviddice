@@ -5,6 +5,7 @@
   font-style:italic;
   text-align:center;
   margin-bottom:7.5vh;
+  transform:rotate(-2deg);
 }
 
 .subtitle {
@@ -31,6 +32,7 @@
   color:black;
   text-shadow:2px 3px white,
                4px 5px 10px #b0b0b0;
+  transform:rotate(1deg);
 }
 
 .arrows {

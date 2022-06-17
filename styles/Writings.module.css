@@ -19,6 +19,7 @@
   text-align:center;
   text-transform: uppercase;
   margin-bottom:2.5vh;
+  transform:rotate(1deg);
 }
 
 .workLink {
@@ -46,6 +47,7 @@
   letter-spacing:0.2vw;
   text-align:center;
   text-transform: uppercase;
+  transform:rotate(-2deg);
 }
 
 .readingsContainer {
