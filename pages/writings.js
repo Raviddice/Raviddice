@@ -79,11 +79,11 @@ for (const entry in whatImReading) {
  let currentEntry = whatImReading[entry];
  readingsHtml.push(
    <div key={currentEntry.title}>
-     <h4 className={styles.month}>{whatImReading[entry].month}</h4>
+     <h4 className={styles.month}>+{whatImReading[entry].month}+</h4>
      <p className={styles.books}>{whatImReading[entry].BookOne}</p>
-     <img className={styles.coverImage}
+     <img
        src={whatImReading[entry].imgUrl}
-       height={150}
+       height={200}
        width={150}
      />
     <p className={styles.books}>{whatImReading[entry].BookTwo}</p>

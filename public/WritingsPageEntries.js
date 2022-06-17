@@ -66,7 +66,7 @@ export const podcasts = {
 };
 
 export const whatImReading = {
-  WHATIMREADING: {
+  WHATIMREADING622: {
     month:"June 2022",
     BookOne: "The Childhood of Jesus",
     imgUrl: "/images/Jesus.jpg",
@@ -75,4 +75,21 @@ export const whatImReading = {
     BookFour: "Sleepwalk",
     BookFive: "Demons",
   },
+  WHATIMREADING522: {
+    month:"May 2022",
+    BookOne: "Augustus",
+    imgUrl: "/images/Augustus.jpg",
+    BookTwo: "Anna Kavan's Ice",
+    BookThree: "Malpertuis",
+    BookFour: "24/7",
+    BookFive: "Scorched Earth",
+  },
+  WHATIMREADING422: {
+    month:"April 2022",
+    BookOne: "Teenager",
+    imgUrl: "/images/Teenager.jpg",
+    BookTwo: "Motor Spirit",
+    BookThree: "The Driver's Seat",
+    BookFour: "Valleyesque",
+  }
 };

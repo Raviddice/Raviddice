@@ -85,8 +85,7 @@
 }
 
 .month {
-  text-transform:lowercase;
-
+  text-transform:uppercase;
 }
 
 .books {
