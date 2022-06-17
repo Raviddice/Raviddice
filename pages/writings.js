@@ -78,15 +78,22 @@ return podcastHtml;
 
   return (
   <>
-    <Header headerBackground="writingsBackground"/>
+   <Header headerBackground="writingsBackground"/>
+   <div className={styles.pageContainer}>
+   <div className={styles.worksContainer}>
    <h2 className={styles.groupHeader}>... SHORT ... STORIES ...</h2>
-   <div className={styles.storyContainer}>{storyEntries()}</div>
+   <div className={styles.entryContainer}>{storyEntries()}</div>
    <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
-   <div className={styles.essayContainer}>{essayEntries()}</div>
+   <div className={styles.entryContainer}>{essayEntries()}</div>
    <h2 className={styles.groupHeader}>... INTERVIEWS ... EXCERPTS ... EVENTS ...</h2>
-   <div className={styles.interviewContainer}>{interviewEntries()}</div>
+   <div className={styles.entryContainer}>{interviewEntries()}</div>
    <h2 className={styles.groupHeader}>... PODCAST ... APPEARANCES ...</h2>
-   <div className={styles.interviewContainer}>{podcastEntries()}</div>
+   <div className={styles.entryContainer}>{podcastEntries()}</div>
+   </div>
+   <div className={styles.readingContainer}>
+   <h2 className={styles.groupHeaderTwo}>... What I'm Reading ...</h2></div>
+   
+    </div>
     </>
   )
 }
