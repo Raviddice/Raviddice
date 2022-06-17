@@ -83,12 +83,12 @@ for (const entry in whatImReading) {
  let currentEntry = whatImReading[entry];
  readingsHtml.push(
    <div className={styles.bookContainer} key={currentEntry.title}>
-     <h4>{whatImReading[entry].months}</h4>
+     <h4>{whatImReading[entry].month}</h4>
      <p>{whatImReading[entry].BookOne}</p>
      <img className={styles.coverImage}
        src={whatImReading[entry].imgUrl}
-       height={50}
-       width={50}
+       height={150}
+       width={150}
      />
     <p>{whatImReading[entry].BookTwo}</p>
     <p>{whatImReading[entry].BookThree}</p>
@@ -117,7 +117,7 @@ return readingsHtml;
    <div className={styles.entryContainer}>{podcastEntries()}</div>
    </div>
    <div className={styles.readingContainer}>
-   <h2 className={styles.groupHeaderTwo}>... What I'm Reading ...</h2>
+   <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I'm ... <br/> ... Reading ... </h2>
    <div className={styles.readingsContainer}>{readingsEntries()}</div>
    </div>
 
