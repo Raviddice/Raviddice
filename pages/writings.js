@@ -19,7 +19,7 @@ export default function Writings() {
       storyHtml.push(
         <div className={styles.bookContainer} key={currentEntry.title}>
           <h3>{stories[entry].workTitle}</h3>
-          <a className={styles.workLink} href={currentEntry.workUrl}>{stories[entry].workTitle}</a>
+          <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" passHref>{stories[entry].workTitle}</a>
           <p className={styles.bookDescription}>{stories[entry].shortText}</p>
         </div>
       );

@@ -4,5 +4,10 @@
   letter-spacing:0.3rem;
   font-style:italic;
   text-align:center;
+  text-transform: uppercase;
   margin-bottom:7.5vh;
+}
+
+.workLink {
+  text-decoration: line-through;
 }
