@@ -64,3 +64,15 @@ export const podcasts = {
     shortText: "The Whiskey Tit Piece",
   },
 };
+
+export const whatImReading = {
+  WHATIMREADING: {
+    month:"June 2022",
+    BookOne: "Whiskey Tit",
+    imgUrl: "/images/NewHouseCover.jpg",
+    BookTwo: "The Whiskey Tit Piece",
+    BookThree: "The Whiskey Tit Piece",
+    BookFour: "The Whiskey Tit Piece",
+    BookFive: "The Whiskey Tit Piece",
+  },
+};

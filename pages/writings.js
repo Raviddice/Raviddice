@@ -8,6 +8,7 @@ import { stories } from "../public/WritingsPageEntries.js";
 import { essays } from "../public/WritingsPageEntries.js";
 import { interviewsExcerptsEvents } from "../public/WritingsPageEntries.js";
 import { podcasts } from "../public/WritingsPageEntries.js";
+import { whatImReading } from "../public/WritingsPageEntries.js";
 // About.image = INSERT LINK TO HEADER!!
 
 export default function Writings() {
@@ -76,6 +77,31 @@ for (const entry in podcasts) {
 return podcastHtml;
 }
 
+function readingsEntries() {
+let readingsHtml = [];
+for (const entry in whatImReading) {
+ let currentEntry = whatImReading[entry];
+ readingsHtml.push(
+   <div className={styles.bookContainer} key={currentEntry.title}>
+     <h4>{whatImReading[entry].months}</h4>
+     <p>{whatImReading[entry].BookOne}</p>
+     <img className={styles.coverImage}
+       src={whatImReading[entry].imgUrl}
+       height={50}
+       width={50}
+     />
+    <p>{whatImReading[entry].BookTwo}</p>
+    <p>{whatImReading[entry].BookThree}</p>
+    <p>{whatImReading[entry].BookFour}</p>
+    <p>{whatImReading[entry].BookFive}</p>
+
+   </div>
+ );
+}
+
+return readingsHtml;
+}
+
   return (
   <>
    <Header headerBackground="writingsBackground"/>
@@ -91,8 +117,10 @@ return podcastHtml;
    <div className={styles.entryContainer}>{podcastEntries()}</div>
    </div>
    <div className={styles.readingContainer}>
-   <h2 className={styles.groupHeaderTwo}>... What I'm Reading ...</h2></div>
-   
+   <h2 className={styles.groupHeaderTwo}>... What I'm Reading ...</h2>
+   <div className={styles.readingsContainer}>{readingsEntries()}</div>
+   </div>
+
     </div>
     </>
   )

@@ -25,7 +25,10 @@
 }
 
 .readingContainer {
-max-width:34%;
+  max-width:34%;
+  display:flex;
+  flex-flow:column wrap;
+  align-items: center;
 }
 
 .groupHeaderTwo {
@@ -38,5 +41,4 @@ max-width:34%;
   font-style:italic;
   text-align:center;
   text-transform: uppercase;
-  margin-bottom:7.5vh;
 }
