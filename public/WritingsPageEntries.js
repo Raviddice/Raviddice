@@ -44,7 +44,7 @@ export const stories = {
 export const essays = {
   ESSAYS: {
     workUrl: "https://whiskeytit.com/product/the-new-house/",
-    workTitle: "Whiskey Tit",
+    workTitle: "The Painless Euthanasia Roller Coaster",
     shortText: "The Whiskey Tit Piece",
   },
 };

@@ -12,18 +12,47 @@
 }
 
 .groupHeader {
-  font-family:"ccclobberintimecrunchy";
+  font-family:"ccclobberintimesmooth";
+  font-size:2.5rem;
+  letter-spacing:0.3rem;
+  font-style:italic;
+  text-align:center;
+  text-transform: uppercase;
+  letter-spacing:0.2rem;
+  margin-bottom:5.5vh;
+  transform:rotate(-0.3deg);
+}
+
+.entryContainer {
+  transform:rotate(-0.3deg);
+}
+
+.workTitle {
+  font-family:"ccclobberintimesmooth";
   font-size:2.5rem;
   letter-spacing:0.3rem;
   font-style:italic;
   text-align:center;
   text-transform: uppercase;
   margin-bottom:2.5vh;
-  transform:rotate(1deg);
+
 }
 
 .workLink {
-  text-decoration: line-through;
+  font-family:"ccclobberintimesmooth";
+  cursor:pointer;
+}
+
+.workLink:hover {
+  color:white;
+  text-shadow:2px 2px black;
+}
+
+
+.entrySource {
+  font-family:"futura-pt";
+  text-transform: lowercase;
+  text-align:right;
 }
 
 .readingContainer {
@@ -51,5 +80,17 @@
 }
 
 .readingsContainer {
+  font-family:"futura-pt";
   text-align:center;
+}
+
+.month {
+  text-transform:lowercase;
+
+}
+
+.books {
+  color:darkgray;
+  text-transform:uppercase;
+  font-weight:700;
 }

@@ -18,10 +18,9 @@ export default function Writings() {
     for (const entry in stories) {
       let currentEntry = stories[entry];
       storyHtml.push(
-        <div className={styles.bookContainer} key={currentEntry.title}>
-          <h3>{stories[entry].workTitle}</h3>
-          <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" passHref>{stories[entry].workTitle}</a>
-          <p className={styles.bookDescription}>{stories[entry].shortText}</p>
+        <div className={styles.entryContainer} key={currentEntry.title}>
+          <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" passHref>&#10154;&#10154;&#10154; {stories[entry].workTitle} &#10154;&#10154;&#10154;</a>
+          <p className={styles.entrySource}>{stories[entry].shortText}</p>
         </div>
       );
     }
@@ -34,10 +33,9 @@ export default function Writings() {
  for (const entry in essays) {
    let currentEntry = essays[entry];
    essayHtml.push(
-     <div className={styles.bookContainer} key={currentEntry.title}>
-       <h3>{essays[entry].workTitle}</h3>
-       <a className={styles.workLink} href={currentEntry.workUrl}>{essays[entry].workTitle}</a>
-       <p className={styles.bookDescription}>{essays[entry].shortText}</p>
+     <div className={styles.entryContainer} key={currentEntry.title}>
+       <a className={styles.workLink} href={currentEntry.workUrl}>&#10154;&#10154;&#10154; {essays[entry].workTitle} &#10154;&#10154;&#10154;</a>
+       <p className={styles.entrySource}>{essays[entry].shortText}</p>
      </div>
    );
  }
@@ -50,10 +48,9 @@ let interviewHtml = [];
 for (const entry in interviewsExcerptsEvents) {
  let currentEntry = interviewsExcerptsEvents[entry];
  interviewHtml.push(
-   <div className={styles.bookContainer} key={currentEntry.title}>
-     <h3>{interviewsExcerptsEvents[entry].workTitle}</h3>
-     <a className={styles.workLink} href={currentEntry.workUrl}>{interviewsExcerptsEvents[entry].workTitle}</a>
-     <p className={styles.bookDescription}>{interviewsExcerptsEvents[entry].shortText}</p>
+   <div className={styles.entryContainer} key={currentEntry.title}>
+     <a className={styles.workLink} href={currentEntry.workUrl}>&#10154;&#10154;&#10154; {interviewsExcerptsEvents[entry].workTitle} &#10154;&#10154;&#10154;</a>
+     <p className={styles.entrySource}>{interviewsExcerptsEvents[entry].shortText}</p>
    </div>
  );
 }
@@ -66,10 +63,9 @@ let podcastHtml = [];
 for (const entry in podcasts) {
  let currentEntry = podcasts[entry];
  podcastHtml.push(
-   <div className={styles.bookContainer} key={currentEntry.title}>
-     <h3>{podcasts[entry].workTitle}</h3>
-     <a className={styles.workLink} href={currentEntry.workUrl}>{podcasts[entry].workTitle}</a>
-     <p className={styles.bookDescription}>{podcasts[entry].shortText}</p>
+   <div className={styles.entryContainer} key={currentEntry.title}>
+     <a className={styles.workLink} href={currentEntry.workUrl}>&#10154;&#10154;&#10154; {podcasts[entry].workTitle} &#10154;&#10154;&#10154;</a>
+     <p className={styles.entrySource}>{podcasts[entry].shortText}</p>
    </div>
  );
 }
@@ -82,18 +78,18 @@ let readingsHtml = [];
 for (const entry in whatImReading) {
  let currentEntry = whatImReading[entry];
  readingsHtml.push(
-   <div className={styles.bookContainer} key={currentEntry.title}>
-     <h4>{whatImReading[entry].month}</h4>
-     <p>{whatImReading[entry].BookOne}</p>
+   <div key={currentEntry.title}>
+     <h4 className={styles.month}>{whatImReading[entry].month}</h4>
+     <p className={styles.books}>{whatImReading[entry].BookOne}</p>
      <img className={styles.coverImage}
        src={whatImReading[entry].imgUrl}
        height={150}
        width={150}
      />
-    <p>{whatImReading[entry].BookTwo}</p>
-    <p>{whatImReading[entry].BookThree}</p>
-    <p>{whatImReading[entry].BookFour}</p>
-    <p>{whatImReading[entry].BookFive}</p>
+    <p className={styles.books}>{whatImReading[entry].BookTwo}</p>
+    <p className={styles.books}>{whatImReading[entry].BookThree}</p>
+    <p className={styles.books}>{whatImReading[entry].BookFour}</p>
+    <p className={styles.books}>{whatImReading[entry].BookFive}</p>
 
    </div>
  );
@@ -108,13 +104,13 @@ return readingsHtml;
    <div className={styles.pageContainer}>
    <div className={styles.worksContainer}>
    <h2 className={styles.groupHeader}>... SHORT ... STORIES ...</h2>
-   <div className={styles.entryContainer}>{storyEntries()}</div>
+   <div>{storyEntries()}</div>
    <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
-   <div className={styles.entryContainer}>{essayEntries()}</div>
+   <div>{essayEntries()}</div>
    <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
-   <div className={styles.entryContainer}>{interviewEntries()}</div>
+   <div>{interviewEntries()}</div>
    <h2 className={styles.groupHeader}>... PODCAST ... <br/> ... APPEARANCES ...</h2>
-   <div className={styles.entryContainer}>{podcastEntries()}</div>
+   <div>{podcastEntries()}</div>
    </div>
    <div className={styles.readingContainer}>
    <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I'm ... <br/> ... Reading ... </h2>
