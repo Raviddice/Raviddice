@@ -12,7 +12,7 @@ export const stories = {
   SANITYHOUSELIVE: {
     workUrl: "https://open.spotify.com/episode/6FjDfLbUknAgJBoHoqQPbA",
     workTitle: "Sanity House Live Reading",
-    shortText: "Ligea",
+    shortText: "On Selected Prose",
   },
   ULTRAMAX: {
     workUrl: "https://marchellewixpartner.editorx.io/action-spectacle/pic-20-prose/david-leo-rice",
@@ -38,6 +38,36 @@ export const stories = {
     workUrl: "https://www.therupturemag.com/rupture/the-brothers-squimbop-in-europe",
     workTitle: "The Brothers Squimbop in Europe",
     shortText: "The Rupture",
+  },
+  THEBROTHERSSQUIMBOPINHOLLYWOOD: {
+    workUrl: "https://heavyfeatherreview.org/2021/02/18/squimbop/",
+    workTitle: "The Brothers Squimbop in Hollywood",
+    shortText: "Heavy Feather Review",
+  },
+  SQUIMBOPFEVER: {
+    workUrl: "https://heavyfeatherreview.org/2021/03/03/fever/",
+    workTitle: "Squimbop Fever",
+    shortText: "Heavy Feather Review",
+  },
+  THEBROTHERSSQUIMBOPINKANSAS: {
+    workUrl: "http://southwestreview.com/volume-106-number-4/the-brothers-squimbop-in-kansas/",
+    workTitle: "The Brothers Squimbop in Kansas",
+    shortText: "Southwest Review",
+  },
+  THEBROTHERSSQUIMBOPINDODGECITY: {
+    workUrl: "http://southwestreview.com/volume-107-number-1/the-brothers-squimbop-in-dodge-city/",
+    workTitle: "The Brothers Squimbop in Dodge City",
+    shortText: "Southwest Review",
+  },
+  THELASTTESTAMENTOFPROFESSORSQUIMBOP: {
+    workUrl: "http://www.mitosmag.com/villains/2019/9/13/the-last-testament-of-professor-squimbop?format=amp",
+    workTitle: "The Last Testament of Professor Squimbop",
+    shortText: "Mitos Magazine",
+  },
+  JELLO: {
+    workUrl: "http://thediagram.com/18_2/rice.html",
+    workTitle: "Jell-o",
+    shortText: "DIAGRAM",
   }
 };
 
