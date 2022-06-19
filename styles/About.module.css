@@ -1,7 +1,33 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .containerZero {
   font-family:"futura-pt";
   font-size:1.7rem;
   line-height:1.7em;
+  animation: fadeIn ease-in 0.4s;
 }
 
 .containerOne {
@@ -30,6 +56,12 @@
 .aboutPageProseTwo {
   max-width:90vw;
   margin:0 auto;
+}
+
+.bookName {
+  font-family:"ccclobberintimecrunchy";
+  font-size:2rem;
+  font-style:italic;
 }
 
 .aboutPageProseThree {

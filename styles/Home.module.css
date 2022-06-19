@@ -1,5 +1,31 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .pageContainer {
   margin-top:10vh;
+  animation: fadeIn ease-in 0.7s;
 }
 
 .bookContainer {
@@ -18,14 +44,32 @@
 .coverImage {
   cursor:pointer;
   box-shadow:2px 2px 33px black;
+  transition:2s transform;
   transform:rotate(2deg);
 }
 
 .coverImage:hover {
   opacity:0.7;
+  transform:rotate(-6deg);
 }
 
 .bookDescription {
   max-width:75%;
   margin-bottom:7vh;
 }
+
+@media (max-width: 835px) and (orientation:portrait) {
+
+  .coverImage {
+    width:65%;
+  }
+
+ }
+
+ @media (max-width: 746px) and (orientation:landscape) {
+
+   .coverImage {
+     width:65%;
+   }
+
+  }

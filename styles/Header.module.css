@@ -1,3 +1,28 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .header {
   position:relative;
   width:100%;
@@ -8,6 +33,7 @@
   flex-flow:column;
   justify-content: space-between;
   overflow:hidden;
+  animation: fadeIn ease-in 0.4s;
 }
 
 .header > button {
@@ -23,6 +49,7 @@
   box-shadow:2px 2px 33px snow;
   border:6px double gainsboro;
   transform:rotate(-1deg);
+  transition:1s ease-in-out transform;
 }
 
 .header > button:hover {
@@ -30,6 +57,7 @@
   letter-spacing:0.4vw;
   text-shadow:2px 3px dimgray,
                4px 5px 10px black;
+  transform:rotate(4deg);
 }
 
 .header > button:nth-child(1) {
@@ -101,3 +129,110 @@
 .animationsBackground {
   background-image:url("../public/images/AnimationsBackground.jpg")
 }
+
+@media (width: 1024px) and (height:600px) {
+
+  .header {
+    height:69vh;
+  }
+
+ }
+
+ @media (max-width: 927px) and (orientation:landscape) {
+
+   .header {
+     height:65vh;
+   }
+
+   .header > button {
+     font-size:1.2rem;
+   }
+
+   .social {
+     right:15vw;
+   }
+
+  }
+
+  @media (max-width: 913px) and (orientation:portrait) {
+
+    .social {
+      right:15vw;
+    }
+
+   }
+
+   @media (max-width: 654px) and (orientation:landscape) {
+
+     .header {
+       height:71vh;
+     }
+
+    }
+
+
+ @media (max-width: 541px) and (orientation:portrait) {
+
+   .header > button {
+     font-size:1.6rem;
+   }
+
+   .social {
+     right:18vw;
+   }
+
+  }
+
+ @media (max-width: 429px) and (orientation:portrait) {
+
+   .header > button {
+     font-size:1.2rem;
+   }
+
+   .header > button:nth-child(2) {
+     margin:0 0 0 15vw;
+   }
+
+   .social {
+     right:29vw;
+   }
+
+  }
+
+  @media (max-width: 376px) and (orientation:portrait) {
+
+    .social {
+      font-size:1rem;
+    }
+
+    .header > button:nth-child(5) {
+      margin:0 0 0 20vw;
+    }
+
+   }
+
+   @media (max-width: 321px) and (orientation:portrait) {
+
+     .social {
+       font-size:1rem;
+     }
+
+    }
+
+    @media (max-width: 281px) and (orientation:portrait) {
+
+      .header > button {
+        font-size:1rem;
+      }
+
+      .header > button:nth-child(2) {
+        margin:0 0 0 11vw;
+      }
+
+      .social {
+        font-size:0.9rem;
+        right:31vw;
+
+      }
+
+     }

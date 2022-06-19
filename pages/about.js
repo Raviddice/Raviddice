@@ -41,7 +41,7 @@ const handleEmailChange = (event) => {
     <
     br / >
     <
-    div className={styles.aboutPageProseTwo}> David's first three novels, < strong > A ROOM IN DODGE CITY < /strong>, <strong>A ROOM IN DODGE CITY: VOL. 2</strong > , and < strong > ANGEL HOUSE < /strong>, are out now, as is his first story collection, <strong>DRIFTER: STORIES</strong >. David's fourth novel, < strong > THE NEW HOUSE < /strong>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
+    div className={styles.aboutPageProseTwo}> David's first three novels, < span className={styles.bookName} > A ROOM IN DODGE CITY < /span>, < span className={styles.bookName} >A ROOM IN DODGE CITY: VOL. 2< /span > , and  < span className={styles.bookName} >ANGEL HOUSE < /span>, are out now, as is his first story collection, < span className={styles.bookName} >DRIFTER: STORIES</span >. David's fourth novel, < span className={styles.bookName} > THE NEW HOUSE < /span>, is coming in Spring 2022. He currently teaches at Parsons, The New School, and FIT.</div >
     <
     br / >
     <

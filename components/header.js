@@ -9,7 +9,7 @@ export default function Header(props) {
   <div className={`${styles.header} ${styles[props.headerBackground]}`}>
 
     <Link href = "/" passHref>
-      <button>&#10154;home&#10154;</button>
+      <button>&#10154;books&#10154;</button>
     </Link>
     <Link href = "/writings" passHref>
       <button>&#11059;<i>writings</i>&#8668;</button>

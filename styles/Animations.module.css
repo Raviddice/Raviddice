@@ -1,3 +1,28 @@
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .videoContainer {
   display:flex;
   flex-flow:column;
@@ -9,4 +34,5 @@
   letter-spacing:0.3rem;
   font-style:italic;
   transform:rotate(0.3deg);
+  animation: fadeIn ease-in 0.6s;
 }
