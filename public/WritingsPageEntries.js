@@ -532,6 +532,16 @@ export const interviewsExcerptsEvents = {
     workUrl: "https://www.spdbooks.org/pages/bestsellers/fiction/Fiction-Bestsellers-may/june-2019.aspx",
     workTitle: "ANGEL HOUSE is an SPD Bestseller!",
   },
+  ANGELHOUSELITINTERVIEW: {
+    workUrl: "http://www.litmagazine.org/2019/04/17/an-interview-with-david-leo-rice/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "LIT"
+  },
+  ANGELHOUSEPLAYLIST: {
+    workUrl: "http://www.largeheartedboy.com/blog/archive/2019/09/david_leo_rices.html?fbclid=IwAR3bAmsrVBk9Srkl7T9Xl6uZ0CZBeToMPcptJfLDW0YCuD_BFHetjZXgkYA",
+    workTitle: "ANGEL HOUSE Playlist",
+    venue: "Largehearted Bo"
+  },
 
 };
 
