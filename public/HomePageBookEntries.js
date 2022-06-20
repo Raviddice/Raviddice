@@ -172,9 +172,9 @@ export const books = {
     shortText:
       "A ROOM IN DODGE CITY VOLUME 2 is a Bildungsroman couched in a tale of folk horror and cosmic paranoia and an elegy for the declining art of cinema.",
   },
-  THEPORNMETRILOGY: {
+  THEPORNMETRINITY: {
     imgUrl: "/images/PornMeCover.jpg",
-    title: "The Pornme Trilogy",
+    title: "The Pornme Trinity",
     url: "/pornme",
     thumbHeight: "620",
     thumbWidth: "710",
@@ -199,6 +199,6 @@ export const books = {
       },
     ],
     shortText:
-      "THE PORNME TRILOGY is a novella exploring surveillance state psychology and the solitary consolations of pornography.",
+      "THE PORNME TRINITY is a novella exploring surveillance state psychology and the solitary consolations of pornography.",
   }
 };

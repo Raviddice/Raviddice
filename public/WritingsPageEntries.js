@@ -235,7 +235,7 @@ export const stories = {
 export const essays = {
   ONSEEDINESS: {
     workUrl: "https://raviddice.medium.com/on-seediness-undead-literature-and-reengaging-with-the-american-mythic-in-the-2020s-5ea698b1b6",
-    workTitle: "On Seediness, Undead Literature, and Reengaging with the American Mythic in the 2020s",
+    workTitle: "On Seediness, Undead Literature, and Reengaging w/ the American Mythic",
     venue: "Medium",
   },
   UNWORKABLE: {
@@ -245,7 +245,7 @@ export const essays = {
   },
   UNWORKABLETWO: {
     workUrl: "https://medium.com/@raviddice/unworkable-equilibrium-2-auditing-the-unworkable-equilibrium-in-summer-2020-24d8544391e5",
-    workTitle: "Unworkable Equilibrium 2: Auditing the Unworkable Equilibrium in Summer 2020",
+    workTitle: "Unworkable Equilibrium 2: Auditing the Unworkable Equilibrium",
     venue: "Medium",
   },
   BASEMENTBOYS: {
@@ -407,7 +407,7 @@ export const essays = {
   },
   SCHREBER: {
     workUrl: "http://www.shockheadsoul.com/",
-    workTitle: "A film I worked on about German mental patient Daniel Paul Schreber, directed by Simon Pummell",
+    workTitle: "A film I worked on about German mental patient Daniel Paul Schreber",
   },
   OEDIPUSTHRESHOLD: {
     workUrl: "http://www.amazon.com/Oedipus-Sphinx-Threshold-Sophocles-through/dp/022604808X/ref=sr_sp-atf_title_1_1?ie=UTF8&qid=1380674437&sr=8-1&keywords=oedipus+on+the+threshold",
@@ -458,7 +458,80 @@ export const interviewsExcerptsEvents = {
   DENNISCOOPERANGELHOUSE: {
     workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2019/?fbclid=IwAR3QJ72YoRnzxsINlWH6NbNrhvbQ25HnMpcYm-rQAIKI3K2xYoJ-xdSxjM0",
     workTitle: "ANGEL HOUSE is one of Dennis Cooper's Favorite Books of 2019!",
-  }
+  },
+  PORNMETRINITYINTERVIEW: {
+    workUrl: "https://theopiatemagazine.com/2020/03/15/the-pornme-trinity-interview-with-david-leo-rice/",
+    workTitle: "The PornME Trinity Interview",
+    venue: "The Opiate",
+  },
+  PORNMETRINITYPREVIEW: {
+    workUrl: "https://vol1brooklyn.com/2020/02/04/vol-1-brooklyns-february-2020-book-preview/",
+    workTitle: "The PornME Trinity on Vol.1 Brooklyn's February 2020 Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  SIXRIDICULOUSQUESTIONS: {
+    workUrl: "http://vol1brooklyn.com/2020/06/02/six-ridiculous-questions-david-leo-rice/",
+    workTitle: "Six Ridiculous Questions",
+    venue: "Vol. 1 Brooklyn",
+  },
+  ANGELHOUSEDISCUSSION: {
+    workUrl: "https://soundcloud.com/user-429232387/reading-and-discussion-with-brian-evenson-at-stories-in-echo-par",
+    workTitle: "ANGEL HOUSE Discussion with Brian Evenson",
+    venue: "Audio recorded at Stories on Sunset Blvd",
+  },
+  ANGELHOUSEDISCUSSIONTWO: {
+    workUrl: "https://soundcloud.com/user-429232387/discussion-with-patrick-mcgrath-at-mcnally-jackson-soho",
+    workTitle: "ANGEL HOUSE Discussion with Patrick McGrath",
+    venue: "Audio recorded at McNally Jackson SoHo",
+  },
+  ANGELHOUSEDISCUSSIONTHREE: {
+    workUrl: "https://soundcloud.com/user-429232387/book-talk-in-charlotte-with-jeff-jackson",
+    workTitle: "ANGEL HOUSE Discussion with Jeff Jackson",
+    venue: "Audio recorded at Park Road Books in Charlotte"
+  },
+  ANGELHOUSEDISCUSSIONFOUR: {
+    workUrl: "https://soundcloud.com/user-429232387/broadside-bookshop-angel-house-reading-with-matt-spellberg",
+    workTitle: "ANGEL HOUSE Discussion with Matthew Spellberg",
+    venue: "Audio recorded at Broadside Bookshop"
+  },
+  ANGELHOUSEREADING: {
+    workUrl: "https://www.mcnallyjackson.com/event/angel-house-david-leo-rice-patrick-mcgrath-prince-street",
+    workTitle: "ANGEL HOUSE Reading and Q&A",
+    venue: "with Patrick McGrath, at McNally Jackson SoHo, NYC, 10.30.19"
+  },
+  ANGELHOUSEREADINGTWO: {
+    workUrl: "https://www.parkroadbooks.com/event/david-leo-rice-conversation-jeff-jackson",
+    workTitle: "ANGEL HOUSE Reading and Q&A with Jeff Jackson",
+    venue: "Charlotte, NC, 12.4.19"
+  },
+  ANGELHOUSEREADINGTHREE: {
+    workUrl: "https://www.broadsidebooks.com/event/david-leo-rice-reads-angel-house-wed-oct-2-7-pm-0",
+    workTitle: "ANGEL HOUSE Reading and Q&A",
+    venue: "at Broadside Bookshop, Northampton, MA, 10.2.19"
+  },
+  DREAMSHARINGWORKSHOP: {
+    workUrl: "https://www.daniels.utoronto.ca/events/2020/02/06/dream-parliament-exercise-democracy-sleep",
+    workTitle: "Dream-sharing Workshop with Matthew Spellberg at University of Toronto",
+    venue: "Feb 6, 2020"
+  },
+  ANGELHOUSERADIOINTERVIEW: {
+    workUrl: "https://www.mixcloud.com/ejmartin504/dig-this-july-21-2019/?fbclid=IwAR0xLCY3QpwZVty6p9HkWL7xI9tcw-rLaMxqiWWmIL5HfPBgJo_ONAqtpiE",
+    workTitle: "ANGEL HOUSE Radio Interview in Brattleboro, feat music with Teddy Martin",
+  },
+  VOLONEBROOKLYNANGELHOUSEINTERVIEW: {
+    workUrl: "https://vol1brooklyn.com/2019/06/14/the-history-of-impossible-towns-an-interview-with-david-leo-rice/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "Vol. 1 Brooklyn"
+  },
+  ANGELHOUSESHORTFILM: {
+    workUrl: "https://vimeo.com/341009289?fbclid=IwAR2q-h1QeVPNne25uLirssABlBkSgGesXebXSS2qhpRZ9GXUvZ3fu6Fpn30",
+    workTitle: "ANGEL HOUSE Short Film",
+    venue: "by Rob Rice"
+  },
+  ANGELHOUSEBESTSELLER: {
+    workUrl: "https://www.spdbooks.org/pages/bestsellers/fiction/Fiction-Bestsellers-may/june-2019.aspx",
+    workTitle: "ANGEL HOUSE is an SPD Bestseller!",
+  },
 
 };
 
