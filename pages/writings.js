@@ -78,6 +78,7 @@ for (const entry in whatImReading) {
      <h4 className={styles.month}>+{whatImReading[entry].month}+</h4>
      <p className={styles.books}>{whatImReading[entry].BookOne}</p>
      <img
+       className={styles.readingImage}
        src={whatImReading[entry].imgUrl}
        height={200}
        width={150}

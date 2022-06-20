@@ -70,6 +70,7 @@
   cursor:pointer;
   margin:0 0 3.5vh 5vw;
   text-shadow:3px 9px #e8e8e8;
+  transition:1s transform;
 }
 
 .venue {
@@ -79,6 +80,7 @@
 .workLink:hover {
   color:white;
   text-shadow:2px 2px black;
+  transform:rotate(3deg);
 }
 
 .readingContainer {
@@ -120,3 +122,89 @@
   text-transform:uppercase;
   font-weight:700;
 }
+
+@media (max-width: 927px) and (orientation:landscape) {
+
+  .worksContainer {
+    max-width:58%;
+  }
+
+  .groupHeaderTwo {
+    font-size:1.6rem;
+  }
+
+ }
+
+ @media (max-width: 822px) and (orientation:portrait) {
+
+   .worksContainer {
+     max-width:63%;
+   }
+
+  }
+
+  @media (max-width: 667px) and (orientation:landscape) {
+
+    .groupHeaderTwo {
+      font-size:1.2rem;
+    }
+
+    .readingImage {
+      width:85%;
+    }
+
+   }
+
+@media (max-width: 541px) and (orientation:portrait) {
+
+  .worksContainer {
+    max-width:58%;
+  }
+
+  .groupHeader {
+    font-size:2rem;
+    letter-spacing:0;
+  }
+
+  .entryContainer {
+    transform:rotate(0);
+  }
+
+  .workLink {
+    margin:0 0 3.5vh 0;
+  }
+
+  .readingContainer {
+    max-width:32%;
+    padding:1px;
+    margin:5vh 0;
+  }
+
+  .groupHeaderTwo {
+    font-size:1.2rem;
+    transform:rotate(0);
+  }
+
+  .readingImage {
+    width:75%;
+  }
+
+ }
+
+ @media (max-width: 281px) and (orientation:portrait) {
+
+   .worksContainer {
+     max-width:38%;
+   }
+
+   .groupHeader {
+     font-size:1.5rem;
+     letter-spacing:0;
+   }
+
+   .workTitle {
+     font-size:1.2rem;
+
+   }
+
+  }

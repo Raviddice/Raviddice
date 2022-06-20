@@ -416,11 +416,50 @@ export const essays = {
 };
 
 export const interviewsExcerptsEvents = {
-  INTERVIEWSEXCERPTSEVENTS: {
-    workUrl: "https://whiskeytit.com/product/the-new-house/",
-    workTitle: "Whiskey Tit",
-    venue: "The Whiskey Tit Piece",
+  DODGECITYTWOINTERVIEW: {
+    workUrl: "https://lareviewofbooks.org/article/the-mythmaker-gazes-at-himself-a-conversation-with-david-leo-rice/",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "LA Review of Books",
   },
+  DODGECITYTWOINTERVIEWTWO: {
+    workUrl: "http://vol1brooklyn.com/2021/01/12/something-only-a-consummate-outsider-could-concoct-a-conversation-with-david-leo-rice",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  DODGECITYTWOINTERVIEWTHREE: {
+    workUrl: "https://heavyfeatherreview.org/2020/12/22/blut/",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "Heavy Feather Review",
+  },
+  DODGECITYTWOPLAYLIST: {
+    workUrl: "http://www.largeheartedboy.com/blog/archive/2021/01/david_leo_rices_1.html",
+    workTitle: "DODGE CITY 2 Playlist",
+  },
+  DRIFTERREALEASEEVENT: {
+    workUrl: "https://www.crowdcast.io/e/davidleorice/register",
+    workTitle: "Drifter Virtual Release Event with Tobias Carroll",
+    venue: "Work Bookstore",
+  },
+  DODGECITYTWOBOOKPREVIEW: {
+    workUrl: "http://vol1brooklyn.com/2021/01/05/vol-1-brooklyns-january-2020-book-preview-2/",
+    workTitle: "Dodge City Two Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  ANGELHOUSEINTERVIEW: {
+    workUrl: "https://believermag.com/logger/an-interview-with-david-leo-rice/",
+    workTitle: "Angel House Interview",
+    venue: "The Believer",
+  },
+  ANGELHOUSEINTERVIEWTWO: {
+    workUrl: "https://heavyfeatherreview.org/2020/04/22/angel-house/",
+    workTitle: "Angel House Interview",
+    venue: "Heavy Feather Review",
+  },
+  DENNISCOOPERANGELHOUSE: {
+    workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2019/?fbclid=IwAR3QJ72YoRnzxsINlWH6NbNrhvbQ25HnMpcYm-rQAIKI3K2xYoJ-xdSxjM0",
+    workTitle: "ANGEL HOUSE is one of Dennis Cooper's Favorite Books of 2019!",
+  }
+
 };
 
 export const podcasts = {

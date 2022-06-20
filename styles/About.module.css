@@ -98,6 +98,196 @@
   margin:0 5vw 0 0.5vw;
 }
 
-@media (max-width: 991.98px) {
+@media (width: 1368px) and (height:912px) {
 
-}
+  .photoContainer {
+    margin: 9% 5vw 0 0;
+  }
+
+
+ }
+
+@media (width: 1366px) and (height:1024px) {
+
+  .photoContainer {
+    margin: 9% 5vw 0 0;
+  }
+
+
+ }
+
+ @media (width: 1280px) and (height:800px) {
+
+   .photoContainer {
+     margin: 9% 5vw 0 0;
+   }
+
+
+  }
+
+@media (width: 1180px) and (height:820px) {
+
+  .photoContainer {
+    margin: 9% 5vw 0 0;
+  }
+
+
+ }
+
+@media (width: 1080px) and (height:810px) {
+
+  .photoContainer {
+    margin: 9% 5vw 0 0;
+  }
+
+
+ }
+
+ @media (width: 1024px) and (height:1366px) {
+
+   .photoContainer {
+     margin: 19% 5vw 0 0;
+   }
+
+
+  }
+
+ @media (width: 1024px) and (height:768px) {
+
+   .photoContainer {
+     margin: 9% 5vw 0 0;
+   }
+
+
+  }
+
+  @media (width: 1024px) and (height:600px) {
+
+    .photoContainer {
+      margin: 9% 5vw 0 0;
+    }
+
+
+   }
+
+@media (max-width: 927px) and (orientation:landscape) {
+
+  .photoContainer {
+    margin: 7% 5vw 0 0;
+  }
+
+
+ }
+
+ @media (width: 912px) and (height:1368px) {
+
+   .photoContainer {
+     margin: 25% 5vw 0 0;
+   }
+
+
+  }
+
+ @media (width: 834px) and (height:1194px) {
+
+   .photoContainer {
+     margin: 22% 5vw 0 0;
+   }
+
+
+  }
+
+@media (max-width: 822px) and (orientation:portrait) {
+
+  .containerZero {
+    font-size:1.3rem;
+  }
+
+  .aboutPageProseOne {
+    margin:8vh 5vw 0 7vw;
+  }
+
+  .nameFont {
+    font-size:2rem;
+  }
+
+  .photoContainer {
+    margin: 16vh 5vw 0 0;
+  }
+
+
+ }
+
+ @media (width: 820px) and (height:1180px) {
+
+   .photoContainer {
+     margin: 9% 5vw 0 0;
+   }
+
+
+  }
+
+ @media (max-width: 813px) and (orientation:landscape) {
+
+   .photoContainer {
+     margin: 11% 5vw 0 0;
+   }
+
+
+  }
+
+  @media (width: 810px) and (height:1080px) {
+
+    .photoContainer {
+      margin: 9% 5vw 0 0;
+    }
+
+
+   }
+
+   @media (width: 800px) and (height:1280px) {
+
+     .photoContainer {
+       margin: 9% 5vw 0 0;
+     }
+
+
+    }
+
+   @media (width: 768px) and (height:1024px) {
+
+     .photoContainer {
+       margin: 9% 5vw 0 0;
+     }
+
+
+    }
+
+    @media (max-width: 322px) and (orientation:portrait) {
+
+      .containerZero {
+        font-size:1.1rem;
+      }
+
+      .nameFont {
+        font-size:1.4rem;
+      }
+
+     }
+
+     @media (max-width: 281px) and (orientation:portrait) {
+
+       .containerZero {
+         font-size:0.8rem;
+         line-height:1.3em;
+       }
+
+       .nameFont {
+         font-size:1rem;
+       }
+
+       .photoContainer {
+         margin: 25% 5vw 0 0;
+       }
+
+      }
