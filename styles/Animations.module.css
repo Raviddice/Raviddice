@@ -23,16 +23,29 @@
   100% {opacity:1;}
 }
 
-.videoContainer {
+.pageContainer {
   display:flex;
   flex-flow:column;
   align-items:center;
   row-gap:10vh;
   margin-bottom:10vh;
+  animation: fadeIn ease-in 0.6s;
+}
+
+.title {
   font-family:"ccclobberintimecrunchy";
   font-size:2.5rem;
   letter-spacing:0.3rem;
   font-style:italic;
   transform:rotate(0.3deg);
-  animation: fadeIn ease-in 0.6s;
+}
+
+.videoContainer {
+  width:80vw;
+  height:60vh;
+}
+
+.videoContainerTwo {
+  width:90vw;
+  height:70vh;
 }

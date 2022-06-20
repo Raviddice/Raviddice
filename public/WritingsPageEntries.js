@@ -477,27 +477,27 @@ export const interviewsExcerptsEvents = {
   ANGELHOUSEDISCUSSION: {
     workUrl: "https://soundcloud.com/user-429232387/reading-and-discussion-with-brian-evenson-at-stories-in-echo-par",
     workTitle: "ANGEL HOUSE Discussion with Brian Evenson",
-    venue: "Audio recorded at Stories on Sunset Blvd",
+    venue: "Stories on Sunset Blvd",
   },
   ANGELHOUSEDISCUSSIONTWO: {
     workUrl: "https://soundcloud.com/user-429232387/discussion-with-patrick-mcgrath-at-mcnally-jackson-soho",
     workTitle: "ANGEL HOUSE Discussion with Patrick McGrath",
-    venue: "Audio recorded at McNally Jackson SoHo",
+    venue: "McNally Jackson SoHo",
   },
   ANGELHOUSEDISCUSSIONTHREE: {
     workUrl: "https://soundcloud.com/user-429232387/book-talk-in-charlotte-with-jeff-jackson",
     workTitle: "ANGEL HOUSE Discussion with Jeff Jackson",
-    venue: "Audio recorded at Park Road Books in Charlotte"
+    venue: "Park Road Books in Charlotte"
   },
   ANGELHOUSEDISCUSSIONFOUR: {
     workUrl: "https://soundcloud.com/user-429232387/broadside-bookshop-angel-house-reading-with-matt-spellberg",
     workTitle: "ANGEL HOUSE Discussion with Matthew Spellberg",
-    venue: "Audio recorded at Broadside Bookshop"
+    venue: "Broadside Bookshop"
   },
   ANGELHOUSEREADING: {
     workUrl: "https://www.mcnallyjackson.com/event/angel-house-david-leo-rice-patrick-mcgrath-prince-street",
     workTitle: "ANGEL HOUSE Reading and Q&A",
-    venue: "with Patrick McGrath, at McNally Jackson SoHo, NYC, 10.30.19"
+    venue: "with Patrick McGrath, at McNally Jackson SoHo"
   },
   ANGELHOUSEREADINGTWO: {
     workUrl: "https://www.parkroadbooks.com/event/david-leo-rice-conversation-jeff-jackson",
@@ -507,12 +507,12 @@ export const interviewsExcerptsEvents = {
   ANGELHOUSEREADINGTHREE: {
     workUrl: "https://www.broadsidebooks.com/event/david-leo-rice-reads-angel-house-wed-oct-2-7-pm-0",
     workTitle: "ANGEL HOUSE Reading and Q&A",
-    venue: "at Broadside Bookshop, Northampton, MA, 10.2.19"
+    venue: "Broadside Bookshop, Northampton, MA, 10/2/19"
   },
   DREAMSHARINGWORKSHOP: {
     workUrl: "https://www.daniels.utoronto.ca/events/2020/02/06/dream-parliament-exercise-democracy-sleep",
-    workTitle: "Dream-sharing Workshop with Matthew Spellberg at University of Toronto",
-    venue: "Feb 6, 2020"
+    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
+    venue: "University of Toronto 2/6/2020"
   },
   ANGELHOUSERADIOINTERVIEW: {
     workUrl: "https://www.mixcloud.com/ejmartin504/dig-this-july-21-2019/?fbclid=IwAR0xLCY3QpwZVty6p9HkWL7xI9tcw-rLaMxqiWWmIL5HfPBgJo_ONAqtpiE",
@@ -540,16 +540,56 @@ export const interviewsExcerptsEvents = {
   ANGELHOUSEPLAYLIST: {
     workUrl: "http://www.largeheartedboy.com/blog/archive/2019/09/david_leo_rices.html?fbclid=IwAR3bAmsrVBk9Srkl7T9Xl6uZ0CZBeToMPcptJfLDW0YCuD_BFHetjZXgkYA",
     workTitle: "ANGEL HOUSE Playlist",
-    venue: "Largehearted Bo"
+    venue: "Largehearted Boy"
+  },
+  ANGELHOUSEDAADINTERVIEW: {
+    workUrl: "https://www.daad.org/en/2019/06/04/in-profile-david-rice-2/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "DAAD"
+  },
+  ANGELHOUSEEXCERPT: {
+    workUrl: "https://bigother.com/2019/06/13/david-leo-rices-angel-house-an-excerpt/?fbclid=IwAR1p3FH3R6eIRTYuezx6GExsZP4TqLbruaA6ZvEFr7gaUcZhAl3aeVtrLEc",
+    workTitle: "ANGEL HOUSE Excerpt",
+    venue: "Big Other"
+  },
+  ANGELHOUSEEXCERPTTWO: {
+    workUrl: "https://heavyfeatherreview.org/2019/07/05/rice/",
+    workTitle: "ANGEL HOUSE Excerpt",
+    venue: "Heavy Feather Review"
+  },
+  ANGELHOUSEBOOKPREVIEW: {
+    workUrl: "http://vol1brooklyn.com/2019/05/30/vol-1-brooklyns-june-2019-book-preview/?fbclid=IwAR1Fm9MTvzgqE2Z_s3FSIZ8QRTXNSvFTc-J_kXMKkZBuhQo_vYHzQbWIupE",
+    workTitle: "ANGEL HOUSE Featured in Vol. 1 Brooklyn's 6/19 Book Preview",
+    venue: "Vol. 1 Brooklyn"
+  },
+  ANGELHOUSEHARVARD: {
+    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
+    workTitle: "ANGEL HOUSE Recommended in The Harvard Gazette",
+    venue: "The Harvard Gazette"
+  },
+  ANGELHOUSEENTROPY: {
+    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
+    workTitle: "ANGEL HOUSE Featured in Entropy's June & July 2019 Book Preview",
+    venue: "Entropy"
+  },
+  DODGECITYINTERVIEW: {
+    workUrl: "http://weirdfictionreview.com/2017/08/performance-grottos-nameless-drifters-interviewing-david-leo-rice-surrealism/",
+    workTitle: "Dodge City Interview",
+    venue: "The Weird Fiction Review"
+  },
+  DODGECITYWEIRDEST: {
+    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
+    workTitle: "Dodge City is the Weirdest Book You've Read",
+    venue: "Reddit",
   },
 
 };
 
 export const podcasts = {
   PODCASTS: {
-    workUrl: "https://whiskeytit.com/product/the-new-house/",
-    workTitle: "Whiskey Tit",
-    venue: "The Whiskey Tit Piece",
+    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
+    workTitle: "Dodge City is the Weirdest Book You've Read",
+    venue: "Reddit",
   },
 };
 
