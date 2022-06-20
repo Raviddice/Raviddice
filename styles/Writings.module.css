@@ -46,11 +46,6 @@
   text-transform: uppercase;
   letter-spacing:0.2rem;
   margin-bottom:5.5vh;
-  transform:rotate(-0.3deg);
-}
-
-.entryContainer {
-  transform:rotate(-0.3deg);
 }
 
 .workTitle {
@@ -105,7 +100,6 @@
   letter-spacing:0.2vw;
   text-align:center;
   text-transform: uppercase;
-  transform:rotate(-2deg);
 }
 
 .readingsContainer {
@@ -166,10 +160,6 @@
     letter-spacing:0;
   }
 
-  .entryContainer {
-    transform:rotate(0);
-  }
-
   .workLink {
     margin:0 0 3.5vh 0;
   }
@@ -182,7 +172,6 @@
 
   .groupHeaderTwo {
     font-size:1.2rem;
-    transform:rotate(0);
   }
 
   .readingImage {
@@ -191,7 +180,7 @@
 
  }
 
- @media (max-width: 281px) and (orientation:portrait) {
+ @media (max-width: 321px) and (orientation:portrait) {
 
    .worksContainer {
      max-width:38%;

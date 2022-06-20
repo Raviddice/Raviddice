@@ -37,7 +37,6 @@
   font-size:2.5rem;
   letter-spacing:0.3rem;
   font-style:italic;
-  transform:rotate(0.3deg);
 }
 
 .videoContainer {
@@ -49,3 +48,32 @@
   width:90vw;
   height:70vh;
 }
+
+@media (max-width: 429px) and (orientation:portrait) {
+
+  .pageContainer {
+    row-gap:2vh;
+  }
+
+  .title {
+    font-size:1.7rem;
+  }
+
+  .videoContainer {
+    height:40vh;
+  }
+
+  .videoContainerTwo {
+    width:80vw;
+    height:50vh;
+  }
+
+ }
+
+ @media (max-width: 321px) and (orientation:portrait) {
+
+   .title {
+     font-size:1.2rem;
+   }
+
+  }
