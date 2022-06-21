@@ -29,6 +29,15 @@ export const stories = {
     workTitle: "The Painless Euthanasia Roller Coaster",
     venue: "Catapult",
   },
+  DODGECITYTHREE: {
+    workUrl: "https://aroomindodgecity.com/",
+    workTitle: "A Room in Dodge City Volume 3",
+  },
+  LAZYEYESTORIES: {
+    workUrl: "http://www.lazyeyestories.net/",
+    workTitle: "Lazy Eye Stories",
+    venue: "Graphic Novel",
+  },
   THEBROTHERSSQUIMBOP: {
     workUrl: "http://thefanzine.com/the-brothers-squimbop",
     workTitle: "The Brothers Squimbop",
