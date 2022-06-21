@@ -644,11 +644,44 @@ export const interviewsExcerptsEvents = {
 };
 
 export const podcasts = {
-  PODCASTS: {
-    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
-    workTitle: "Dodge City is the Weirdest Book You've Read",
-    venue: "Reddit",
+  DRIFTERWAKEISLAND: {
+    workUrl: "https://anchor.fm/wake-island/episodes/David-Leo-Rice---Drifter-Stories-es8n0i",
+    workTitle: "Discussion about Drifter: Stories",
+    venue: "Wake Island",
   },
+  DRIFTERSKYLIGHTBOOKSTORE: {
+    workUrl: "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-drifter-w-matthew-spellberg/",
+    workTitle: "Discussion about Drifter: Stories",
+    venue: "Skylight Bookstore Podcast",
+  },
+  DRIFTERGHOULISH: {
+    workUrl: "http://www.ghoulishpod.com/2021/06/21/97-dream-geography-with-david-leo-rice/",
+    workTitle: "Discussion about Drifter: Stories and Dream Geography",
+    venue: "Ghoulish",
+  },
+  DRIFTERRAPIDS: {
+    workUrl: "https://player.fm/series/writing-the-rapids/post-secular-grifting-with-david-leo-rice",
+    workTitle: "Discussion about Drifter: Stories and Post-Secular Grifting",
+    venue: "Writing the Rapids",
+  },
+  DODGECITYTWOEVENSON: {
+    workUrl: "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-a-room-in-dodge-city-vol-2-w-brian-evenson/",
+    workTitle: "A Room in Dodge City: Vol. 2 Podcast Interview with Brian Evenson",
+    venue: "Skylight Books",
+  },
+  DODGECITYTWOSELECTEDPROSE: {
+    workUrl: "https://anchor.fm/selectedprose/episodes/1--David-Leo-Rice-ek37pi",
+    workTitle: "A Room in Dodge City: Vol. 2 Podcast Interview",
+    venue: "Selected Prose",
+  },
+  WHATTHEBOOK: {
+    workUrl: "https://www.youtube.com/watch?v=z84P1TgjA9U",
+    workTitle: "Discussion on What the Book?",
+  },
+  DRINKSWITHTONY: {
+    workUrl: "https://drinkswithtony.podbean.com/e/david-leo-rice-169/?fbclid=IwAR3MaUfhq0_v_djnKMLgDHNtk9Uue96EXGOmHBDulPyQUHzmj8R1IPwGJCE",
+    workTitle: "Appearance on Drinks With Tony",
+  }
 };
 
 export const whatImReading = {

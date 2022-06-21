@@ -106,7 +106,7 @@ return readingsHtml;
                 <div>{essayEntries()}</div>
            <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
                 <div>{interviewEntries()}</div>
-           <h2 className={styles.groupHeader}>... PODCAST ... <br/> ... APPEARANCES ...</h2>
+           <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
                 <div>{podcastEntries()}</div>
                   </div>
         <div className={styles.readingContainer}>
