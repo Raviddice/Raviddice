@@ -69,9 +69,9 @@ export const stories = {
     workTitle: "Jell-o",
     venue: "DIAGRAM",
   },
-  THEMEADOW: {
+  THEMEADOWS: {
     workUrl: "http://thecollagist.com/the-collagist/2017/7/20/the-meadows.html",
-    workTitle: "The Meadow",
+    workTitle: "The Meadows",
     venue: "The Collagist",
   },
   JONATHANEDWARDS: {
@@ -105,7 +105,7 @@ export const stories = {
     venue: "The Opiate",
   },
   ARCHITECTURE: {
-    workUrl: "architecture_final.pdf",
+    workUrl: "http://www.raviddice.com/architecture_final.pdf",
     workTitle: "Architecture",
     venue: "Emanata #4",
   },
@@ -140,12 +140,12 @@ export const stories = {
     venue: "The Collagist",
   },
   LIVINGBOY: {
-    workUrl: "Black Clock 20.pdf",
+    workUrl: "http://www.raviddice.com/Black%20Clock%2020.pdf",
     workTitle: "Living Boy",
     venue: "Black Clock",
   },
   INTHECABIN: {
-    workUrl: "Black_Clock_16.pdf",
+    workUrl: "http://www.raviddice.com/Black_Clock_16.pdf",
     workTitle: "In The Cabin Up On Stilts",
     venue: "Black Clock",
   },
@@ -160,22 +160,17 @@ export const stories = {
     venue: "Nat. Brut",
   },
   JOEYINVERMONT: {
-    workUrl: "opiate.pdf",
+    workUrl: "http://www.raviddice.com/opiate.pdf",
     workTitle: "Joey in Vermont",
     venue: "Opiate",
   },
-  SEEDROOM: {
-    workUrl: "http://www.hobartpulp.com/web_features/seed-room",
-    workTitle: "Seed Room",
-    venue: "Hobart Pulp",
-  },
   ERICSTOWING: {
-    workUrl: "ericstowing_proofs.pdf",
+    workUrl: "http://www.raviddice.com/ericstowing_proofs.pdf",
     workTitle: "Eric's Towing",
     venue: "The New Haven Review",
   },
   HOUSESITTER: {
-    workUrl: "http://birkensnake.com/housesitter.ph",
+    workUrl: "birkensnake.com/housesitter.ph",
     workTitle: "Housesitter",
     venue: "Birkensnake",
   },
@@ -199,13 +194,8 @@ export const stories = {
     workTitle: "At First I Tried to be Someone",
     venue: "Pithead Chapel",
   },
-  YOUYOU: {
-    workUrl: "http://sporkpress.com/?p=4388",
-    workTitle: "You You You Snuffed Yourself",
-    venue: "Spork",
-  },
   LAZYEYE: {
-    workUrl: "http://www.natbrut.com/fiction--visual-art-lazy-eye-stories-by-david-rice-and-kayla-e.html",
+    workUrl: "http://www.natbrutarchive.com/fiction--visual-art-lazy-eye-stories-by-david-rice-and-kayla-e.html",
     workTitle: "Lazy Eye Excerpt",
     venue: "Nat. Brut",
   },
@@ -220,7 +210,7 @@ export const stories = {
     venue: "The Bad Version",
   },
   DRIFTERJIM: {
-    workUrl: "http://theharvardadvocate.com/article/128/drifter-jim/",
+    workUrl: "https://www.theharvardadvocate.com/content/drifter-jim",
     workTitle: "Drifter Jim",
     venue: "The Harvard Advocate",
   },
@@ -368,11 +358,6 @@ export const essays = {
     workTitle: "On Matt Bell",
     venue: "HTML Giant",
   },
-  BOWIE: {
-    workUrl: "http://www.bookslut.com/nonfiction/2012_11_019559.php",
-    workTitle: "On David Bowie",
-    venue: "Book Slut",
-  },
   ADAMPRINCE: {
     workUrl: "http://therumpus.net/2012/09/the-beautiful-wishes-of-ugly-men-by-adam-prince",
     workTitle: "On Adam Princee",
@@ -475,21 +460,16 @@ export const interviewsExcerptsEvents = {
     venue: "Vol. 1 Brooklyn",
   },
   ANGELHOUSEDISCUSSION: {
-    workUrl: "https://soundcloud.com/user-429232387/reading-and-discussion-with-brian-evenson-at-stories-in-echo-par",
-    workTitle: "ANGEL HOUSE Discussion with Brian Evenson",
-    venue: "Stories on Sunset Blvd",
-  },
-  ANGELHOUSEDISCUSSIONTWO: {
     workUrl: "https://soundcloud.com/user-429232387/discussion-with-patrick-mcgrath-at-mcnally-jackson-soho",
     workTitle: "ANGEL HOUSE Discussion with Patrick McGrath",
     venue: "McNally Jackson SoHo",
   },
-  ANGELHOUSEDISCUSSIONTHREE: {
+  ANGELHOUSEDISCUSSIONTWO: {
     workUrl: "https://soundcloud.com/user-429232387/book-talk-in-charlotte-with-jeff-jackson",
     workTitle: "ANGEL HOUSE Discussion with Jeff Jackson",
     venue: "Park Road Books in Charlotte"
   },
-  ANGELHOUSEDISCUSSIONFOUR: {
+  ANGELHOUSEDISCUSSIONTHREE: {
     workUrl: "https://soundcloud.com/user-429232387/broadside-bookshop-angel-house-reading-with-matt-spellberg",
     workTitle: "ANGEL HOUSE Discussion with Matthew Spellberg",
     venue: "Broadside Bookshop"
@@ -582,10 +562,6 @@ export const interviewsExcerptsEvents = {
     workTitle: "Dodge City is the Weirdest Book You've Read",
     venue: "Reddit",
   },
-  DODGECITYBOOKTRAILER: {
-    workUrl: "https://drive.google.com/file/d/0B1H1jz7c_yWNUlFOdW9BMktFZ0U/view",
-    workTitle: "Dodge City Book Trailer",
-  },
   DODGECITYINTERVIEWTWO: {
     workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
     workTitle: "Dodge City Interview",
@@ -602,7 +578,7 @@ export const interviewsExcerptsEvents = {
     venue: "The Transmitter"
   },
   DODGECITYINTERVIEWFIVE: {
-    workUrl: "shelfawareness_interview.pdf",
+    workUrl: "http://www.raviddice.com/shelfawareness_interview.pdf",
     workTitle: "Dodge City Interview",
     venue: "Shelf Awareness"
   },
@@ -679,7 +655,7 @@ export const podcasts = {
     workTitle: "Discussion on What the Book?",
   },
   DRINKSWITHTONY: {
-    workUrl: "https://drinkswithtony.podbean.com/e/david-leo-rice-169/?fbclid=IwAR3MaUfhq0_v_djnKMLgDHNtk9Uue96EXGOmHBDulPyQUHzmj8R1IPwGJCE",
+    workUrl: "https://www.stitcher.com/show/drinks-with-tony/episode/david-leo-rice-169-88855737",
     workTitle: "Appearance on Drinks With Tony",
   }
 };
