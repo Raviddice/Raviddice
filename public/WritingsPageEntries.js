@@ -32,11 +32,12 @@ export const stories = {
   DODGECITYTHREE: {
     workUrl: "https://aroomindodgecity.com/",
     workTitle: "A Room in Dodge City Volume 3",
+    venue: "A Novel in Monthly Installments",
   },
   LAZYEYESTORIES: {
     workUrl: "http://www.lazyeyestories.net/",
     workTitle: "Lazy Eye Stories",
-    venue: "Graphic Novel",
+    venue: "A Graphic Novel in Collaboration with Kayla E.",
   },
   THEBROTHERSSQUIMBOP: {
     workUrl: "http://thefanzine.com/the-brothers-squimbop",
