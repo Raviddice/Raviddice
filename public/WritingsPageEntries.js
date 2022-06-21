@@ -582,6 +582,64 @@ export const interviewsExcerptsEvents = {
     workTitle: "Dodge City is the Weirdest Book You've Read",
     venue: "Reddit",
   },
+  DODGECITYBOOKTRAILER: {
+    workUrl: "https://drive.google.com/file/d/0B1H1jz7c_yWNUlFOdW9BMktFZ0U/view",
+    workTitle: "Dodge City Book Trailer",
+  },
+  DODGECITYINTERVIEWTWO: {
+    workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Thoughtful Dog"
+  },
+  DODGECITYINTERVIEWTHREE: {
+    workUrl: "https://www.thecrimson.com/article/2017/11/10/alumnispotlight-davidleorice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Harvard Crimson"
+  },
+  DODGECITYINTERVIEWFOUR: {
+    workUrl: "https://medium.com/the-coil/the-transmitter-david-leo-rice-answers-the-questions-that-matter-7e15d45476e2",
+    workTitle: "Dodge City Interview",
+    venue: "The Transmitter"
+  },
+  DODGECITYINTERVIEWFIVE: {
+    workUrl: "shelfawareness_interview.pdf",
+    workTitle: "Dodge City Interview",
+    venue: "Shelf Awareness"
+  },
+  DODGECITYREVIEW: {
+    workUrl: "https://theopiatemagazine.com/2017/04/19/david-leo-rices-a-room-in-dodge-city-offers-a-place-in-antiutopia/",
+    workTitle: "Dodge City Review",
+    venue: "The Opiate"
+  },
+  INDIEBOOKPREVIEW: {
+    workUrl: "https://electricliterature.com/the-great-2017-indie-press-preview-7f7fb8c03f6e",
+    workTitle: "Electric Literature's 2017 Indie Book Preview",
+  },
+  DAADAUTHORPROFILE: {
+    workUrl: "https://www.daad.org/en/2017/07/21/in-profile-david-rice/",
+    workTitle: "Author Profile",
+    venue: "DAAD",
+  },
+  DODGECITYFEATURE: {
+    workUrl: "https://snowflakesarise.wordpress.com/2019/07/16/a-room-in-dodge-city/",
+    workTitle: "Dodge City Featured",
+    venue: "Snowflakes in a Blizzard Blog",
+  },
+  EVENSONMOSTANTICIPATED: {
+    workUrl: "https://bigother.com/2017/02/04/most-anticipated-small-press-books-of-2017/#brian-evenson",
+    workTitle: "Brian Evenson's Most Anticipated Small Press Books of 2017 List",
+    venue: "Big Other",
+  },
+  DODGECITYTWOKGB: {
+    workUrl: "https://www.kgbfantasticfiction.org/2017/11/27/audio-from-nov-15-with-grady-hendrix-david-leo-rice/",
+    workTitle: "Audio Excerpt from Dodge City: Vol. 2 ",
+    venue: "KGB Bar",
+  },
+  DREAMSHARINGTWO: {
+    workUrl: "http://www.cabinetmagazine.org/events/spellberg_powell_rice_dreamparliament.php",
+    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
+    venue: "Cabinet Magazine",
+  },
 
 };
 
