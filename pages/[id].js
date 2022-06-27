@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Header from '../components/header.js'
 import styles from "../styles/Books.module.css";
 import { books } from "../public/HomePageBookEntries.js";
 
@@ -23,7 +24,8 @@ const Book = () => {
   if (bookObject !== undefined) {
   return (
     <div className="bookContainer">
-      <div className={styles.bookImage}>
+      <Header headerBackground="homeBackground"/>
+      <div className={styles.bookImages}>
         <img className={styles.bookPicOne}
           src={bookObject["imgUrl"]}
           height={bookObject["height"]}

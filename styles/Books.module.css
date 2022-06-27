@@ -1,7 +1,7 @@
-.bookImage {
+.bookImages {
   display:flex;
   justify-content: flex-end;
-  margin:3vh 14vw;
+  margin:16vh 14vw 0 14vw;
 }
 
 .bookPicOne {
