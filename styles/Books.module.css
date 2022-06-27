@@ -1,0 +1,24 @@
+.bookImage {
+  display:flex;
+  justify-content: flex-end;
+  margin:3vh 14vw;
+}
+
+.bookPicOne {
+  opacity:0.7;
+  transform: rotate(-3deg);
+}
+
+.bookPicTwo {
+  opacity:0.9;
+  transform: rotate(-3deg);
+}
+
+.bookPicThree {
+  opacity:0.5;
+  transform: rotate(-3deg);
+}
+
+.italic {
+  font-style:italic;
+}

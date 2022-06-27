@@ -1,18 +1,17 @@
 export const books = {
-  THENEWHOUSE: {
+  the_new_house: {
     imgUrl: "/images/NewHouseCover.jpg",
-    title: "The New House",
-    url: "/newhouse",
+    title: "thenewhouse",
+    url: "/the_new_house",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
+    height: "550",
     width: "800",
-    projectUrl: "hhttps://whiskeytit.com/product/the-new-house/",
+    projectUrl: "https://whiskeytit.com/product/the-new-house/",
     objectDetails:
       "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere.",
     text: [
       {
-        className: "italic",
         text:
           "The cloak is not so much a means of becoming invisible as it is an apparatus for concealing intentions. It is a shroud or a curtain. We can detect the movements occurring behind it, but remain unable to narrow what those movements might be, where they might lead, what they might catalyze.",
       },
@@ -28,13 +27,13 @@ export const books = {
     shortText:
       "THE NEW HOUSE is dream novel exploring a family of outsider artists roaming the American interior in search of the New Jerusalem, loosely inspired by the hermetic worlds of Joseph Cornell.",
   },
-  CHILDRENOFTHENEWFLESH: {
+  children: {
     imgUrl: "/images/ChildrenCover.jpg",
     title: "Children of The New Flesh: The Early Work and Pervasive Influence of David Cronenberg",
     url: "/children",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
+    height: "550",
     width: "800",
     projectUrl: "https://1111press.bigcartel.com/product/children-of-the-new-flesh-preorder",
     objectDetails:
@@ -56,7 +55,7 @@ export const books = {
     shortText:
       "CHILDREN OF THE NEW FLESH is a wide-ranging compendium of reflections on the enduring impact of David Cronenberg, one of the most significant filmmakers of all time.",
   },
-  DRIFTER: {
+  drifter: {
     imgUrl: "/images/DrifterCover.jpg",
     title: "Drifter: Stories",
     url: "/drifter",
@@ -85,10 +84,10 @@ export const books = {
     shortText:
       "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere.",
   },
-  ANGELHOUSE: {
+  angel_house: {
     imgUrl: "/images/AngelHouseCover.jpg",
     title: "Angel House: A Novel",
-    url: "/angel",
+    url: "/angel_house",
     thumbHeight: "620",
     thumbWidth: "710",
     height: "600",
@@ -114,7 +113,7 @@ export const books = {
     shortText:
       "After crossing a vast inland sea in an ark called ANGEL HOUSE, Professor Squimbop docks on a distant shore.",
   },
-  AROOMINDOGDECITY: {
+  dodge: {
     imgUrl: "/images/DodgeCityCover.jpg",
     title: "A Room in Dodge City: A Novel-in-Vignettes",
     url: "/dodge",
@@ -143,10 +142,10 @@ export const books = {
     shortText:
       "A ROOM IN DODGE CITY follows a nameless drifter into an American heart of darkness.",
   },
-  AROOMINDOGDECITYTWO: {
+  dodge_two: {
     imgUrl: "/images/DodgeCityTwoCover.jpg",
     title: "A Room in Dodge City Volume Two: The Blut Branson Era",
-    url: "/dodgetwo",
+    url: "/dodge_two",
     thumbHeight: "620",
     thumbWidth: "710",
     height: "600",
@@ -172,7 +171,7 @@ export const books = {
     shortText:
       "A ROOM IN DODGE CITY VOLUME 2 is a Bildungsroman couched in a tale of folk horror and cosmic paranoia and an elegy for the declining art of cinema.",
   },
-  THEPORNMETRINITY: {
+  pornme: {
     imgUrl: "/images/PornMeCover.jpg",
     title: "The Pornme Trinity",
     url: "/pornme",
