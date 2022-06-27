@@ -19,6 +19,27 @@
   transform: rotate(-3deg);
 }
 
-.italic {
+.purchaseLinkBox {
+  display:block;
+  text-align: center;
+  margin:5vh 0 5vh 0;
+  font-family:"ccclobberintimecrunchy";
+  font-size:2.5rem;
+  letter-spacing:2.3rem;
+}
+
+.purchaseLink {
+  cursor:pointer;
+}
+
+.blurbFrame {
+  max-width:85%;
+  margin:0 auto;
+}
+
+.blurbText {
   font-style:italic;
+  line-height:1.3rem;
+  letter-spacing:0.12rem;
+
 }

@@ -7,6 +7,17 @@ const Book = () => {
   const { id } = router.query;
   const bookObject = books[id];
 
+  function constructText(text) {
+  return text.map((lineObject, index) => {
+    let computedClassName = lineObject.className;
+    return (
+      <p className={styles[computedClassName]} key={index}>
+        {lineObject.text}
+      </p>
+    );
+  });
+}
+
 
 
   if (bookObject !== undefined) {
@@ -29,11 +40,14 @@ const Book = () => {
           width={bookObject["width"]}
         />
       </div>
-    <a href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">
-      <div className={styles.purchaseLink}>Buy</div>
-    </a>
-    <div className={styles.projectDescription}>
-      <div className="text">{bookObject.shortText}</div>
+          <div className={styles.purchaseLinkBox}>
+        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Buy&#10154;</a>
+          </div>
+    <div className={styles.blurbFrame}>
+      <div>{constructText(bookObject["publicity"])}</div>
+    </div>
+    <div className={styles.purchaseLinkBox}>
+  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Buy&#10154;</a>
     </div>
     </div>
   );
