@@ -30,16 +30,23 @@
 
 .purchaseLink {
   cursor:pointer;
+  transition:1.3s ease-in-out letter-spacing;
+}
+
+.purchaseLink:hover {
+  letter-spacing:3.6rem;
 }
 
 .blurbFrame {
-  max-width:85%;
+  max-width:80%;
   margin:0 auto;
 }
 
 .blurbText {
+  font-size:1.5rem;
   font-style:italic;
-  line-height:1.3rem;
+  line-height:2.3rem;
   letter-spacing:0.12rem;
+  text-shadow:1px 1px 32px dimgray;
 
 }

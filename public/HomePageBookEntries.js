@@ -17,7 +17,7 @@ export const books = {
       {
         className: "blurbText",
         text:
-        "The childhood of Jakob, The New House's young hero, is one unlike that of your typical coming-of-age narrative. His is a youth surrounded by prophetic dreams, religious schisms, and secretive conversations — plus some shocking scenes of violence. Rice's prose creates a mood abounding with mystery and dread, and The New House would fit comfortably beside the likes of Michael McDowell's Toplin and Iain Banks's The Wasp Factory in terms of disquieting portraits of sustained alienation. – Tobias Carroll, author of Reel and Political Sign",
+        "The childhood of Jakob, The New House's young hero, is one unlike that of your typical coming-of-age narrative. His is a youth surrounded by prophetic dreams, religious schisms, and secretive conversations — plus some shocking scenes of violence. Rice's prose creates a mood abounding with mystery and dread, and The New House would fit comfortably beside the likes of Michael McDowell's Toplin and Iain Banks's The Wasp Factory in terms of disquieting portraits of sustained alienation. – Tobias Carroll, author of REEL and POLITICAL SIGN",
 
       },
       {
