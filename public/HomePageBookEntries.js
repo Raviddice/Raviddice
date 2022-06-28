@@ -39,6 +39,18 @@ export const books = {
     width: "800",
     projectUrl: "https://1111press.bigcartel.com/product/children-of-the-new-flesh-preorder",
     publicity: [
+      {
+        className: "blurbText",
+        text:
+        "New and longtime Cronenberg fans will devour this intelligent, earnest, and comprehensive tribute. - Kirkus Reviews",
+
+      },
+      {
+        className: "blurbText",
+        text:
+        "Children of the New Flesh is a must-read for film fanatics and fans of David Cronenberg. Edited by Chris Kelso and David Leo Rice, this collection explores the dark peripheries of Cronenberg's influence and early work, examining a world of strangeness and mystery. – Brandon Hobson, National Book Award finalist and author of The Removed",
+
+      },
     ],
     shortText:
       "CHILDREN OF THE NEW FLESH is a wide-ranging compendium of reflections on the enduring impact of David Cronenberg, one of the most significant filmmakers of all time.",
@@ -82,6 +94,19 @@ export const books = {
     height: "600",
     width: "800",
     projectUrl: "http://www.kernpunktpress.com/store/p17/angelhouse.html?fbclid=IwAR3cxvs1UuxYWa2LYpmLRljFGnXJiQWUlUO045nKhmi6pLjLmQj4sbW9cW4",
+    publicity: [
+      {
+        className: "blurbText",
+        text:
+        "David Leo Rice’s ANGEL HOUSE is a haunting novel—brave, astute, and strange in all the best ways. I highly recommend it! -Brandon Hobson, National Book Award finalist and author of WHERE THE DEAD SIT TALKING",
+
+      },
+      {
+        className: "blurbText",
+        text:
+        "Lash yourself to the mast of your ark as you set sail for the siren song of David Leo Rice’s imagination. Make anyone else on deck promise to bind you tighter the more you beg for release. In all the angel-towns you’ve ever haunted on all the demon-shores you’ve ever died, the only map that matters is the one Rice has written. The emerging cult novelist of today's moment, he’s the reigning surrealist sorcerer of tomorrow’s century. - Steve Erickson, author of Zeroville and Shadowbahn"
+      },
+    ],
     shortText:
       "After crossing a vast inland sea in an ark called ANGEL HOUSE, Professor Squimbop docks on a distant shore.",
   },
@@ -94,6 +119,13 @@ export const books = {
     height: "600",
     width: "800",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2016/12/a-room-in-dodge-city-david-leo-rice.html",
+    publicity: [
+      {
+        className: "blurbText",
+        text:
+        "With a draftsman’s hand and a psychonaut’s eye, David Leo Rice has mapped the alien precinct in which we already live. I’ve never encountered a book so strange yet so familiar. —Joanna Ruocco, author of Dan"
+      },
+    ],
     shortText:
       "A ROOM IN DODGE CITY follows a nameless drifter into an American heart of darkness.",
   },
@@ -106,6 +138,12 @@ export const books = {
     height: "600",
     width: "800",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2020/08/a-room-in-dodge-city-2-david-leo-rice.html",
+    publicity: [
+      {
+        className: "blurbText",
+        text:"The Künstlerroman on acid, a heady investigation of creation, originality, and collapse. —Brian Evenson, Shirley Jackson Award-winning author of Song for the Unraveling of the World",
+      },
+    ],
     shortText:
       "A ROOM IN DODGE CITY VOLUME 2 is a Bildungsroman couched in a tale of folk horror and cosmic paranoia and an elegy for the declining art of cinema.",
   },
@@ -115,22 +153,13 @@ export const books = {
     url: "/pornme",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
-    width: "800",
+    height: "500",
+    width: "700",
     projectUrl: "https://publish.sweek.com/shop/index.php/catalog/product/view/id/479321/s/the-pornme-trinity-210679-publish-sweek-com/category/337/",
-    text: [
+    publicity: [
       {
-        className: "italic",
-        text:
-          "The cloak is not so much a means of becoming invisible as it is an apparatus for concealing intentions. It is a shroud or a curtain. We can detect the movements occurring behind it, but remain unable to narrow what those movements might be, where they might lead, what they might catalyze.",
-      },
-      {
-        text:
-          "DRIFTER is a collection containing a decade's worth of short fiction by David Leo Rice, with work first published in 'The Fanzine', 'The Rumpus', 'Black Clock', 'DIAGRAM' and elsewhere",
-      },
-      {
-        text:
-          "CLOAK is not intended to fully encompass these relationships, but instead to instigate new connections / new contexts. We have assembled this work as a starting point. The first flourish of the stealth weapon / integumentary drape / vestigial skin.",
+        className: "blurbText",
+        text:"Like the rest of us, Gribby is willing to accept life in the surveillance state if, at the very least, it means there is the constant comfort and consolation of porn. He just didn't realize that clicking yes on the 12.99 a month plan would result in some hyper-real images of himself engaging in all manner of sexual scenarios—violent or otherwise—with his co-workers (for most people, that's not exactly an eroticizing thought-enticing one even less to come into the office).",
       },
     ],
     shortText:

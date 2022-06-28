@@ -43,13 +43,13 @@ const Book = () => {
         />
       </div>
           <div className={styles.purchaseLinkBox}>
-        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Purchase&#10154;</a>
+        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Order&#10154;</a>
           </div>
     <div className={styles.blurbFrame}>
       <div>{constructText(bookObject["publicity"])}</div>
     </div>
     <div className={styles.purchaseLinkBox}>
-  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Purchase&#10154;</a>
+  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Order&#10154;</a>
     </div>
     </div>
   );
