@@ -91,8 +91,8 @@ export const books = {
     url: "/angel_house",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
-    width: "800",
+    height: "520",
+    width: "720",
     projectUrl: "http://www.kernpunktpress.com/store/p17/angelhouse.html?fbclid=IwAR3cxvs1UuxYWa2LYpmLRljFGnXJiQWUlUO045nKhmi6pLjLmQj4sbW9cW4",
     publicity: [
       {
@@ -116,8 +116,8 @@ export const books = {
     url: "/dodge",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
-    width: "800",
+    height: "520",
+    width: "720",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2016/12/a-room-in-dodge-city-david-leo-rice.html",
     publicity: [
       {
@@ -135,8 +135,8 @@ export const books = {
     url: "/dodge_two",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
-    width: "800",
+    height: "520",
+    width: "720",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2020/08/a-room-in-dodge-city-2-david-leo-rice.html",
     publicity: [
       {
@@ -159,7 +159,7 @@ export const books = {
     publicity: [
       {
         className: "blurbText",
-        text:"Like the rest of us, Gribby is willing to accept life in the surveillance state if, at the very least, it means there is the constant comfort and consolation of porn. He just didn't realize that clicking yes on the 12.99 a month plan would result in some hyper-real images of himself engaging in all manner of sexual scenarios—violent or otherwise—with his co-workers (for most people, that's not exactly an eroticizing thought-enticing one even less to come into the office).",
+        text:"Like the rest of us, Gribby is willing to accept life in the surveillance state if, at the very least, it means there is the constant comfort and consolation of porn. He just didn't realize that clicking yes on the 12.99 a month plan would result in some hyper-real images of himself engaging in all manner of sexual scenarios—violent or otherwise—with his co-workers.",
       },
     ],
     shortText:
