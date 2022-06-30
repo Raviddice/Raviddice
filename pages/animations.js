@@ -10,17 +10,17 @@ export default function Animations() {
   return (
     <>
     <Header headerBackground="animationsBackground"/>
-    <div className={styles.pageContainer}>
+      <div className={styles.pageContainer}>
     <p className={styles.title}>... Animations ...</p>
-    <div className={styles.videoContainer}>
+      <div className={styles.videoContainer}>
     <ReactPlayer
          url="https://vimeo.com/203852613"
          width="100%"
             height="100%"
        />
        </div>
-       <br/>
-       <br/>
+            <br/>
+            <br/>
          <div className={styles.videoContainerTwo}>
        <ReactPlayer
             url="https://vimeo.com/42249909"

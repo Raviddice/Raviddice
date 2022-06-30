@@ -23,7 +23,7 @@ const Book = () => {
 
   if (bookObject !== undefined) {
   return (
-    <div className="bookContainer">
+    <div>
       <Header headerBackground="homeBackground"/>
       <div className={styles.bookImages}>
         <img className={styles.bookPicOne}
@@ -43,13 +43,13 @@ const Book = () => {
         />
       </div>
           <div className={styles.purchaseLinkBox}>
-        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Order&#10154;</a>
+        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Examine&#10154;</a>
           </div>
     <div className={styles.blurbFrame}>
       <div>{constructText(bookObject["publicity"])}</div>
     </div>
     <div className={styles.purchaseLinkBox}>
-  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Order&#10154;</a>
+  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Examine&#10154;</a>
     </div>
     </div>
   );
