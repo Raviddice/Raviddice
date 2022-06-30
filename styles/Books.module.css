@@ -59,7 +59,7 @@
 
 .purchaseLink {
   cursor:pointer;
-  transition:1.3s ease-in-out letter-spacing;
+  transition:0.6s ease-in-out letter-spacing;
 }
 
 .purchaseLink:hover {
@@ -82,3 +82,53 @@
   2px 2px 32px #b0b0b0;
 
 }
+
+@media (max-width: 927px) and (orientation:landscape) {
+
+  .bookPicOne, .bookPicTwo, .bookPicThree {
+    height:65%;
+    width:35%;
+  }
+
+ }
+
+@media (max-width: 913px) and (orientation:portrait) {
+
+  .bookPicOne, .bookPicTwo, .bookPicThree {
+    width:35%;
+    height:85%;
+  }
+
+  .blurbFrame {
+    max-width:90%;
+  }
+
+  .blurbText {
+    font-size:0.7rem;
+    line-height:1.3rem;
+  }
+
+  .purchaseLinkBox {
+    font-size:1.5rem;
+    letter-spacing:1.3rem;
+  }
+
+ }
+
+ @media (max-width: 801px) and (orientation:landscape) {
+
+   .bookPicOne, .bookPicTwo, .bookPicThree {
+     height:65%;
+     width:35%;
+   }
+
+   .blurbFrame {
+     max-width:90%;
+   }
+
+   .blurbText {
+     font-size:1rem;
+     line-height:1.7rem;
+   }
+
+  }

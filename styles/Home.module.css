@@ -61,6 +61,7 @@
 @media (max-width: 835px) and (orientation:portrait) {
 
   .coverImage {
+    height:65%;
     width:65%;
   }
 
@@ -69,6 +70,7 @@
  @media (max-width: 746px) and (orientation:landscape) {
 
    .coverImage {
+     height:65%;
      width:65%;
    }
 
