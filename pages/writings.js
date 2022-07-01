@@ -1,4 +1,5 @@
 import Header from '../components/header.js'
+import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Writings.module.css'
 Writings.title = 'david leo rice ~ writings'
@@ -77,7 +78,7 @@ for (const entry in whatImReading) {
    <div key={currentEntry.title}>
      <h4 className={styles.month}>+{whatImReading[entry].month}+</h4>
      <p className={styles.books}>{whatImReading[entry].BookOne}</p>
-     <img
+     <Image
        className={styles.readingImage}
        src={whatImReading[entry].imgUrl}
        height={200}
