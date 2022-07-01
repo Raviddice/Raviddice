@@ -16,7 +16,7 @@ export default function WakeIsland() {
     <a href="https://www.instagram.com/wakeislandpod/?hl=en" target="_blank" rel="noreferrer"><span className={styles.arrows}>&#10230;</span><i>instagram</i><span className={styles.arrows}>&#10230;</span></a>
       </div>
       <div className={styles.wakeIslandContainer}>
-    <iframe frameborder="0" height="450" width="600" src="https://embed.podcasts.apple.com/us/podcast/wake-island/id1485799907"></iframe>
+    <iframe frameBorder="0" height="450" width="600" src="https://embed.podcasts.apple.com/us/podcast/wake-island/id1485799907"></iframe>
       </div>
     </>
   )

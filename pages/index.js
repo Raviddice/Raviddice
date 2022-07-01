@@ -19,6 +19,7 @@ export default function Home() {
               src={currentEntry.imgUrl}
               height={currentEntry["thumbHeight"] || 300}
               width={currentEntry["thumbWidth"] || 300}
+              alt="Cover of David Leo Rice's-Authored Books"
             />
           </Link>
           <div className={styles.bookDescription}>{books[entry].shortText}</div>

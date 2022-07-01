@@ -30,16 +30,19 @@ const Book = () => {
           src={bookObject["imgUrl"]}
           height={bookObject["height"]}
           width={bookObject["width"]}
+          alt="Cover of David Leo Rice's-Authored Books"
         />
         <img className={styles.bookPicTwo}
           src={bookObject["imgUrl"]}
           height={bookObject["height"]}
           width={bookObject["width"]}
+          alt="Cover of David Leo Rice's-Authored Books"
         />
         <img className={styles.bookPicThree}
           src={bookObject["imgUrl"]}
           height={bookObject["height"]}
           width={bookObject["width"]}
+          alt="Cover of David Leo Rice's-Authored Books"
         />
       </div>
           <div className={styles.purchaseLinkBox}>
