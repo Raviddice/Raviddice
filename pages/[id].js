@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Image from 'next/image'
 import Header from '../components/header.js'
 import styles from "../styles/Books.module.css";
 import { books } from "../public/HomePageBookEntries.js";
@@ -26,24 +27,30 @@ const Book = () => {
     <div>
       <Header headerBackground="homeBackground"/>
       <div className={styles.bookImages}>
-        <img className={styles.bookPicOne}
+      <div className={styles.bookInnerContainer}>
+        <Image className={styles.bookPicOne}
           src={bookObject["imgUrl"]}
-          height={bookObject["height"]}
-          width={bookObject["width"]}
+          height={500}
+          width={350}
           alt="Cover of David Leo Rice's-Authored Books"
         />
-        <img className={styles.bookPicTwo}
+        </div>
+        <div className={styles.bookInnerContainer}>
+        <Image className={styles.bookPicTwo}
           src={bookObject["imgUrl"]}
-          height={bookObject["height"]}
-          width={bookObject["width"]}
+          height={500}
+          width={350}
           alt="Cover of David Leo Rice's-Authored Books"
         />
-        <img className={styles.bookPicThree}
+        </div>
+        <div className={styles.bookInnerContainer}>
+        <Image className={styles.bookPicThree}
           src={bookObject["imgUrl"]}
-          height={bookObject["height"]}
-          width={bookObject["width"]}
+          height={500}
+          width={350}
           alt="Cover of David Leo Rice's-Authored Books"
         />
+        </div>
       </div>
           <div className={styles.purchaseLinkBox}>
         <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Examine&#10154;</a>

@@ -5,8 +5,6 @@ export const books = {
     url: "/the_new_house",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "550",
-    width: "800",
     projectUrl: "https://whiskeytit.com/product/the-new-house/",
     publicity: [
       {
@@ -35,8 +33,6 @@ export const books = {
     url: "/children",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "550",
-    width: "800",
     projectUrl: "https://1111press.bigcartel.com/product/children-of-the-new-flesh-preorder",
     publicity: [
       {
@@ -61,8 +57,6 @@ export const books = {
     url: "/drifter",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "600",
-    width: "800",
     projectUrl: "https://1111press.com/drifter-stories",
     publicity: [
       {
@@ -91,8 +85,6 @@ export const books = {
     url: "/angel_house",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "520",
-    width: "720",
     projectUrl: "http://www.kernpunktpress.com/store/p17/angelhouse.html?fbclid=IwAR3cxvs1UuxYWa2LYpmLRljFGnXJiQWUlUO045nKhmi6pLjLmQj4sbW9cW4",
     publicity: [
       {
@@ -116,8 +108,6 @@ export const books = {
     url: "/dodge",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "520",
-    width: "720",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2016/12/a-room-in-dodge-city-david-leo-rice.html",
     publicity: [
       {
@@ -135,8 +125,6 @@ export const books = {
     url: "/dodge_two",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "520",
-    width: "720",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2020/08/a-room-in-dodge-city-2-david-leo-rice.html",
     publicity: [
       {
@@ -153,8 +141,6 @@ export const books = {
     url: "/pornme",
     thumbHeight: "620",
     thumbWidth: "710",
-    height: "500",
-    width: "700",
     projectUrl: "https://publish.sweek.com/shop/index.php/catalog/product/view/id/479321/s/the-pornme-trinity-210679-publish-sweek-com/category/337/",
     publicity: [
       {
