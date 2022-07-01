@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Header from '../components/header.js'
 import styles from '../styles/Home.module.css'
 Home.title = 'david leo rice'
@@ -15,12 +16,14 @@ export default function Home() {
       booksHtml.push(
         <div className={styles.bookContainer} key={currentEntry.title}>
           <Link href={"/" + currentEntry.url}>
-            <img className={styles.coverImage}
+          <div className={styles.bookInnerContainer}>
+            <Image className={styles.coverImage}
               src={currentEntry.imgUrl}
               height={currentEntry["thumbHeight"] || 300}
               width={currentEntry["thumbWidth"] || 300}
               alt="Cover of David Leo Rice's-Authored Books"
             />
+            </div>
           </Link>
           <div className={styles.bookDescription}>{books[entry].shortText}</div>
         </div>
