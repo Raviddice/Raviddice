@@ -2,7 +2,7 @@ export const books = {
   the_new_house: {
     imgUrl: "/images/NewHouseCover.jpg",
     title: "thenewhouse",
-    url: "/the_new_house",
+    url: "the_new_house",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://whiskeytit.com/product/the-new-house/",
@@ -30,7 +30,7 @@ export const books = {
   children: {
     imgUrl: "/images/ChildrenCover.jpg",
     title: "Children of The New Flesh: The Early Work and Pervasive Influence of David Cronenberg",
-    url: "/children",
+    url: "children",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://1111press.bigcartel.com/product/children-of-the-new-flesh-preorder",
@@ -54,7 +54,7 @@ export const books = {
   drifter: {
     imgUrl: "/images/DrifterCover.jpg",
     title: "Drifter: Stories",
-    url: "/drifter",
+    url: "drifter",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://1111press.com/drifter-stories",
@@ -82,7 +82,7 @@ export const books = {
   angel_house: {
     imgUrl: "/images/AngelHouseCover.jpg",
     title: "Angel House: A Novel",
-    url: "/angel_house",
+    url: "angel_house",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "http://www.kernpunktpress.com/store/p17/angelhouse.html?fbclid=IwAR3cxvs1UuxYWa2LYpmLRljFGnXJiQWUlUO045nKhmi6pLjLmQj4sbW9cW4",
@@ -105,7 +105,7 @@ export const books = {
   dodge: {
     imgUrl: "/images/DodgeCityCover.jpg",
     title: "A Room in Dodge City: A Novel-in-Vignettes",
-    url: "/dodge",
+    url: "dodge",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2016/12/a-room-in-dodge-city-david-leo-rice.html",
@@ -122,7 +122,7 @@ export const books = {
   dodge_two: {
     imgUrl: "/images/DodgeCityTwoCover.jpg",
     title: "A Room in Dodge City Volume Two: The Blut Branson Era",
-    url: "/dodge_two",
+    url: "dodge_two",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://www.press.alternatingcurrentarts.com/2020/08/a-room-in-dodge-city-2-david-leo-rice.html",
@@ -138,7 +138,7 @@ export const books = {
   pornme: {
     imgUrl: "/images/PornMeCover.jpg",
     title: "The Pornme Trinity",
-    url: "/pornme",
+    url: "pornme",
     thumbHeight: "620",
     thumbWidth: "710",
     projectUrl: "https://publish.sweek.com/shop/index.php/catalog/product/view/id/479321/s/the-pornme-trinity-210679-publish-sweek-com/category/337/",
