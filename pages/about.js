@@ -1,6 +1,7 @@
 import Header from '../components/header.js'
 import Image from 'next/image'
 import {useState} from 'react'
+import MailchimpSubscribe from "react-mailchimp-subscribe"
 import styles from '../styles/About.module.css'
 import AuthorPhoto from '../public/images/AboutPageImage.jpg'
 About.title = 'david leo rice ~ about + contact page'
@@ -55,18 +56,7 @@ const handleEmailChange = (event) => {
     <div className={styles.containerTwo}>
     <
     div className={styles.aboutPageProseFour}>And to subscribe to David&apos;s<br/> Mailing List for updates on new work, enter <br/>your email address here:</div>
-    <form className={styles.mailingListForm}>
-     <input
-       aria-label="Your email address"
-       name="email_address"
-       placeholder="Your email address"
-       required
-       type="email"
-       onChange={handleEmailChange}
-       value={email}
-     />
-     <button>SUBSCRIBE</button>
-   </form>
+     <div><MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} /></div>
    <
    br / >
    <
