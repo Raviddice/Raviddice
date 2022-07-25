@@ -1,7 +1,7 @@
 export const books = {
   the_new_house: {
     imgUrl: "/images/NewHouseCover.jpg",
-    title: "thenewhouse",
+    title: "The New House",
     url: "the_new_house",
     thumbHeight: "620",
     thumbWidth: "710",
