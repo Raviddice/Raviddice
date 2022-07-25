@@ -28,6 +28,7 @@ export default function Animations() {
                height="100%"
           />
           </div>
+
       </div>
 
   </>
