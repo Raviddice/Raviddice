@@ -677,6 +677,15 @@ export const podcasts = {
 };
 
 export const whatImReading = {
+  WHATIMREADING722: {
+    month:"July 2022",
+    BookOne: "Malone Dies",
+    imgUrl: "/images/Jesus.jpg",
+    BookTwo: "Lapvona",
+    BookThree: "Trust",
+    BookFour: "Sleepwalk",
+    BookFive: "Demons",
+  },
   WHATIMREADING622: {
     month:"June 2022",
     BookOne: "The Childhood of Jesus",
