@@ -12,7 +12,7 @@ export default function Header(props) {
       <button>&#10154;books (home)&#10154;</button>
     </Link>
     <Link href = "/writings" passHref>
-      <button>&#11059;<i>other writings</i>&#8668;</button>
+      <button>&#11059;<i>interviews // events // other writings</i>&#8668;</button>
     </Link>
     <Link href = "/about" passHref>
       <button>&#8668;about&#10154;</button>

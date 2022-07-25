@@ -1,3 +1,228 @@
+export const interviewsExcerptsEvents = {
+
+  DENNISCOOPERCHILDREN: {
+    workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2022-so-far/?fbclid=IwAR1x7vKOzomnqwCZ57zO05daVg6nkbbaQWEEzMYO7Y8-tsXDUz6CRu2UzNA",
+    workTitle: "Dennis Cooper Recommends Children of The New Flesh",
+    venue: "Dennis Cooper Blog",
+  },
+  DODGECITYTWOINTERVIEW: {
+    workUrl: "https://lareviewofbooks.org/article/the-mythmaker-gazes-at-himself-a-conversation-with-david-leo-rice/",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "LA Review of Books",
+  },
+  DODGECITYTWOINTERVIEWTWO: {
+    workUrl: "http://vol1brooklyn.com/2021/01/12/something-only-a-consummate-outsider-could-concoct-a-conversation-with-david-leo-rice",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  DODGECITYTWOINTERVIEWTHREE: {
+    workUrl: "https://heavyfeatherreview.org/2020/12/22/blut/",
+    workTitle: "DODGE CITY 2 Interview",
+    venue: "Heavy Feather Review",
+  },
+  DODGECITYTWOPLAYLIST: {
+    workUrl: "http://www.largeheartedboy.com/blog/archive/2021/01/david_leo_rices_1.html",
+    workTitle: "DODGE CITY 2 Playlist",
+  },
+  DRIFTERREALEASEEVENT: {
+    workUrl: "https://www.crowdcast.io/e/davidleorice/register",
+    workTitle: "Drifter Virtual Release Event with Tobias Carroll",
+    venue: "Work Bookstore",
+  },
+  DODGECITYTWOBOOKPREVIEW: {
+    workUrl: "http://vol1brooklyn.com/2021/01/05/vol-1-brooklyns-january-2020-book-preview-2/",
+    workTitle: "Dodge City Two Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  ANGELHOUSEINTERVIEW: {
+    workUrl: "https://believermag.com/logger/an-interview-with-david-leo-rice/",
+    workTitle: "Angel House Interview",
+    venue: "The Believer",
+  },
+  ANGELHOUSEINTERVIEWTWO: {
+    workUrl: "https://heavyfeatherreview.org/2020/04/22/angel-house/",
+    workTitle: "Angel House Interview",
+    venue: "Heavy Feather Review",
+  },
+  DENNISCOOPERANGELHOUSE: {
+    workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2019/?fbclid=IwAR3QJ72YoRnzxsINlWH6NbNrhvbQ25HnMpcYm-rQAIKI3K2xYoJ-xdSxjM0",
+    workTitle: "ANGEL HOUSE is one of Dennis Cooper's Favorite Books of 2019!",
+  },
+  PORNMETRINITYINTERVIEW: {
+    workUrl: "https://theopiatemagazine.com/2020/03/15/the-pornme-trinity-interview-with-david-leo-rice/",
+    workTitle: "The PornME Trinity Interview",
+    venue: "The Opiate",
+  },
+  PORNMETRINITYPREVIEW: {
+    workUrl: "https://vol1brooklyn.com/2020/02/04/vol-1-brooklyns-february-2020-book-preview/",
+    workTitle: "The PornME Trinity on Vol.1 Brooklyn's February 2020 Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  SIXRIDICULOUSQUESTIONS: {
+    workUrl: "http://vol1brooklyn.com/2020/06/02/six-ridiculous-questions-david-leo-rice/",
+    workTitle: "Six Ridiculous Questions",
+    venue: "Vol. 1 Brooklyn",
+  },
+  ANGELHOUSEDISCUSSION: {
+    workUrl: "https://soundcloud.com/user-429232387/discussion-with-patrick-mcgrath-at-mcnally-jackson-soho",
+    workTitle: "ANGEL HOUSE Discussion with Patrick McGrath",
+    venue: "McNally Jackson SoHo",
+  },
+  ANGELHOUSEDISCUSSIONTWO: {
+    workUrl: "https://soundcloud.com/user-429232387/book-talk-in-charlotte-with-jeff-jackson",
+    workTitle: "ANGEL HOUSE Discussion with Jeff Jackson",
+    venue: "Park Road Books in Charlotte"
+  },
+  ANGELHOUSEDISCUSSIONTHREE: {
+    workUrl: "https://soundcloud.com/user-429232387/broadside-bookshop-angel-house-reading-with-matt-spellberg",
+    workTitle: "ANGEL HOUSE Discussion with Matthew Spellberg",
+    venue: "Broadside Bookshop"
+  },
+  ANGELHOUSEREADING: {
+    workUrl: "https://www.mcnallyjackson.com/event/angel-house-david-leo-rice-patrick-mcgrath-prince-street",
+    workTitle: "ANGEL HOUSE Reading and Q&A",
+    venue: "with Patrick McGrath, at McNally Jackson SoHo"
+  },
+  ANGELHOUSEREADINGTWO: {
+    workUrl: "https://www.parkroadbooks.com/event/david-leo-rice-conversation-jeff-jackson",
+    workTitle: "ANGEL HOUSE Reading and Q&A with Jeff Jackson",
+    venue: "Charlotte, NC, 12.4.19"
+  },
+  ANGELHOUSEREADINGTHREE: {
+    workUrl: "https://www.broadsidebooks.com/event/david-leo-rice-reads-angel-house-wed-oct-2-7-pm-0",
+    workTitle: "ANGEL HOUSE Reading and Q&A",
+    venue: "Broadside Bookshop, Northampton, MA, 10/2/19"
+  },
+  DREAMSHARINGWORKSHOP: {
+    workUrl: "https://www.daniels.utoronto.ca/events/2020/02/06/dream-parliament-exercise-democracy-sleep",
+    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
+    venue: "University of Toronto 2/6/2020"
+  },
+  ANGELHOUSERADIOINTERVIEW: {
+    workUrl: "https://www.mixcloud.com/ejmartin504/dig-this-july-21-2019/?fbclid=IwAR0xLCY3QpwZVty6p9HkWL7xI9tcw-rLaMxqiWWmIL5HfPBgJo_ONAqtpiE",
+    workTitle: "ANGEL HOUSE Radio Interview in Brattleboro, feat music with Teddy Martin",
+  },
+  VOLONEBROOKLYNANGELHOUSEINTERVIEW: {
+    workUrl: "https://vol1brooklyn.com/2019/06/14/the-history-of-impossible-towns-an-interview-with-david-leo-rice/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "Vol. 1 Brooklyn"
+  },
+  ANGELHOUSESHORTFILM: {
+    workUrl: "https://vimeo.com/341009289?fbclid=IwAR2q-h1QeVPNne25uLirssABlBkSgGesXebXSS2qhpRZ9GXUvZ3fu6Fpn30",
+    workTitle: "ANGEL HOUSE Short Film",
+    venue: "by Rob Rice"
+  },
+  ANGELHOUSEBESTSELLER: {
+    workUrl: "https://www.spdbooks.org/pages/bestsellers/fiction/Fiction-Bestsellers-may/june-2019.aspx",
+    workTitle: "ANGEL HOUSE is an SPD Bestseller!",
+  },
+  ANGELHOUSELITINTERVIEW: {
+    workUrl: "http://www.litmagazine.org/2019/04/17/an-interview-with-david-leo-rice/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "LIT"
+  },
+  ANGELHOUSEPLAYLIST: {
+    workUrl: "http://www.largeheartedboy.com/blog/archive/2019/09/david_leo_rices.html?fbclid=IwAR3bAmsrVBk9Srkl7T9Xl6uZ0CZBeToMPcptJfLDW0YCuD_BFHetjZXgkYA",
+    workTitle: "ANGEL HOUSE Playlist",
+    venue: "Largehearted Boy"
+  },
+  ANGELHOUSEDAADINTERVIEW: {
+    workUrl: "https://www.daad.org/en/2019/06/04/in-profile-david-rice-2/",
+    workTitle: "ANGEL HOUSE Interview",
+    venue: "DAAD"
+  },
+  ANGELHOUSEEXCERPT: {
+    workUrl: "https://bigother.com/2019/06/13/david-leo-rices-angel-house-an-excerpt/?fbclid=IwAR1p3FH3R6eIRTYuezx6GExsZP4TqLbruaA6ZvEFr7gaUcZhAl3aeVtrLEc",
+    workTitle: "ANGEL HOUSE Excerpt",
+    venue: "Big Other"
+  },
+  ANGELHOUSEEXCERPTTWO: {
+    workUrl: "https://heavyfeatherreview.org/2019/07/05/rice/",
+    workTitle: "ANGEL HOUSE Excerpt",
+    venue: "Heavy Feather Review"
+  },
+  ANGELHOUSEBOOKPREVIEW: {
+    workUrl: "http://vol1brooklyn.com/2019/05/30/vol-1-brooklyns-june-2019-book-preview/?fbclid=IwAR1Fm9MTvzgqE2Z_s3FSIZ8QRTXNSvFTc-J_kXMKkZBuhQo_vYHzQbWIupE",
+    workTitle: "ANGEL HOUSE Featured in Vol. 1 Brooklyn's 6/19 Book Preview",
+    venue: "Vol. 1 Brooklyn"
+  },
+  ANGELHOUSEHARVARD: {
+    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
+    workTitle: "ANGEL HOUSE Recommended in The Harvard Gazette",
+    venue: "The Harvard Gazette"
+  },
+  ANGELHOUSEENTROPY: {
+    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
+    workTitle: "ANGEL HOUSE Featured in Entropy's June & July 2019 Book Preview",
+    venue: "Entropy"
+  },
+  DODGECITYINTERVIEW: {
+    workUrl: "http://weirdfictionreview.com/2017/08/performance-grottos-nameless-drifters-interviewing-david-leo-rice-surrealism/",
+    workTitle: "Dodge City Interview",
+    venue: "The Weird Fiction Review"
+  },
+  DODGECITYWEIRDEST: {
+    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
+    workTitle: "Dodge City is the Weirdest Book You've Read",
+    venue: "Reddit",
+  },
+  DODGECITYINTERVIEWTWO: {
+    workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Thoughtful Dog"
+  },
+  DODGECITYINTERVIEWTHREE: {
+    workUrl: "https://www.thecrimson.com/article/2017/11/10/alumnispotlight-davidleorice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Harvard Crimson"
+  },
+  DODGECITYINTERVIEWFOUR: {
+    workUrl: "https://medium.com/the-coil/the-transmitter-david-leo-rice-answers-the-questions-that-matter-7e15d45476e2",
+    workTitle: "Dodge City Interview",
+    venue: "The Transmitter"
+  },
+  DODGECITYINTERVIEWFIVE: {
+    workUrl: "http://www.raviddice.com/shelfawareness_interview.pdf",
+    workTitle: "Dodge City Interview",
+    venue: "Shelf Awareness"
+  },
+  DODGECITYREVIEW: {
+    workUrl: "https://theopiatemagazine.com/2017/04/19/david-leo-rices-a-room-in-dodge-city-offers-a-place-in-antiutopia/",
+    workTitle: "Dodge City Review",
+    venue: "The Opiate"
+  },
+  INDIEBOOKPREVIEW: {
+    workUrl: "https://electricliterature.com/the-great-2017-indie-press-preview-7f7fb8c03f6e",
+    workTitle: "Electric Literature's 2017 Indie Book Preview",
+  },
+  DAADAUTHORPROFILE: {
+    workUrl: "https://www.daad.org/en/2017/07/21/in-profile-david-rice/",
+    workTitle: "Author Profile",
+    venue: "DAAD",
+  },
+  DODGECITYFEATURE: {
+    workUrl: "https://snowflakesarise.wordpress.com/2019/07/16/a-room-in-dodge-city/",
+    workTitle: "Dodge City Featured",
+    venue: "Snowflakes in a Blizzard Blog",
+  },
+  EVENSONMOSTANTICIPATED: {
+    workUrl: "https://bigother.com/2017/02/04/most-anticipated-small-press-books-of-2017/#brian-evenson",
+    workTitle: "Brian Evenson's Most Anticipated Small Press Books of 2017 List",
+    venue: "Big Other",
+  },
+  DODGECITYTWOKGB: {
+    workUrl: "https://www.kgbfantasticfiction.org/2017/11/27/audio-from-nov-15-with-grady-hendrix-david-leo-rice/",
+    workTitle: "Audio Excerpt from Dodge City: Vol. 2 ",
+    venue: "KGB Bar",
+  },
+  DREAMSHARINGTWO: {
+    workUrl: "http://www.cabinetmagazine.org/events/spellberg_powell_rice_dreamparliament.php",
+    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
+    venue: "Cabinet Magazine",
+  },
+
+};
+
 export const stories = {
   TOMANDTHETALKINGCHOCOLATEBAR: {
     workUrl: "https://www.ligeiamagazine.com/fall-2021/tom-and-the-talking-chocolate-bar-david-leo-rice/",
@@ -408,225 +633,6 @@ export const essays = {
     workUrl: "http://www.amazon.com/Oedipus-Sphinx-Threshold-Sophocles-through/dp/022604808X/ref=sr_sp-atf_title_1_1?ie=UTF8&qid=1380674437&sr=8-1&keywords=oedipus+on+the+threshold",
     workTitle: "A book about Oedipus and the Sphinx I helped translate from the German",
   }
-};
-
-export const interviewsExcerptsEvents = {
-  DODGECITYTWOINTERVIEW: {
-    workUrl: "https://lareviewofbooks.org/article/the-mythmaker-gazes-at-himself-a-conversation-with-david-leo-rice/",
-    workTitle: "DODGE CITY 2 Interview",
-    venue: "LA Review of Books",
-  },
-  DODGECITYTWOINTERVIEWTWO: {
-    workUrl: "http://vol1brooklyn.com/2021/01/12/something-only-a-consummate-outsider-could-concoct-a-conversation-with-david-leo-rice",
-    workTitle: "DODGE CITY 2 Interview",
-    venue: "Vol. 1 Brooklyn",
-  },
-  DODGECITYTWOINTERVIEWTHREE: {
-    workUrl: "https://heavyfeatherreview.org/2020/12/22/blut/",
-    workTitle: "DODGE CITY 2 Interview",
-    venue: "Heavy Feather Review",
-  },
-  DODGECITYTWOPLAYLIST: {
-    workUrl: "http://www.largeheartedboy.com/blog/archive/2021/01/david_leo_rices_1.html",
-    workTitle: "DODGE CITY 2 Playlist",
-  },
-  DRIFTERREALEASEEVENT: {
-    workUrl: "https://www.crowdcast.io/e/davidleorice/register",
-    workTitle: "Drifter Virtual Release Event with Tobias Carroll",
-    venue: "Work Bookstore",
-  },
-  DODGECITYTWOBOOKPREVIEW: {
-    workUrl: "http://vol1brooklyn.com/2021/01/05/vol-1-brooklyns-january-2020-book-preview-2/",
-    workTitle: "Dodge City Two Book Preview",
-    venue: "Vol. 1 Brooklyn",
-  },
-  ANGELHOUSEINTERVIEW: {
-    workUrl: "https://believermag.com/logger/an-interview-with-david-leo-rice/",
-    workTitle: "Angel House Interview",
-    venue: "The Believer",
-  },
-  ANGELHOUSEINTERVIEWTWO: {
-    workUrl: "https://heavyfeatherreview.org/2020/04/22/angel-house/",
-    workTitle: "Angel House Interview",
-    venue: "Heavy Feather Review",
-  },
-  DENNISCOOPERANGELHOUSE: {
-    workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2019/?fbclid=IwAR3QJ72YoRnzxsINlWH6NbNrhvbQ25HnMpcYm-rQAIKI3K2xYoJ-xdSxjM0",
-    workTitle: "ANGEL HOUSE is one of Dennis Cooper's Favorite Books of 2019!",
-  },
-  PORNMETRINITYINTERVIEW: {
-    workUrl: "https://theopiatemagazine.com/2020/03/15/the-pornme-trinity-interview-with-david-leo-rice/",
-    workTitle: "The PornME Trinity Interview",
-    venue: "The Opiate",
-  },
-  PORNMETRINITYPREVIEW: {
-    workUrl: "https://vol1brooklyn.com/2020/02/04/vol-1-brooklyns-february-2020-book-preview/",
-    workTitle: "The PornME Trinity on Vol.1 Brooklyn's February 2020 Book Preview",
-    venue: "Vol. 1 Brooklyn",
-  },
-  SIXRIDICULOUSQUESTIONS: {
-    workUrl: "http://vol1brooklyn.com/2020/06/02/six-ridiculous-questions-david-leo-rice/",
-    workTitle: "Six Ridiculous Questions",
-    venue: "Vol. 1 Brooklyn",
-  },
-  ANGELHOUSEDISCUSSION: {
-    workUrl: "https://soundcloud.com/user-429232387/discussion-with-patrick-mcgrath-at-mcnally-jackson-soho",
-    workTitle: "ANGEL HOUSE Discussion with Patrick McGrath",
-    venue: "McNally Jackson SoHo",
-  },
-  ANGELHOUSEDISCUSSIONTWO: {
-    workUrl: "https://soundcloud.com/user-429232387/book-talk-in-charlotte-with-jeff-jackson",
-    workTitle: "ANGEL HOUSE Discussion with Jeff Jackson",
-    venue: "Park Road Books in Charlotte"
-  },
-  ANGELHOUSEDISCUSSIONTHREE: {
-    workUrl: "https://soundcloud.com/user-429232387/broadside-bookshop-angel-house-reading-with-matt-spellberg",
-    workTitle: "ANGEL HOUSE Discussion with Matthew Spellberg",
-    venue: "Broadside Bookshop"
-  },
-  ANGELHOUSEREADING: {
-    workUrl: "https://www.mcnallyjackson.com/event/angel-house-david-leo-rice-patrick-mcgrath-prince-street",
-    workTitle: "ANGEL HOUSE Reading and Q&A",
-    venue: "with Patrick McGrath, at McNally Jackson SoHo"
-  },
-  ANGELHOUSEREADINGTWO: {
-    workUrl: "https://www.parkroadbooks.com/event/david-leo-rice-conversation-jeff-jackson",
-    workTitle: "ANGEL HOUSE Reading and Q&A with Jeff Jackson",
-    venue: "Charlotte, NC, 12.4.19"
-  },
-  ANGELHOUSEREADINGTHREE: {
-    workUrl: "https://www.broadsidebooks.com/event/david-leo-rice-reads-angel-house-wed-oct-2-7-pm-0",
-    workTitle: "ANGEL HOUSE Reading and Q&A",
-    venue: "Broadside Bookshop, Northampton, MA, 10/2/19"
-  },
-  DREAMSHARINGWORKSHOP: {
-    workUrl: "https://www.daniels.utoronto.ca/events/2020/02/06/dream-parliament-exercise-democracy-sleep",
-    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
-    venue: "University of Toronto 2/6/2020"
-  },
-  ANGELHOUSERADIOINTERVIEW: {
-    workUrl: "https://www.mixcloud.com/ejmartin504/dig-this-july-21-2019/?fbclid=IwAR0xLCY3QpwZVty6p9HkWL7xI9tcw-rLaMxqiWWmIL5HfPBgJo_ONAqtpiE",
-    workTitle: "ANGEL HOUSE Radio Interview in Brattleboro, feat music with Teddy Martin",
-  },
-  VOLONEBROOKLYNANGELHOUSEINTERVIEW: {
-    workUrl: "https://vol1brooklyn.com/2019/06/14/the-history-of-impossible-towns-an-interview-with-david-leo-rice/",
-    workTitle: "ANGEL HOUSE Interview",
-    venue: "Vol. 1 Brooklyn"
-  },
-  ANGELHOUSESHORTFILM: {
-    workUrl: "https://vimeo.com/341009289?fbclid=IwAR2q-h1QeVPNne25uLirssABlBkSgGesXebXSS2qhpRZ9GXUvZ3fu6Fpn30",
-    workTitle: "ANGEL HOUSE Short Film",
-    venue: "by Rob Rice"
-  },
-  ANGELHOUSEBESTSELLER: {
-    workUrl: "https://www.spdbooks.org/pages/bestsellers/fiction/Fiction-Bestsellers-may/june-2019.aspx",
-    workTitle: "ANGEL HOUSE is an SPD Bestseller!",
-  },
-  ANGELHOUSELITINTERVIEW: {
-    workUrl: "http://www.litmagazine.org/2019/04/17/an-interview-with-david-leo-rice/",
-    workTitle: "ANGEL HOUSE Interview",
-    venue: "LIT"
-  },
-  ANGELHOUSEPLAYLIST: {
-    workUrl: "http://www.largeheartedboy.com/blog/archive/2019/09/david_leo_rices.html?fbclid=IwAR3bAmsrVBk9Srkl7T9Xl6uZ0CZBeToMPcptJfLDW0YCuD_BFHetjZXgkYA",
-    workTitle: "ANGEL HOUSE Playlist",
-    venue: "Largehearted Boy"
-  },
-  ANGELHOUSEDAADINTERVIEW: {
-    workUrl: "https://www.daad.org/en/2019/06/04/in-profile-david-rice-2/",
-    workTitle: "ANGEL HOUSE Interview",
-    venue: "DAAD"
-  },
-  ANGELHOUSEEXCERPT: {
-    workUrl: "https://bigother.com/2019/06/13/david-leo-rices-angel-house-an-excerpt/?fbclid=IwAR1p3FH3R6eIRTYuezx6GExsZP4TqLbruaA6ZvEFr7gaUcZhAl3aeVtrLEc",
-    workTitle: "ANGEL HOUSE Excerpt",
-    venue: "Big Other"
-  },
-  ANGELHOUSEEXCERPTTWO: {
-    workUrl: "https://heavyfeatherreview.org/2019/07/05/rice/",
-    workTitle: "ANGEL HOUSE Excerpt",
-    venue: "Heavy Feather Review"
-  },
-  ANGELHOUSEBOOKPREVIEW: {
-    workUrl: "http://vol1brooklyn.com/2019/05/30/vol-1-brooklyns-june-2019-book-preview/?fbclid=IwAR1Fm9MTvzgqE2Z_s3FSIZ8QRTXNSvFTc-J_kXMKkZBuhQo_vYHzQbWIupE",
-    workTitle: "ANGEL HOUSE Featured in Vol. 1 Brooklyn's 6/19 Book Preview",
-    venue: "Vol. 1 Brooklyn"
-  },
-  ANGELHOUSEHARVARD: {
-    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
-    workTitle: "ANGEL HOUSE Recommended in The Harvard Gazette",
-    venue: "The Harvard Gazette"
-  },
-  ANGELHOUSEENTROPY: {
-    workUrl: "https://news.harvard.edu/gazette/story/2019/07/harvard-faculty-and-staff-weigh-in-on-their-summer-reading-picks",
-    workTitle: "ANGEL HOUSE Featured in Entropy's June & July 2019 Book Preview",
-    venue: "Entropy"
-  },
-  DODGECITYINTERVIEW: {
-    workUrl: "http://weirdfictionreview.com/2017/08/performance-grottos-nameless-drifters-interviewing-david-leo-rice-surrealism/",
-    workTitle: "Dodge City Interview",
-    venue: "The Weird Fiction Review"
-  },
-  DODGECITYWEIRDEST: {
-    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
-    workTitle: "Dodge City is the Weirdest Book You've Read",
-    venue: "Reddit",
-  },
-  DODGECITYINTERVIEWTWO: {
-    workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
-    workTitle: "Dodge City Interview",
-    venue: "The Thoughtful Dog"
-  },
-  DODGECITYINTERVIEWTHREE: {
-    workUrl: "https://www.thecrimson.com/article/2017/11/10/alumnispotlight-davidleorice/",
-    workTitle: "Dodge City Interview",
-    venue: "The Harvard Crimson"
-  },
-  DODGECITYINTERVIEWFOUR: {
-    workUrl: "https://medium.com/the-coil/the-transmitter-david-leo-rice-answers-the-questions-that-matter-7e15d45476e2",
-    workTitle: "Dodge City Interview",
-    venue: "The Transmitter"
-  },
-  DODGECITYINTERVIEWFIVE: {
-    workUrl: "http://www.raviddice.com/shelfawareness_interview.pdf",
-    workTitle: "Dodge City Interview",
-    venue: "Shelf Awareness"
-  },
-  DODGECITYREVIEW: {
-    workUrl: "https://theopiatemagazine.com/2017/04/19/david-leo-rices-a-room-in-dodge-city-offers-a-place-in-antiutopia/",
-    workTitle: "Dodge City Review",
-    venue: "The Opiate"
-  },
-  INDIEBOOKPREVIEW: {
-    workUrl: "https://electricliterature.com/the-great-2017-indie-press-preview-7f7fb8c03f6e",
-    workTitle: "Electric Literature's 2017 Indie Book Preview",
-  },
-  DAADAUTHORPROFILE: {
-    workUrl: "https://www.daad.org/en/2017/07/21/in-profile-david-rice/",
-    workTitle: "Author Profile",
-    venue: "DAAD",
-  },
-  DODGECITYFEATURE: {
-    workUrl: "https://snowflakesarise.wordpress.com/2019/07/16/a-room-in-dodge-city/",
-    workTitle: "Dodge City Featured",
-    venue: "Snowflakes in a Blizzard Blog",
-  },
-  EVENSONMOSTANTICIPATED: {
-    workUrl: "https://bigother.com/2017/02/04/most-anticipated-small-press-books-of-2017/#brian-evenson",
-    workTitle: "Brian Evenson's Most Anticipated Small Press Books of 2017 List",
-    venue: "Big Other",
-  },
-  DODGECITYTWOKGB: {
-    workUrl: "https://www.kgbfantasticfiction.org/2017/11/27/audio-from-nov-15-with-grady-hendrix-david-leo-rice/",
-    workTitle: "Audio Excerpt from Dodge City: Vol. 2 ",
-    venue: "KGB Bar",
-  },
-  DREAMSHARINGTWO: {
-    workUrl: "http://www.cabinetmagazine.org/events/spellberg_powell_rice_dreamparliament.php",
-    workTitle: "Dream-sharing Workshop with Matthew Spellberg",
-    venue: "Cabinet Magazine",
-  },
-
 };
 
 export const podcasts = {

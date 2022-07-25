@@ -102,12 +102,12 @@ return readingsHtml;
    <Header headerBackground="writingsBackground"/>
       <div className={styles.pageContainer}>
         <div className={styles.worksContainer}>
+        <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
+             <div>{interviewEntries()}</div>
           <h2 className={styles.groupHeader}>... STORIES ...</h2>
                 <div>{storyEntries()}</div>
            <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
                 <div>{essayEntries()}</div>
-           <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
-                <div>{interviewEntries()}</div>
            <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
                 <div>{podcastEntries()}</div>
                   </div>
