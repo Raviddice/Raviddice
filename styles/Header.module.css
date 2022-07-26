@@ -148,11 +148,79 @@
      font-size:1.2rem;
    }
 
+   .header > button:nth-child(2) {
+     margin:0 0 0 2vw;
+   }
+
    .social {
      right:15vw;
    }
 
   }
+
+  @media (width: 1280px) and (height:800px) {
+
+    .header > button:nth-child(2) {
+      margin:0 0 0 12vw;
+    }
+
+   }
+
+  @media (width: 1194px) and (height:834px) {
+
+    .header > button:nth-child(2) {
+      margin:0 0 0 12vw;
+    }
+
+   }
+
+  @media (width: 1180px) and (height:820px) {
+
+    .header > button:nth-child(2) {
+      margin:0 0 0 3vw;
+    }
+
+   }
+
+   @media (width: 1024px) and (height:1366px) {
+
+     .header > button:nth-child(2) {
+       margin:0 0 0 3vw;
+     }
+
+    }
+
+   @media (width: 834px) and (height:1194px) {
+
+     .header > button:nth-child(2) {
+       margin:6vh 0 0 1vw;
+     }
+
+    }
+
+  @media (width: 1080px) and (height:810px) {
+
+    .header > button:nth-child(2) {
+      margin:0 0 0 5vw;
+    }
+
+   }
+
+   @media (width: 1024px) and (height:768px) {
+
+     .header > button:nth-child(2) {
+       margin:0 0 0 5vw;
+     }
+
+    }
+
+    @media (width: 1024px) and (height:600px) {
+
+      .header > button:nth-child(2) {
+        margin:0 0 0 5vw;
+      }
+
+     }
 
   @media (max-width: 913px) and (orientation:portrait) {
 
@@ -161,6 +229,46 @@
     }
 
    }
+
+   @media (width: 912px) and (height:1368px) {
+
+     .header > button:nth-child(2) {
+       margin:5vh 0 0 1vw;
+     }
+
+    }
+
+   @media (width: 820px) and (height:1180px) {
+
+     .header > button:nth-child(2) {
+       margin:10vh 0 0 1vw;
+     }
+
+    }
+
+   @media (width: 810px) and (height:1080px) {
+
+     .header > button:nth-child(2) {
+       margin:10vh 0 0 1vw;
+     }
+
+    }
+
+    @media (width: 800px) and (height:1280px) {
+
+      .header > button:nth-child(2) {
+        margin:6vh 0 0 1vw;
+      }
+
+     }
+
+    @media (width: 768px) and (height:1024px) {
+
+      .header > button:nth-child(2) {
+        margin:3vh 0 0 0;
+      }
+
+     }
 
    @media (max-width: 654px) and (orientation:landscape) {
 
@@ -183,6 +291,18 @@
 
   }
 
+  @media (width: 540px) and (height:720px) {
+
+    .header > button {
+      font-size:1.2rem;
+    }
+
+    .header > button:nth-child(2) {
+      margin:12vh 0 0 1vw;
+    }
+
+   }
+
  @media (max-width: 429px) and (orientation:portrait) {
 
    .header > button {
@@ -190,7 +310,7 @@
    }
 
    .header > button:nth-child(2) {
-     margin:0 0 0 15vw;
+     margin:12vh 0 0 1vw;
    }
 
    .social {
@@ -199,9 +319,21 @@
 
   }
 
+  @media (max-width: 391px) and (orientation:portrait) {
+
+    .header > button:nth-child(2) {
+      margin:14vh 0 0 1vw;
+    }
+
+   }
+
   @media (max-width: 376px) and (orientation:portrait) {
 
     .social {
+      font-size:1rem;
+    }
+
+    .header > button {
       font-size:1rem;
     }
 
@@ -226,7 +358,7 @@
       }
 
       .header > button:nth-child(2) {
-        margin:0 0 0 11vw;
+        margin:11vh 0 0 11vw;
       }
 
       .social {

@@ -680,7 +680,7 @@ export const whatImReading = {
   WHATIMREADING722: {
     month:"July 2022",
     BookOne: "Malone Dies",
-    imgUrl: "/images/Jesus.jpg",
+    imgUrl: "/images/MaloneDies.jpg",
     BookTwo: "Lapvona",
     BookThree: "Trust",
     BookFour: "Sleepwalk",

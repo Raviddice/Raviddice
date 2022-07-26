@@ -28,6 +28,15 @@ export default function Animations() {
                height="100%"
           />
           </div>
+          <br/>
+          <br/>
+          <div className={styles.videoContainerThree}>
+        <ReactPlayer
+             url="https://vimeo.com/42249908"
+             width="100%"
+                height="100%"
+           />
+           </div>
 
       </div>
 
