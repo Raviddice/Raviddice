@@ -2,15 +2,16 @@ import Header from '../components/header.js'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Writings.module.css'
-Writings.title = 'david leo rice ~ writings'
-Writings.pieceName = 'david leo rice ~ writings page'
-Writings.description = 'david leo rice ~ comprehensive list of individual publications'
 import { stories } from "../public/WritingsPageEntries.js";
 import { essays } from "../public/WritingsPageEntries.js";
 import { interviewsExcerptsEvents } from "../public/WritingsPageEntries.js";
 import { podcasts } from "../public/WritingsPageEntries.js";
 import { whatImReading } from "../public/WritingsPageEntries.js";
-// About.image = INSERT LINK TO HEADER!!
+Writings.title = 'david leo rice ~ writings'
+Writings.pieceName = 'david leo rice ~ writings page'
+Writings.description = 'david leo rice ~ comprehensive list of individual publications'
+Writings.image = "https://www.raviddice.com/images/WritingsBackground.jpg"
+
 
 export default function Writings() {
 

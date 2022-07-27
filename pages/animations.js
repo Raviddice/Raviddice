@@ -4,7 +4,7 @@ import styles from '../styles/Animations.module.css'
 Animations.title = 'david leo rice ~ animations'
 Animations.pieceName = 'david leo rice ~ animations page'
 Animations.description = 'david leo rice ~ links to animations'
-// Animations.image = INSERT LINK TO HEADER!!
+Animations.image = "https://www.raviddice.com/images/AnimationsBackground.jpg"
 
 export default function Animations() {
   return (

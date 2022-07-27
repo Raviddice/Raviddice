@@ -3,7 +3,7 @@ import styles from '../styles/WakeIsland.module.css'
 WakeIsland.title = 'david leo rice ~ wake island podcast'
 WakeIsland.pieceName = 'david leo rice ~ wake island podcast'
 WakeIsland.description = 'david leo rice ~ links to wake island podcast episodes'
-// WakeIsland.image = INSERT LINK TO HEADER!!
+WakeIsland.image = "https://www.raviddice.com/images/WakeIslandBackground.jpg"
 
 export default function WakeIsland() {
   return (

@@ -2,10 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '../components/header.js'
 import styles from '../styles/Home.module.css'
+import { books } from "../public/HomePageBookEntries.js";
 Home.title = 'david leo rice'
 Home.pieceName = 'david leo rice'
 Home.description = 'david leo rice ~ homepage ~ books'
-import { books } from "../public/HomePageBookEntries.js";
+Home.image = "https://www.raviddice.com/images/HomeBackground.jpg"
 
 export default function Home() {
 

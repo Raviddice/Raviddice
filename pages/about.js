@@ -7,7 +7,8 @@ import AuthorPhoto from '../public/images/AboutPageImage.jpg'
 About.title = 'david leo rice ~ about + contact page'
 About.pieceName = 'david leo rice ~ about +contact page'
 About.description = 'david leo rice ~ biography + interconnective info'
-// About.image = INSERT LINK TO HEADER!!
+About.image = "https://www.raviddice.com/images/AboutBackground.jpg"
+
 
 
 export default function About() {
