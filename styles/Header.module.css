@@ -39,7 +39,7 @@
 .header > button {
   font-family:"ccclobberintimesmooth";
   font-size:2rem;
-  color:gainsboro;
+  color:snow;
   text-shadow:2px 3px black,
                4px 5px 10px dimgray;
   letter-spacing:0.2vw;
@@ -91,7 +91,7 @@
   width:10vw;
   font-family:"ccclobberintimesmooth";
   font-size:1.2rem;
-  color:#e8e8e8;
+  color:snow;
   text-shadow:2px 3px #b0b0b0,
                4px 5px 10px dimgray;
   position:absolute;

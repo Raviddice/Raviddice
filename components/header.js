@@ -27,7 +27,7 @@ export default function Header(props) {
     <a href="https://twitter.com/raviddice" target="_blank" rel="noreferrer">&#10239;twitter&#8668;</a>
     <a href="https://www.goodreads.com/author/show/16296226.David_Leo_Rice" target="_blank" rel="noreferrer">&#10154;<i>goodreads</i>&#10154;</a>
     <a href="https://www.instagram.com/raviddice/" target="_blank" rel="noreferrer">&#8668;instagram&#8668;</a>
-    <a href="https://www.patreon.com/raviddice?utm_medium=social&utm_source=twitter&utm_campaign=tyshare2" target="_blank" rel="noreferrer">&#10154;&#10239;<i>patreon</i>&#10154;</a>
+    <a href="https://www.amazon.com/s?k=david+leo+rice&i=stripbooks&crid=1TZJE494PG2JW&sprefix=david+leo+rice%2Cstripbooks%2C81&ref=nb_sb_ss_c_2_14_retrain-deeppltr" target="_blank" rel="noreferrer">&#10154;&#10239;<i>amazon</i>&#10154;</a>
     </div>
     </div>
      </>

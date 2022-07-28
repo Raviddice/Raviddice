@@ -304,6 +304,11 @@ export const stories = {
     workTitle: "Jell-o",
     venue: "DIAGRAM",
   },
+  SEEDROOM: {
+    workUrl: "https://www.hobartpulp.com/web_features/seed-room",
+    workTitle: "Seed Room",
+    venue: "Hobart",
+  },
   THEMEADOWS: {
     workUrl: "http://thecollagist.com/the-collagist/2017/7/20/the-meadows.html",
     workTitle: "The Meadows",
@@ -681,8 +686,8 @@ export const whatImReading = {
     month:"July 2022",
     BookOne: "Malone Dies",
     imgUrl: "/images/MaloneDies.jpg",
-    BookTwo: "Lapvona",
-    BookThree: "Trust",
+    BookTwo: "A Scanner Darkly",
+    BookThree: "The Gospel Singer",
     BookFour: "Sleepwalk",
     BookFive: "Demons",
   },
