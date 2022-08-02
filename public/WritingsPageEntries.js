@@ -689,7 +689,7 @@ export const whatImReading = {
     BookTwo: "A Scanner Darkly",
     BookThree: "The Gospel Singer",
     BookFour: "Sleepwalk",
-    BookFive: "Demons",
+    BookFive: "Demons"
   },
   WHATIMREADING622: {
     month:"June 2022",
@@ -698,7 +698,7 @@ export const whatImReading = {
     BookTwo: "Lapvona",
     BookThree: "Trust",
     BookFour: "Sleepwalk",
-    BookFive: "Demons",
+    BookFive: "Demons"
   },
   WHATIMREADING522: {
     month:"May 2022",
@@ -707,7 +707,7 @@ export const whatImReading = {
     BookTwo: "Anna Kavan's Ice",
     BookThree: "Malpertuis",
     BookFour: "24/7",
-    BookFive: "Scorched Earth",
+    BookFive: "Scorched Earth"
   },
   WHATIMREADING422: {
     month:"April 2022",
@@ -715,6 +715,6 @@ export const whatImReading = {
     imgUrl: "/images/Teenager.jpg",
     BookTwo: "Motor Spirit",
     BookThree: "The Driver's Seat",
-    BookFour: "Valleyesque",
+    BookFour: "Valleyesque"
   }
 };
