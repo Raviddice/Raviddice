@@ -1,0 +1,90 @@
+.footerText {
+  margin:17vh 2vw;
+  font-family:"ccclobberintimecrunchy";
+  font-size:1.2rem;
+  text-shadow:2px 3px snow,
+               4px 5px 20px dimgray;
+  letter-spacing:0.7vw;
+  text-align:right;
+}
+
+.whiteText {
+  color:white;
+  text-shadow:2px 3px dimgray,
+               4px 5px 20px black;
+}
+
+.spreader {
+  letter-spacing: 1rem;
+}
+
+.spreaderTwo {
+  letter-spacing: 1.2rem;
+}
+
+.spreaderThree {
+  letter-spacing: 1.3rem;
+}
+
+.footerLink {
+  color:white;
+  text-shadow:2px 3px dimgray,
+               4px 5px 20px black;
+  letter-spacing:1.1rem;
+}
+
+.footerLink:hover {
+  color:black;
+  text-shadow:2px 3px snow,
+               4px 5px 10px dimgray;
+}
+
+.blackFooterLetter {
+  color:black;
+  text-shadow:2px 3px snow,
+               4px 5px 20px dimgray;
+}
+
+@media (max-width:541px) and (orientation:portrait) {
+
+  .footerText {
+    font-size:0.9rem;
+    letter-spacing:0.2rem;
+  }
+
+   .footerLink {
+     font-size:0.9rem;
+     letter-spacing:0.3rem;
+   }
+
+   .spreader {
+     letter-spacing: 0.1rem;
+   }
+
+   .spreaderTwo {
+     letter-spacing: 0.2rem;
+   }
+
+   .spreaderThree {
+     letter-spacing: 0.3rem;
+   }
+
+}
+
+@media (max-width:391px) and (orientation:portrait) {
+
+  .footerText {
+    letter-spacing:0.2;
+  }
+}
+
+@media (max-width:321px) and (orientation:portrait) {
+
+  .footerText {
+    letter-spacing:0;
+  }
+
+  .footerLink {
+    letter-spacing: 0.2rem;
+  }
+}

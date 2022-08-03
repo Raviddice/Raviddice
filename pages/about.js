@@ -1,4 +1,5 @@
 import Header from '../components/header.js'
+import Footer from '../components/footer.js'
 import Image from 'next/image'
 import { useState } from 'react'
 import MailchimpSubscribe from "react-mailchimp-subscribe"
@@ -64,6 +65,7 @@ export default function About() {
                 br />
             </div>
    </div>
+   <Footer/>
             <
     />
 

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Header from '../components/header.js'
+import Footer from '../components/footer.js'
 import styles from '../styles/Home.module.css'
 import { books } from "../public/HomePageBookEntries.js";
 Home.title = 'david leo rice'
@@ -36,7 +37,8 @@ export default function Home() {
   return (
   <>
   <Header headerBackground="homeBackground"/>
-   <div className={styles.pageContainer}>{bookEntries()}</div>;
+   <div className={styles.pageContainer}>{bookEntries()}</div>
+   <Footer/>
   </>
 )
   }

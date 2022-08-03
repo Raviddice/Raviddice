@@ -1,4 +1,5 @@
 import Header from '../components/header.js'
+import Footer from '../components/footer.js'
 import ReactPlayer from "react-player"
 import styles from '../styles/Animations.module.css'
 Animations.title = 'david leo rice ~ animations'
@@ -39,6 +40,7 @@ export default function Animations() {
            </div>
 
       </div>
+      <Footer/>
 
   </>
   )
