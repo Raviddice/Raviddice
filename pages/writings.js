@@ -1,5 +1,4 @@
 import Header from '../components/header.js'
-import Footer from '../components/footer.js'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Writings.module.css'
@@ -115,7 +114,6 @@ return readingsHtml;
    </div>
 
     </div>
-    <Footer/>
     </>
   )
 }

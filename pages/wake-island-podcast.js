@@ -1,5 +1,4 @@
 import Header from '../components/header.js'
-import Footer from '../components/footer.js'
 import styles from '../styles/WakeIsland.module.css'
 WakeIsland.title = 'david leo rice ~ wake island podcast'
 WakeIsland.pieceName = 'david leo rice ~ wake island podcast'
@@ -19,7 +18,6 @@ export default function WakeIsland() {
       <div className={styles.wakeIslandContainer}>
     <iframe frameBorder="0" height="450" width="600" src="https://embed.podcasts.apple.com/us/podcast/wake-island/id1485799907"></iframe>
       </div>
-      <Footer/>
     </>
   )
 }
