@@ -6,7 +6,7 @@ import { stories, essays, interviewsExcerptsEvents, podcasts, whatImReading} fro
 Writings.title = 'david leo rice ~ writings'
 Writings.pieceName = 'david leo rice ~ writings page'
 Writings.description = 'david leo rice ~ comprehensive list of individual publications'
-Writings.image = "https://www.raviddice.com/images/WritingsBackground.jpg"
+Writings.image = "https://www.raviddice.com/images/HomeBackground.jpg"
 
 
 export default function Writings() {

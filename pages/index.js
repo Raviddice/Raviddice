@@ -7,7 +7,7 @@ import { books } from "../public/HomePageBookEntries.js";
 Home.title = 'david leo rice'
 Home.pieceName = 'david leo rice'
 Home.description = 'david leo rice ~ homepage ~ books'
-Home.image = "https://www.raviddice.com/images/HomeBackground.jpg"
+Home.image = "https://www.raviddice.com/images/WritingsBackground.jpg"
 
 export default function Home() {
 
