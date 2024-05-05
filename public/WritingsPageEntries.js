@@ -367,10 +367,28 @@ export const interviewsExcerptsEvents = {
     workTitle: "Dream-sharing Workshop with Matthew Spellberg",
     venue: "Cabinet Magazine",
   },
-
+  // Wake Island Section
+  WAKE_ISLAND_SECTION: {
+    sectionName: "Wake Island"
+  },
+  WI_XRAY: {
+    workUrl: "https://xraylitmag.com/transmissions-wake-island/interviews-reviews/",
+    workTitle: "Transmissions: Wake Island",
+    venue: "X-R-A-Y",
+  },
 };
 
 export const stories = {
+  MUSEUM_OF_LEAVING_MY_ROOM: {
+    workUrl: "https://www.ergot.press/authors/David_Leo_Rice/The_Museum_of_Leaving_My_Room",
+    workTitle: "The Museum of Leaving My Room",
+    venue: "ergot.",
+  },
+  JAKOB_AT_MASS_MOCA: {
+    workUrl: "https://www.alwayscrashing.com/current/2024/1/15/david-leo-rice-jakob-at-mass-moca",
+    workTitle: "Jakob at Mass MoCA",
+    venue: "Always Crashing",
+  },
   TOMANDTHETALKINGCHOCOLATEBAR: {
     workUrl: "https://www.ligeiamagazine.com/fall-2021/tom-and-the-talking-chocolate-bar-david-leo-rice/",
     workTitle: "Tom and The Talking Chocolate Bar",

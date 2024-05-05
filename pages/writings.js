@@ -11,13 +11,18 @@ Writings.image = "https://www.raviddice.com/images/HomeBackground.jpg"
 
 export default function Writings() {
 
-     function storyEntries() {
+  function storyEntries() {
     let storyHtml = [];
     for (const entry in stories) {
       let currentEntry = stories[entry];
       storyHtml.push(
         <div className={styles.entryContainer} key={currentEntry.title}>
-          <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>&#10154;&#10154;&#10154; {stories[entry].workTitle} &#10154;&#10154;&#10154;<span className={styles.venue}>{stories[entry].venue}</span></a>
+          <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>
+          <span>
+            &#10154;&#10154;&#10154; {stories[entry].workTitle} &#10154;&#10154;&#10154;
+            <span className={styles.venue}>{stories[entry].venue}</span>
+            </span>
+          </a>
         </div>
       );
     }
@@ -26,15 +31,18 @@ export default function Writings() {
   }
 
   function essayEntries() {
- let essayHtml = [];
- for (const entry in essays) {
-   let currentEntry = essays[entry];
-   essayHtml.push(
-     <div className={styles.entryContainer} key={currentEntry.title}>
-       <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>&#10154;&#10154;&#10154; {essays[entry].workTitle} &#10154;&#10154;&#10154;<span className={styles.venue}>{essays[entry].venue}</span></a>
-     </div>
-   );
- }
+   let essayHtml = [];
+   for (const entry in essays) {
+     let currentEntry = essays[entry];
+     essayHtml.push(
+       <div className={styles.entryContainer} key={currentEntry.title}>
+         <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>
+          &#10154;&#10154;&#10154; {essays[entry].workTitle} &#10154;&#10154;&#10154;
+          <span className={styles.venue}>{essays[entry].venue}</span>
+         </a>
+       </div>
+     );
+   }
 
  return essayHtml;
 }
@@ -102,26 +110,26 @@ for (const entry in whatImReading) {
 return readingsHtml;
 }
 
-  return (
+return (
   <>
-   <Header headerBackground="writingsBackground"/>
+    <Header headerBackground="writingsBackground"/>
       <div className={styles.pageContainer}>
         <div className={styles.worksContainer}>
-        <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
-             <div>{interviewEntries()}</div>
+          <h2 className={styles.groupHeader}>... INTERVIEWS ... <br/> ... EXCERPTS ... <br/> ... EVENTS ...</h2>
+               <div>{interviewEntries()}</div>
           <h2 className={styles.groupHeader}>... STORIES ...</h2>
                 <div>{storyEntries()}</div>
-           <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
+          <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
                 <div>{essayEntries()}</div>
-           <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
+          <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
                 <div>{podcastEntries()}</div>
-                  </div>
-        <div className={styles.readingContainer}>
-           <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I&apos;m ... <br/> ... Reading ... </h2>
-        <div className={styles.readingsContainer}>{readingsEntries()}</div>
-   </div>
+          </div>
+          <div className={styles.readingContainer}>
+             <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I&apos;m ... <br/> ... Reading ... </h2>
+          <div className={styles.readingsContainer}>{readingsEntries()}</div>
+        </div>
 
-    </div>
-    </>
+      </div>
+  </>
   )
 }
