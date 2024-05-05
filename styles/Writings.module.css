@@ -107,6 +107,12 @@
   text-align:center;
 }
 
+.workSubtitle {
+  font-family: "ccclobberintimesmooth";
+  margin: 0 0 4.5vh 14vw;
+  font-size: 1.5rem;
+}
+
 .month {
   text-transform:uppercase;
 }

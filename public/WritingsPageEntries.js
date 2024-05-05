@@ -1,9 +1,154 @@
 export const interviewsExcerptsEvents = {
-
+  // Children of the New Flesh Seciton
+  CHILDREN_OF_THE_NEW_FLESH_SECTION: {
+    sectionName: "Children of the New Flesh"
+  },
+  KIRKUS_CHILDREN: {
+    workUrl: "https://www.kirkusreviews.com/book-reviews/chris-kelso/children-of-the-new-flesh-the-early-work-and-perva/",
+    workTitle: "Review of Children of the New Flesh",
+    venue: "Kirkus Reviews",
+  },
   DENNISCOOPERCHILDREN: {
     workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2022-so-far/?fbclid=IwAR1x7vKOzomnqwCZ57zO05daVg6nkbbaQWEEzMYO7Y8-tsXDUz6CRu2UzNA",
     workTitle: "Dennis Cooper Recommends Children of The New Flesh",
     venue: "Dennis Cooper Blog",
+  },
+  CULTURED_VULTURES_COTNF: {
+    workUrl: "https://culturedvultures.com/children-of-the-new-flesh-review/#google_vignette",
+    workTitle: "Review of Children of the New Flesh",
+    venue: "Cultured Vultures",
+  },
+  BAFFLER_COTF_ESSAY: {
+    workUrl: "https://thebaffler.com/latest/art-is-the-new-puberty-rice?fbclid=IwAR3tcbeRtVVYcdmb_j0xgrWN5N6UfJl0sskihF0UmvukD15sHjvcSRONFd8",
+    workTitle: "Art Is the New Puberty",
+    venue: "The Baffler",
+  },
+  COTNF_SWR_INTERVIEW: {
+    workUrl: "https://southwestreview.com/the-freedom-to-get-weird-an-interview-with-david-leo-rice/",
+    workTitle: "The Freedom to Get Weird",
+    venue: "Southwest Review",
+  },
+  COTNF_WTR_INTERVIEW: {
+    workUrl: "https://www.noisemakerjoe.com/wtr/2022/7/22/rejoinder-children-of-the-new-flesh-with-chris-kelso-and-david-leo-rice",
+    workTitle: "Rejoinder: Children of the New Flesh with Chris Kelso and David Leo Rice",
+    venue: "Writing the Rapids",
+  },
+  COTNF_APOCYLYPSE_CONFIDENTIAL: {
+    workUrl: "https://apocalypse-confidential.com/2022/07/28/mutant-prophecy-in-media-context/",
+    workTitle: "MUTANT PROPHECY IN MEDIA CONTEXT",
+    venue: "Apocylypse Confidential",
+  },
+  COTNF_THE_FILM_STAGE: {
+    workUrl: "https://thefilmstage.com/recommended-new-books-on-filmmaking-michael-mann-returns-to-heat-long-live-cronenberg-exploring-fire-walk-with-me/",
+    workTitle: "Recommended New Books on Filmmaking",
+    venue: "The Film Stage",
+  },
+  COTNF_DAILY_GRINDHOUSE: {
+    workUrl: "http://dailygrindhouse.com/thewire/desktop-surgery-on-chris-kelso-and-david-leo-rices-children-of-the-new-flesh/",
+    workTitle: "Desktop Surgery",
+    venue: "Daily Grindhouse",
+  },
+  COTNF_NICK_HUDSON: {
+    workUrl: "https://www.theacademyofsun.com/post/book-review-children-of-the-new-flesh-the-early-work-and-pervasive-influence-of-david-cronenberg",
+    workTitle: "Children of the New Flesh Review",
+    venue: "Nick Hudson Industries",
+  },
+  COTNF_TOR_BOTY: {
+    workUrl: "https://tornightfire.com/11-of-our-favorite-horror-collections-and-anthologies-from-2022/?fbclid=IwAR0MuM-IVzADfuVFMspT52_i3sStHti_V0E236pZHHwwaRr1rBRwdlUSLmY",
+    workTitle: "Best of the Year List",
+    venue: "Tor Nightfire",
+  },
+  COTNF_IZ_DIGITAL: {
+    workUrl: "https://interzone.digital/a-review-of-children-of-the-new-flesh/",
+    workTitle: "Review",
+    venue: "IZ Digital",
+  },
+  // The New House Section
+  NEW_HOUSE_SECTION: {
+    sectionName: "The New House"
+  },
+  TNH_THE_LINEUP: {
+    workUrl: "https://atlasminor.com/the-new-house-by-david-leo-rice/",
+    workTitle: "The New House Recommended",
+    venue: "Atlas Minor",
+  },
+  TNH_MINOR_LITS: {
+    workUrl: "https://minorliteratures.com/2022/06/07/indeterminacy-is-what-keeps-us-alive-and-makes-us-real-an-interview-with-david-leo-rice-samuel-m-moss/",
+    workTitle: "Indeterminacy is what keeps us alive and makes us real",
+    venue: "minor literature[s]",
+  },
+  TNH_HFR_REVIEW: {
+    workUrl: "https://heavyfeatherreview.org/2022/06/24/the-new-house/",
+    workTitle: "Review",
+    venue: "Heavy Feather Review",
+  },
+  TNH_VOL_ONE_BKLN_PREVIEW: {
+    workUrl: "https://vol1brooklyn.com/2022/07/07/vol-1-brooklyns-july-2022-book-preview/",
+    workTitle: "July 2022 Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  TNH_BTZ: {
+    workUrl: "https://podcasts.apple.com/us/podcast/david-leo-rice/id1578980767?i=1000571447352",
+    workTitle: "Podcast Interview",
+    venue: "Beyond the Zero",
+  },
+  TNH_HFR_INTERVIEW: {
+    workUrl: "https://heavyfeatherreview.org/2022/08/01/risking-chaos/",
+    workTitle: "Risking Chaos: Marcus Pactor Chats with David Leo Rice",
+    venue: "Heavy Feather Review",
+  },
+  TNH_VOL_ONE_BKLN_INTERVIEW: {
+    workUrl: "https://vol1brooklyn.com/2022/08/10/a-burrowing-transcendence-a-conversation-with-david-leo-rice/",
+    workTitle: "A Burrowing Transcendence",
+    venue: "Vol. 1 Brooklyn",
+  },
+  TNH_LHB_PLAYLIST: {
+    workUrl: "https://largeheartedboy.com/blog/archive/2022/08/david_leo_rices_3.html",
+    workTitle: "Playlist for The New House",
+    venue: "Large Hearted Boy",
+  },
+  TNH_ELECTRIC_LIT: {
+    workUrl: "https://electricliterature.com/can-you-be-an-outsider-artist-if-you-crave-mainstream-recognition/",
+    workTitle: "Can You Be an Outsider Artist If You Crave Mainstream Recognition?",
+    venue: "Electric Lit",
+  },
+  // The PornMe Trinity Section
+  PORNME_SECTION: {
+    sectionName: "The PornME Trinity"
+  },
+  PMT_SECOND_EDITION: {
+    workUrl: "https://theopiatemagazine.com/2022/10/13/the-opiate-books-presents-the-pornme-trinity-2nd-edition/",
+    workTitle: "The PornME Trinity, 2nd Edition",
+    venue: "The Opiate",
+  },
+  PMT_VOL_ONE_BKLN: {
+    workUrl: "https://theopiatemagazine.com/2020/03/15/the-pornme-trinity-interview-with-david-leo-rice/",
+    workTitle: "The Parable of Rod-On Gribby: A REVIEW",
+    venue: "Vol. 1 Brooklyn",
+  },
+  PMT_HFR_REIVEW: {
+    workUrl: "https://www.ligeiamagazine.com/spring-2023/lindsay-lerman-and-david-leo-rice-interview/",
+    workTitle: "PornMe Trilogy 2nd Edition Review",
+    venue: "Heavy Feather Review",
+  },
+  PMT_LL_INTERVIEW: {
+    workUrl: "https://heavyfeatherreview.org/2023/02/03/the-pornme-trinity/",
+    workTitle: "Interview with Lindsey Lerman",
+    venue: "Ligeia Magazine",
+  },
+  PORNME_TRINITY_INTERVIEW: {
+    workUrl: "https://vol1brooklyn.com/2022/12/19/the-parable-of-rod-on-gribby-a-review-of-david-leo-rices-the-pornme-trinity/",
+    workTitle: "The PornME Trinity Interview",
+    venue: "The Opiate",
+  },
+  PORNME_TRINITY_PREVIEW: {
+    workUrl: "https://vol1brooklyn.com/2020/02/04/vol-1-brooklyns-february-2020-book-preview/",
+    workTitle: "The PornME Trinity on Vol.1 Brooklyn's February 2020 Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  // A Room in Dodge City Vol. 2 Section
+  DODGE_CITY_TWO_SECTION: {
+    sectionName: "A Room in Dodge City Vol. 2"
   },
   DODGECITYTWOINTERVIEW: {
     workUrl: "https://lareviewofbooks.org/article/the-mythmaker-gazes-at-himself-a-conversation-with-david-leo-rice/",
@@ -15,24 +160,76 @@ export const interviewsExcerptsEvents = {
     workTitle: "DODGE CITY 2 Interview",
     venue: "Vol. 1 Brooklyn",
   },
+  DODGECITYTWOPLAYLIST: {
+    workUrl: "http://www.largeheartedboy.com/blog/archive/2021/01/david_leo_rices_1.html",
+    workTitle: "DODGE CITY 2 Playlist",
+  },
   DODGECITYTWOINTERVIEWTHREE: {
     workUrl: "https://heavyfeatherreview.org/2020/12/22/blut/",
     workTitle: "DODGE CITY 2 Interview",
     venue: "Heavy Feather Review",
   },
-  DODGECITYTWOPLAYLIST: {
-    workUrl: "http://www.largeheartedboy.com/blog/archive/2021/01/david_leo_rices_1.html",
-    workTitle: "DODGE CITY 2 Playlist",
+  DODGECITYTWOBOOKPREVIEW: {
+    workUrl: "http://vol1brooklyn.com/2021/01/05/vol-1-brooklyns-january-2020-book-preview-2/",
+    workTitle: "Dodge City Two Book Preview",
+    venue: "Vol. 1 Brooklyn",
+  },
+  DODGECITYTWOKGB: {
+    workUrl: "https://www.kgbfantasticfiction.org/2017/11/27/audio-from-nov-15-with-grady-hendrix-david-leo-rice/",
+    workTitle: "Audio Excerpt from Dodge City: Vol. 2 ",
+    venue: "KGB Bar",
+  },
+  // A Room in Dodge City I Section
+  DODGE_CITY_SECTION: {
+    sectionName: "A Room in Dodge City"
+  },
+  DODGECITYINTERVIEW: {
+    workUrl: "http://weirdfictionreview.com/2017/08/performance-grottos-nameless-drifters-interviewing-david-leo-rice-surrealism/",
+    workTitle: "Dodge City Interview",
+    venue: "The Weird Fiction Review"
+  },
+  DODGECITYWEIRDEST: {
+    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
+    workTitle: "Dodge City is the Weirdest Book You've Read",
+    venue: "Reddit",
+  },
+  DODGECITYINTERVIEWTWO: {
+    workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Thoughtful Dog"
+  },
+  DODGECITYINTERVIEWTHREE: {
+    workUrl: "https://www.thecrimson.com/article/2017/11/10/alumnispotlight-davidleorice/",
+    workTitle: "Dodge City Interview",
+    venue: "The Harvard Crimson"
+  },
+  DODGECITYINTERVIEWFOUR: {
+    workUrl: "https://medium.com/the-coil/the-transmitter-david-leo-rice-answers-the-questions-that-matter-7e15d45476e2",
+    workTitle: "Dodge City Interview",
+    venue: "The Transmitter"
+  },
+  DODGECITYINTERVIEWFIVE: {
+    workUrl: "http://www.raviddice.com/shelfawareness_interview.pdf",
+    workTitle: "Dodge City Interview",
+    venue: "Shelf Awareness"
+  },
+  DODGECITYREVIEW: {
+    workUrl: "https://theopiatemagazine.com/2017/04/19/david-leo-rices-a-room-in-dodge-city-offers-a-place-in-antiutopia/",
+    workTitle: "Dodge City Review",
+    venue: "The Opiate"
+  },
+  // Drifter: Stories Section
+  DRIFTER_SECTION: {
+    sectionName: "Drifter: Stories"
   },
   DRIFTERREALEASEEVENT: {
     workUrl: "https://www.crowdcast.io/e/davidleorice/register",
     workTitle: "Drifter Virtual Release Event with Tobias Carroll",
     venue: "Work Bookstore",
   },
-  DODGECITYTWOBOOKPREVIEW: {
-    workUrl: "http://vol1brooklyn.com/2021/01/05/vol-1-brooklyns-january-2020-book-preview-2/",
-    workTitle: "Dodge City Two Book Preview",
-    venue: "Vol. 1 Brooklyn",
+  // Angel House Section
+  ANGEL_HOUSE_SECTION: {
+    sectionName: "Angel House"
   },
   ANGELHOUSEINTERVIEW: {
     workUrl: "https://believermag.com/logger/an-interview-with-david-leo-rice/",
@@ -47,16 +244,6 @@ export const interviewsExcerptsEvents = {
   DENNISCOOPERANGELHOUSE: {
     workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-film-art-and-internet-of-2019/?fbclid=IwAR3QJ72YoRnzxsINlWH6NbNrhvbQ25HnMpcYm-rQAIKI3K2xYoJ-xdSxjM0",
     workTitle: "ANGEL HOUSE is one of Dennis Cooper's Favorite Books of 2019!",
-  },
-  PORNMETRINITYINTERVIEW: {
-    workUrl: "https://theopiatemagazine.com/2020/03/15/the-pornme-trinity-interview-with-david-leo-rice/",
-    workTitle: "The PornME Trinity Interview",
-    venue: "The Opiate",
-  },
-  PORNMETRINITYPREVIEW: {
-    workUrl: "https://vol1brooklyn.com/2020/02/04/vol-1-brooklyns-february-2020-book-preview/",
-    workTitle: "The PornME Trinity on Vol.1 Brooklyn's February 2020 Book Preview",
-    venue: "Vol. 1 Brooklyn",
   },
   SIXRIDICULOUSQUESTIONS: {
     workUrl: "http://vol1brooklyn.com/2020/06/02/six-ridiculous-questions-david-leo-rice/",
@@ -156,41 +343,6 @@ export const interviewsExcerptsEvents = {
     workTitle: "ANGEL HOUSE Featured in Entropy's June & July 2019 Book Preview",
     venue: "Entropy"
   },
-  DODGECITYINTERVIEW: {
-    workUrl: "http://weirdfictionreview.com/2017/08/performance-grottos-nameless-drifters-interviewing-david-leo-rice-surrealism/",
-    workTitle: "Dodge City Interview",
-    venue: "The Weird Fiction Review"
-  },
-  DODGECITYWEIRDEST: {
-    workUrl: "https://www.reddit.com/r/WeirdLit/comments/cr7rjw/weirdest_book_youve_read/",
-    workTitle: "Dodge City is the Weirdest Book You've Read",
-    venue: "Reddit",
-  },
-  DODGECITYINTERVIEWTWO: {
-    workUrl: "https://www.thoughtfuldogmag.com/thoughtful-dog-interview-david-leo-rice/",
-    workTitle: "Dodge City Interview",
-    venue: "The Thoughtful Dog"
-  },
-  DODGECITYINTERVIEWTHREE: {
-    workUrl: "https://www.thecrimson.com/article/2017/11/10/alumnispotlight-davidleorice/",
-    workTitle: "Dodge City Interview",
-    venue: "The Harvard Crimson"
-  },
-  DODGECITYINTERVIEWFOUR: {
-    workUrl: "https://medium.com/the-coil/the-transmitter-david-leo-rice-answers-the-questions-that-matter-7e15d45476e2",
-    workTitle: "Dodge City Interview",
-    venue: "The Transmitter"
-  },
-  DODGECITYINTERVIEWFIVE: {
-    workUrl: "http://www.raviddice.com/shelfawareness_interview.pdf",
-    workTitle: "Dodge City Interview",
-    venue: "Shelf Awareness"
-  },
-  DODGECITYREVIEW: {
-    workUrl: "https://theopiatemagazine.com/2017/04/19/david-leo-rices-a-room-in-dodge-city-offers-a-place-in-antiutopia/",
-    workTitle: "Dodge City Review",
-    venue: "The Opiate"
-  },
   INDIEBOOKPREVIEW: {
     workUrl: "https://electricliterature.com/the-great-2017-indie-press-preview-7f7fb8c03f6e",
     workTitle: "Electric Literature's 2017 Indie Book Preview",
@@ -209,11 +361,6 @@ export const interviewsExcerptsEvents = {
     workUrl: "https://bigother.com/2017/02/04/most-anticipated-small-press-books-of-2017/#brian-evenson",
     workTitle: "Brian Evenson's Most Anticipated Small Press Books of 2017 List",
     venue: "Big Other",
-  },
-  DODGECITYTWOKGB: {
-    workUrl: "https://www.kgbfantasticfiction.org/2017/11/27/audio-from-nov-15-with-grady-hendrix-david-leo-rice/",
-    workTitle: "Audio Excerpt from Dodge City: Vol. 2 ",
-    venue: "KGB Bar",
   },
   DREAMSHARINGTWO: {
     workUrl: "http://www.cabinetmagazine.org/events/spellberg_powell_rice_dreamparliament.php",

@@ -43,11 +43,19 @@ function interviewEntries() {
 let interviewHtml = [];
 for (const entry in interviewsExcerptsEvents) {
  let currentEntry = interviewsExcerptsEvents[entry];
- interviewHtml.push(
-   <div className={styles.entryContainer} key={currentEntry.title}>
-     <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>&#10154;&#10154;&#10154; {interviewsExcerptsEvents[entry].workTitle} &#10154;&#10154;&#10154;<span className={styles.venue}>{interviewsExcerptsEvents[entry].venue}</span></a>
-   </div>
- );
+ if(currentEntry.sectionName){
+   interviewHtml.push(
+     <div className={styles.workSubtitle} key={currentEntry.sectionName}>
+       <span>+ {currentEntry.sectionName} +</span>
+     </div>
+   );
+ } else {
+   interviewHtml.push(
+     <div className={styles.entryContainer} key={currentEntry.title}>
+       <a className={styles.workLink} href={currentEntry.workUrl} target="_blank" rel="noreferrer" passHref>&#10154;&#10154;&#10154; {interviewsExcerptsEvents[entry].workTitle} &#10154;&#10154;&#10154;<span className={styles.venue}>{interviewsExcerptsEvents[entry].venue}</span></a>
+     </div>
+   );
+ }
 }
 
 return interviewHtml;
