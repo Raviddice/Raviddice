@@ -1,4 +1,18 @@
 export const interviewsExcerptsEvents = {
+  // The Berlin Wall Section
+  THE_BERLIN_WALL_SECTION: {
+    sectionName: "The Belin Wall"
+  },
+  TBW_VOL: {
+    workUrl: "https://vol1brooklyn.com/2024/05/06/books-of-the-month-may-2024/",
+    workTitle: "Books of the Month: 2024",
+    venue: "Vol. 1 Brooklyn",
+  },
+  TBW_REACTOR: {
+    workUrl: "https://reactormag.com/cant-miss-indie-press-speculative-fiction-for-may-and-june-2024/",
+    workTitle: "Can’t Miss Indie Press Speculative Fiction for May and June 2024",
+    venue: "Reactor",
+  },
   // Children of the New Flesh Seciton
   CHILDREN_OF_THE_NEW_FLESH_SECTION: {
     sectionName: "Children of the New Flesh"
@@ -67,6 +81,7 @@ export const interviewsExcerptsEvents = {
   NEW_HOUSE_SECTION: {
     sectionName: "The New House"
   },
+
   TNH_THE_LINEUP: {
     workUrl: "https://atlasminor.com/the-new-house-by-david-leo-rice/",
     workTitle: "The New House Recommended",
@@ -843,43 +858,5 @@ export const podcasts = {
   DRINKSWITHTONY: {
     workUrl: "https://www.stitcher.com/show/drinks-with-tony/episode/david-leo-rice-169-88855737",
     workTitle: "Appearance on Drinks With Tony",
-  }
-};
-
-export const whatImReading = {
-  WHATIMREADING722: {
-    month:"July 2022",
-    BookOne: "Malone Dies",
-    imgUrl: "/images/MaloneDies.jpg",
-    BookTwo: "A Scanner Darkly",
-    BookThree: "The Gospel Singer",
-    BookFour: "Sleepwalk",
-    BookFive: "Demons"
-  },
-  WHATIMREADING622: {
-    month:"June 2022",
-    BookOne: "The Childhood of Jesus",
-    imgUrl: "/images/Jesus.jpg",
-    BookTwo: "Lapvona",
-    BookThree: "Trust",
-    BookFour: "Sleepwalk",
-    BookFive: "Demons"
-  },
-  WHATIMREADING522: {
-    month:"May 2022",
-    BookOne: "Augustus",
-    imgUrl: "/images/Augustus.jpg",
-    BookTwo: "Anna Kavan's Ice",
-    BookThree: "Malpertuis",
-    BookFour: "24/7",
-    BookFive: "Scorched Earth"
-  },
-  WHATIMREADING422: {
-    month:"April 2022",
-    BookOne: "Teenager",
-    imgUrl: "/images/Teenager.jpg",
-    BookTwo: "Motor Spirit",
-    BookThree: "The Driver's Seat",
-    BookFour: "Valleyesque"
   }
 };

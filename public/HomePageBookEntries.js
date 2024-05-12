@@ -1,4 +1,26 @@
 export const books = {
+  the_berlin_wall: {
+    imgUrl: "/images/BerlinWallCover.jpg",
+    title: "The New House",
+    url: "the_berlin_wall",
+    thumbHeight: "820",
+    thumbWidth: "710",
+    projectUrl: "https://whiskeytit.com/product/the-berlin-wall/",
+    publicity: [
+      {
+        className: "blurbText",
+        text:
+          "Europe, 2020. Some claim that the Berlin Wall, once a living entity, is coming back together, its scattered pieces seeking reunion on the far side of history. The European continent trembles on the edge of total war, either in reality or deep in its own feverish imagination.",
+      },
+      {
+        className: "blurbText",
+        text:
+          " Part present-tense apocalyptic satire and part neo-medieval phantasmagoria, David Leo Rice’s new novel presents an alternate history of the present where the Internet has become a territory unto itself and unstable factions obsessed with nationalism, liberalism, and romanticism drive one another toward a clash that could turn the very notions of refuge and culture into the ravings of a lunatic.",
+      },
+    ],
+    shortText:
+      "Europe, 2020. Some claim that the Berlin Wall, once a living entity, is coming back together, its scattered pieces seeking reunion on the far side of history."
+  },
   the_new_house: {
     imgUrl: "/images/NewHouseCover.jpg",
     title: "The New House",

@@ -78,6 +78,8 @@
   transform:rotate(3deg);
 }
 
+/* This was being updated manually and so, as of 2024, is */
+/* Out of date. So we're going to hide it for now */
 .readingContainer {
   max-width:22%;
   display:flex;
@@ -158,7 +160,7 @@
 @media (max-width: 541px) and (orientation:portrait) {
 
   .worksContainer {
-    max-width:58%;
+    max-width:87%;
   }
 
   .groupHeader {

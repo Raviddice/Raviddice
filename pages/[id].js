@@ -10,57 +10,55 @@ const Book = () => {
   const bookObject = books[id];
 
   function constructText(text) {
-  return text.map((lineObject, index) => {
-    let computedClassName = lineObject.className;
-    return (
-      <p className={styles[computedClassName]} key={index}>
-        {lineObject.text}
-      </p>
-    );
-  });
-}
+    return text.map((lineObject, index) => {
+      let computedClassName = lineObject.className;
+      return (
+        <p className={styles[computedClassName]} key={index}>
+          {lineObject.text}
+        </p>
+      );
+    });
+  }
 
+  const renderCoverImages = () => {
+    let coverImages = []
+    let bookClassMap = {
+      0: "bookPicOne",
+      1: "bookPicTwo",
+      2: "bookPicThree",
+    }
 
+    Array.from(Array(3)).forEach((x, i) => {
+      coverImages.push(
+        <div className={styles.bookInnerContainer}>
+          <Image className={styles[bookClassMap[i]]}
+            src={bookObject["imgUrl"]}
+            height={500}
+            width={350}
+            alt="Cover of David Leo Rice's-Authored Books"
+          />
+          </div>
+      )
+    });
+    return coverImages
+  }
 
   if (bookObject !== undefined) {
   return (
     <div>
       <Header headerBackground="homeBackground"/>
       <div className={styles.bookImages}>
-      <div className={styles.bookInnerContainer}>
-        <Image className={styles.bookPicOne}
-          src={bookObject["imgUrl"]}
-          height={500}
-          width={350}
-          alt="Cover of David Leo Rice's-Authored Books"
-        />
-        </div>
-        <div className={styles.bookInnerContainer}>
-        <Image className={styles.bookPicTwo}
-          src={bookObject["imgUrl"]}
-          height={500}
-          width={350}
-          alt="Cover of David Leo Rice's-Authored Books"
-        />
-        </div>
-        <div className={styles.bookInnerContainer}>
-        <Image className={styles.bookPicThree}
-          src={bookObject["imgUrl"]}
-          height={500}
-          width={350}
-          alt="Cover of David Leo Rice's-Authored Books"
-        />
-        </div>
+          {renderCoverImages()}
       </div>
-          <div className={styles.purchaseLinkBox}>
+      <div className={styles.purchaseLinkBox}>
         <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Purchase&#10154;</a>
-          </div>
-    <div className={styles.blurbFrame}>
-      <div>{constructText(bookObject["publicity"])}</div>
-    </div>
-    <div className={styles.purchaseLinkBox}>
-  <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Purchase&#10154;</a>
-    </div>
+      </div>
+      <div className={styles.blurbFrame}>
+        <div>{constructText(bookObject["publicity"])}</div>
+      </div>
+      <div className={styles.purchaseLinkBox}>
+        <a className={styles.purchaseLink} href={bookObject["projectUrl"]} target="_blank" rel="noopener noreferrer">&#10154;Purchase&#10154;</a>
+      </div>
     </div>
   );
 } else {

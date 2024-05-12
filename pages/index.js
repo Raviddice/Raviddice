@@ -15,6 +15,7 @@ export default function Home() {
     let booksHtml = [];
     for (const entry in books) {
       let currentEntry = books[entry];
+      
       booksHtml.push(
         <div className={styles.bookContainer} key={currentEntry.title}>
           <Link href={"/" + currentEntry.url}>

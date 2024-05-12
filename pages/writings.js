@@ -2,7 +2,7 @@ import Header from '../components/header.js'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Writings.module.css'
-import { stories, essays, interviewsExcerptsEvents, podcasts, whatImReading} from "../public/WritingsPageEntries.js";
+import { stories, essays, interviewsExcerptsEvents, podcasts} from "../public/WritingsPageEntries.js";
 Writings.title = 'david leo rice ~ writings'
 Writings.pieceName = 'david leo rice ~ writings page'
 Writings.description = 'david leo rice ~ comprehensive list of individual publications'
@@ -10,6 +10,17 @@ Writings.image = "https://www.raviddice.com/images/HomeBackground.jpg"
 
 
 export default function Writings() {
+
+  function pullCurrentReads(){
+    // TO-DO
+    // This function would hit David's Goodreads page
+    // https://www.goodreads.com/author/show/16296226.David_Leo_Rice?from_search=true&from_srp=true
+    // Scrape the data in the Entries in the #currentlyReadingReviews element
+    // and generate a live JSON object of the books found there that matches the
+    // existing books object structure
+    // Then it would pass it off to the reading Entries
+    // And the What I'm Reading section could be reenabled
+  }
 
   function storyEntries() {
     let storyHtml = [];
@@ -85,8 +96,24 @@ return podcastHtml;
 
 function readingsEntries() {
 let readingsHtml = [];
+let whatImReading = [];
+
+// Call the pullCurrentReads method above to generate
+// An object like this
+
+// WHATIMREADING722: {
+//   month:"July 2022",
+//   BookOne: "Malone Dies",
+//   imgUrl: "/images/MaloneDies.jpg",
+//   BookTwo: "A Scanner Darkly",
+//   BookThree: "The Gospel Singer",
+//   BookFour: "Sleepwalk",
+//   BookFive: "Demons"
+// },
+
 for (const entry in whatImReading) {
  let currentEntry = whatImReading[entry];
+
  readingsHtml.push(
    <div key={currentEntry.title}>
      <h4 className={styles.month}>+{whatImReading[entry].month}+</h4>
@@ -107,7 +134,7 @@ for (const entry in whatImReading) {
  );
 }
 
-return readingsHtml;
+// return readingsHtml;
 }
 
 return (
@@ -124,11 +151,17 @@ return (
           <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
                 <div>{podcastEntries()}</div>
           </div>
-          <div className={styles.readingContainer}>
-             <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I&apos;m ... <br/> ... Reading ... </h2>
-          <div className={styles.readingsContainer}>{readingsEntries()}</div>
-        </div>
+          {
+            /* Since the 'What I'm Reading' section is out of date we hid it (using css) in May 2024
+            One option would be to write a script to access David's Goodreads Home Page
+            scrape the 'currentlyReadingReviews'section and use those values instead
 
+
+            <div className={styles.readingContainer}>
+               <h2 className={styles.groupHeaderTwo}>... What ... <br/> ... I&apos;m ... <br/> ... Reading ... </h2>
+            <div className={styles.readingsContainer}>{readingsEntries()}</div>
+            */
+          }
       </div>
   </>
   )
