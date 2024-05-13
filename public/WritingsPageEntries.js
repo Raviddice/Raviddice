@@ -242,6 +242,56 @@ export const interviewsExcerptsEvents = {
     workTitle: "Drifter Virtual Release Event with Tobias Carroll",
     venue: "Work Bookstore",
   },
+  DRIFTER_SWR: {
+    workUrl: "https://southwestreview.com/10-must-read-books-of-2021/",
+    workTitle: "10 Must-Read Books of 2021",
+    venue: "Southwest Review",
+  },
+  DRIFTER_SWR_REVIEW: {
+    workUrl: "https://southwestreview.com/that-weird-and-that-good/",
+    workTitle: "That Weird and That Good",
+    venue: "Southwest Review",
+  },
+  DRIFTER_DC_BEST: {
+    workUrl: "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2021/",
+    workTitle: "Best of 2021",
+    venue: "Dennis Cooper's Blog",
+  },
+  DRIFTER_LIGEIA: {
+    workUrl: "https://www.ligeiamagazine.com/summer-2021/david-leo-rice-interview/",
+    workTitle: "Interview",
+    venue: "Ligeia",
+  },
+  DRIFTER_BKLN_RAIL: {
+    workUrl: "https://brooklynrail.org/2021/07/books/DAVID-LEO-RICE-with-Gabriel-Frye-Behar",
+    workTitle: "Interview",
+    venue: "The Brooklyn Rail",
+  },
+  DRIFTER_BELIEVER: {
+    workUrl: "https://www.thebeliever.net/logger/the-sterile-is-the-opposite-of-the-seedy-a-conversation-between-david-leo-rice-and-b-r-yeager/",
+    workTitle: "The Sterile is the Opposite of the Seedy",
+    venue: "The Believer",
+  },
+  DRIFTER_FIFTEEN_Q: {
+    workUrl: "https://www.15questions.net/interview/fifteen-questions-literature-interview-david-leo-rice/page-1/",
+    workTitle: "Interview",
+    venue: "Fifteen Questions",
+  },
+  DRIFTER_SKYLIGHT: {
+    workUrl: "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-drifter-w-matthew-spellberg/",
+    workTitle: "Interview with Matthew Spellberg",
+    venue: "Skylight Books Podcast",
+  },
+  DRIFTER_WAKE_ISLAND: {
+    workUrl: "https://podcasts.apple.com/us/podcast/david-leo-rice-drifter-stories/id1485799907?i=1000513398193",
+    workTitle: "Interview with Paul K.",
+    venue: "Wake Island",
+  },
+  DRIFTER_WTR: {
+    workUrl: "https://podcasts.apple.com/au/podcast/post-secular-grifting-with-david-leo-rice/id1348303650?i=1000523816974",
+    workTitle: "Interview with Joe",
+    venue: "Writing the Rapids",
+  },
   // Angel House Section
   ANGEL_HOUSE_SECTION: {
     sectionName: "Angel House"
