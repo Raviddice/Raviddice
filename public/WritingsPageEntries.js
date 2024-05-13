@@ -1,7 +1,7 @@
 export const interviewsExcerptsEvents = {
   // The Berlin Wall Section
   THE_BERLIN_WALL_SECTION: {
-    sectionName: "The Belin Wall"
+    sectionName: "The Berlin Wall"
   },
   TBW_VOL: {
     workUrl: "https://vol1brooklyn.com/2024/05/06/books-of-the-month-may-2024/",
