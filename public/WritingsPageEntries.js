@@ -3,6 +3,16 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_DC_2024: {
+    workUrl: "https://heavyfeatherreview.org/2024/06/22/the-berlin-wall/",
+    workTitle: "Favorite fiction of 2024, so far",
+    venue: "Dennic Cooper's BLog",
+  },
+  TBW_HFR: {
+    workUrl: "https://heavyfeatherreview.org/2024/06/22/the-berlin-wall/",
+    workTitle: "prologue published",
+    venue: "Heavy Feather Review",
+  },
   TBW_DC: {
     workUrl:
       "https://denniscooperblog.com/please-welcome-to-the-world-thomas-kendall-presents-david-leo-rice-the-berlin-wall-whiskey-tit/",
