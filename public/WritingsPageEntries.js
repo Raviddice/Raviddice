@@ -4,7 +4,8 @@ export const interviewsExcerptsEvents = {
     sectionName: "The Berlin Wall",
   },
   TBW_DC_2024: {
-    workUrl: "https://heavyfeatherreview.org/2024/06/22/the-berlin-wall/",
+    workUrl:
+      "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2024-so-far/",
     workTitle: "Favorite fiction of 2024, so far",
     venue: "Dennic Cooper's BLog",
   },
