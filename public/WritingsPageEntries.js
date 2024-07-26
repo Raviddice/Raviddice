@@ -3,11 +3,31 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_GP: {
+    workUrl:
+      "https://genrepunkmag.wordpress.com/2024/07/16/top-100-indie-books-of-the-21st-century-so-far/",
+    workTitle:
+      "The Berlin Wall voted the #7 Indie Book of the 21st Century So Far",
+    venue: "Genre Punk Magazine",
+  },
+  TBW_XRAY: {
+    workUrl:
+      "https://xraylitmag.com/torn-between-the-past-and-the-future-unsure-if-any-tangible-present-exists-an-interview-with-david-leo-rice/fiction/",
+    workTitle:
+      "TORN BETWEEN THE PAST AND THE FUTURE UNSURE IF ANY TANGIBLE PRESENT EXISTS",
+    venue: "X-R-A-Y",
+  },
+  TBW_BTZ: {
+    workUrl:
+      "https://podcasts.apple.com/us/podcast/david-leo-rice-the-berlin-wall/id1578980767?i=1000663078817",
+    workTitle: "Interview",
+    venue: "Beyond the Zero",
+  },
   TBW_DC_2024: {
     workUrl:
       "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2024-so-far/",
     workTitle: "Favorite fiction of 2024, so far",
-    venue: "Dennic Cooper's BLog",
+    venue: "Dennis Cooper's Blog",
   },
   TBW_HFR: {
     workUrl: "https://heavyfeatherreview.org/2024/06/22/the-berlin-wall/",
