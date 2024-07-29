@@ -13,14 +13,13 @@ export const interviewsExcerptsEvents = {
   TBW_XRAY: {
     workUrl:
       "https://xraylitmag.com/torn-between-the-past-and-the-future-unsure-if-any-tangible-present-exists-an-interview-with-david-leo-rice/fiction/",
-    workTitle:
-      "TORN BETWEEN THE PAST AND THE FUTURE UNSURE IF ANY TANGIBLE PRESENT EXISTS",
-    venue: "X-R-A-Y",
+    workTitle: "Interview in XRAY Magazine",
+    venue: "X-R-A-Y Magazine",
   },
   TBW_BTZ: {
     workUrl:
       "https://podcasts.apple.com/us/podcast/david-leo-rice-the-berlin-wall/id1578980767?i=1000663078817",
-    workTitle: "Interview",
+    workTitle: "Podcast Interview",
     venue: "Beyond the Zero",
   },
   TBW_DC_2024: {
