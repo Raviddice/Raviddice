@@ -3,6 +3,19 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_V1B: {
+    workUrl:
+      "https://vol1brooklyn.com/2024/07/29/the-transubstantiation-of-the-wall-on-david-leo-rices-the-berlin-wall/",
+    workTitle:
+      "The Transubstantiation of the Wall: On David Leo Rice’s “The Berlin Wall",
+    venue: "Vol. 1 Brooklyn",
+  },
+  TBW_AOD: {
+    workUrl:
+      "https://artofdarkpod.com/the-dark-room-david-leo-rice-talks-mishima-tarkovsky/",
+    workTitle: "The Dark Room: David Leo Rice Talks Mishima & Tarkovsky",
+    venue: "Art of Darkness Podcast",
+  },
   TBW_GP: {
     workUrl:
       "https://genrepunkmag.wordpress.com/2024/07/16/top-100-indie-books-of-the-21st-century-so-far/",
