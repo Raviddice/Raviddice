@@ -6,8 +6,7 @@ export const interviewsExcerptsEvents = {
   TBW_V1B: {
     workUrl:
       "https://vol1brooklyn.com/2024/07/29/the-transubstantiation-of-the-wall-on-david-leo-rices-the-berlin-wall/",
-    workTitle:
-      "The Transubstantiation of the Wall: On David Leo Rice’s “The Berlin Wall",
+    workTitle: `The Transubstantiation of the Wall: On David Leo Rice’s “The Berlin Wall"`,
     venue: "Vol. 1 Brooklyn",
   },
   TBW_AOD: {
