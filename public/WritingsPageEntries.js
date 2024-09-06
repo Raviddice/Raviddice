@@ -6,7 +6,7 @@ export const interviewsExcerptsEvents = {
   TBW_FS: {
     workUrl:
       "https://www.full-stop.net/2024/08/30/reviews/theodoresovinski/the-berlin-wall-david-leo-rice/",
-    workTitle: `Review of The Berlin Wall in`,
+    workTitle: `Review of The Berlin Wall`,
     venue: "Full Stop",
   },
   TBW_V1B: {
