@@ -3,6 +3,12 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_WI: {
+    workUrl:
+      "https://podcasts.apple.com/us/podcast/chaos-and-disenchantment-berlin-wall-book-launch-w/id1485799907?i=1000669798807",
+    workTitle: `Interview with B.R. Yeager`,
+    venue: "Wake Island",
+  },
   TBW_FS: {
     workUrl:
       "https://www.full-stop.net/2024/08/30/reviews/theodoresovinski/the-berlin-wall-david-leo-rice/",
