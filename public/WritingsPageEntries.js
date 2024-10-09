@@ -3,6 +3,12 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_YP: {
+    workUrl:
+      "http://yarrowpaisley.com/blog/articles/the-berlin-wall-by-david-leo-rice",
+    workTitle: `Review of The Berlin Wall`,
+    venue: "Yarrow Paisley",
+  },
   TBW_WI: {
     workUrl:
       "https://podcasts.apple.com/us/podcast/chaos-and-disenchantment-berlin-wall-book-launch-w/id1485799907?i=1000669798807",
