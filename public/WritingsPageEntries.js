@@ -3,6 +3,11 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_KGB: {
+    workUrl: "https://www.youtube.com/watch?v=u5xEBhHabes",
+    workTitle: `Berlin Wall Audio`,
+    venue: "KGB Fantastic Fiction Series",
+  },
   TBW_YP: {
     workUrl:
       "http://yarrowpaisley.com/blog/articles/the-berlin-wall-by-david-leo-rice",
