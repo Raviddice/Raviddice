@@ -3,7 +3,7 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
-  TBW_XRAY: {
+  TBW_XRAY2: {
     workUrl:
       "https://xraylitmag.com/dave-fitzgerald-recommends-etiquette-shit-list-and-the-berlin-wall/interviews-reviews/",
     workTitle: `Dave Fitzgerald Recommends`,
