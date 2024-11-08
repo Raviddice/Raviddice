@@ -3,6 +3,18 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_XRAY: {
+    workUrl:
+      "https://xraylitmag.com/dave-fitzgerald-recommends-etiquette-shit-list-and-the-berlin-wall/interviews-reviews/",
+    workTitle: `Dave Fitzgerald Recommends`,
+    venue: "X-R-A-Y",
+  },
+  TBW_V1B2: {
+    workUrl:
+      "https://www.vol1brooklyn.com/2024/11/01/trash-alchemy-wasteland-portals-a-conversation-with-david-leo-rice/",
+    workTitle: `Trash Alchemy & Wasteland Portals`,
+    venue: "Vol. 1 Brooklyn",
+  },
   TBW_KGB: {
     workUrl: "https://www.youtube.com/watch?v=u5xEBhHabes",
     workTitle: `Berlin Wall Audio`,
