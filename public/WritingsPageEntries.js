@@ -1077,6 +1077,11 @@ export const essays = {
 };
 
 export const podcasts = {
+  ZEISCHEGG: {
+    workUrl: "https://www.youtube.com/watch?v=ybmlA1ljkP4",
+    workTitle: "YouTube Interview with Chris Zeischegg",
+    venue: "Youtube",
+  },
   DRIFTERWAKEISLAND: {
     workUrl:
       "https://anchor.fm/wake-island/episodes/David-Leo-Rice---Drifter-Stories-es8n0i",
