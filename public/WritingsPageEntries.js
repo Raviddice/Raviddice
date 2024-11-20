@@ -7,7 +7,7 @@ export const podcasts = {
   TBW_WI: {
     workUrl:
       "https://podcasts.apple.com/us/podcast/chaos-and-disenchantment-berlin-wall-book-launch-w/id1485799907?i=1000669798807",
-    workTitle: `Interview with B.R. Yeager`,
+    workTitle: `Berlin Wall Discussion with B.R. Yeager`,
     venue: "Wake Island",
   },
   TBW_AOD: {
