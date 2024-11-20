@@ -185,13 +185,14 @@ export default function Writings() {
           <h2 className={styles.groupHeader}>
             ... INTERVIEWS ... <br /> ... EXCERPTS ... <br /> ... REVIEWS ...
           </h2>
+          <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
+          <div>{podcastEntries()}</div>
+          <h2 className={styles.groupHeader}>... PRINT INTERVIEWS ...</h2>
           <div>{interviewEntries()}</div>
           <h2 className={styles.groupHeader}>... STORIES ...</h2>
           <div>{storyEntries()}</div>
           <h2 className={styles.groupHeader}>... ESSAYS ... ARTICLES ...</h2>
           <div>{essayEntries()}</div>
-          <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
-          <div>{podcastEntries()}</div>
         </div>
         {/* Since the 'What I'm Reading' section is out of date we hid it (using css) in May 2024
             One option would be to write a script to access David's Goodreads Home Page

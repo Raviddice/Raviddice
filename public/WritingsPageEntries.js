@@ -1,3 +1,75 @@
+export const podcasts = {
+  ZEISCHEGG: {
+    workUrl: "https://www.youtube.com/watch?v=ybmlA1ljkP4",
+    workTitle: "YouTube Interview with Chris Zeischegg",
+    venue: "Youtube",
+  },
+  TBW_WI: {
+    workUrl:
+      "https://podcasts.apple.com/us/podcast/chaos-and-disenchantment-berlin-wall-book-launch-w/id1485799907?i=1000669798807",
+    workTitle: `Interview with B.R. Yeager`,
+    venue: "Wake Island",
+  },
+  TBW_AOD: {
+    workUrl:
+      "https://artofdarkpod.com/the-dark-room-david-leo-rice-talks-mishima-tarkovsky/",
+    workTitle: "The Dark Room: David Leo Rice Talks Mishima & Tarkovsky",
+    venue: "Art of Darkness Podcast",
+  },
+  TBW_BTZ: {
+    workUrl:
+      "https://podcasts.apple.com/us/podcast/david-leo-rice-the-berlin-wall/id1578980767?i=1000663078817",
+    workTitle: "Podcast Interview",
+    venue: "Beyond the Zero",
+  },
+  DRIFTERWAKEISLAND: {
+    workUrl:
+      "https://anchor.fm/wake-island/episodes/David-Leo-Rice---Drifter-Stories-es8n0i",
+    workTitle: "Discussion about Drifter: Stories",
+    venue: "Wake Island",
+  },
+  DRIFTERSKYLIGHTBOOKSTORE: {
+    workUrl:
+      "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-drifter-w-matthew-spellberg/",
+    workTitle: "Discussion about Drifter: Stories",
+    venue: "Skylight Bookstore Podcast",
+  },
+  DRIFTERGHOULISH: {
+    workUrl:
+      "http://www.ghoulishpod.com/2021/06/21/97-dream-geography-with-david-leo-rice/",
+    workTitle: "Discussion about Drifter: Stories and Dream Geography",
+    venue: "Ghoulish",
+  },
+  DRIFTERRAPIDS: {
+    workUrl:
+      "https://player.fm/series/writing-the-rapids/post-secular-grifting-with-david-leo-rice",
+    workTitle: "Discussion about Drifter: Stories and Post-Secular Grifting",
+    venue: "Writing the Rapids",
+  },
+  DODGECITYTWOEVENSON: {
+    workUrl:
+      "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-a-room-in-dodge-city-vol-2-w-brian-evenson/",
+    workTitle:
+      "A Room in Dodge City: Vol. 2 Podcast Interview with Brian Evenson",
+    venue: "Skylight Books",
+  },
+  DODGECITYTWOSELECTEDPROSE: {
+    workUrl:
+      "https://anchor.fm/selectedprose/episodes/1--David-Leo-Rice-ek37pi",
+    workTitle: "A Room in Dodge City: Vol. 2 Podcast Interview",
+    venue: "Selected Prose",
+  },
+  WHATTHEBOOK: {
+    workUrl: "https://www.youtube.com/watch?v=z84P1TgjA9U",
+    workTitle: "Discussion on What the Book?",
+  },
+  DRINKSWITHTONY: {
+    workUrl:
+      "https://www.stitcher.com/show/drinks-with-tony/episode/david-leo-rice-169-88855737",
+    workTitle: "Appearance on Drinks With Tony",
+  },
+};
+
 export const interviewsExcerptsEvents = {
   // The Berlin Wall Section
   THE_BERLIN_WALL_SECTION: {
@@ -26,12 +98,6 @@ export const interviewsExcerptsEvents = {
     workTitle: `Review of The Berlin Wall`,
     venue: "Yarrow Paisley",
   },
-  TBW_WI: {
-    workUrl:
-      "https://podcasts.apple.com/us/podcast/chaos-and-disenchantment-berlin-wall-book-launch-w/id1485799907?i=1000669798807",
-    workTitle: `Interview with B.R. Yeager`,
-    venue: "Wake Island",
-  },
   TBW_FS: {
     workUrl:
       "https://www.full-stop.net/2024/08/30/reviews/theodoresovinski/the-berlin-wall-david-leo-rice/",
@@ -43,12 +109,6 @@ export const interviewsExcerptsEvents = {
       "https://vol1brooklyn.com/2024/07/29/the-transubstantiation-of-the-wall-on-david-leo-rices-the-berlin-wall/",
     workTitle: `The Transubstantiation of the Wall: On David Leo Rice’s “The Berlin Wall"`,
     venue: "Vol. 1 Brooklyn",
-  },
-  TBW_AOD: {
-    workUrl:
-      "https://artofdarkpod.com/the-dark-room-david-leo-rice-talks-mishima-tarkovsky/",
-    workTitle: "The Dark Room: David Leo Rice Talks Mishima & Tarkovsky",
-    venue: "Art of Darkness Podcast",
   },
   TBW_GP: {
     workUrl:
@@ -62,12 +122,6 @@ export const interviewsExcerptsEvents = {
       "https://xraylitmag.com/torn-between-the-past-and-the-future-unsure-if-any-tangible-present-exists-an-interview-with-david-leo-rice/fiction/",
     workTitle: "Interview in XRAY Magazine",
     venue: "X-R-A-Y Magazine",
-  },
-  TBW_BTZ: {
-    workUrl:
-      "https://podcasts.apple.com/us/podcast/david-leo-rice-the-berlin-wall/id1578980767?i=1000663078817",
-    workTitle: "Podcast Interview",
-    venue: "Beyond the Zero",
   },
   TBW_DC_2024: {
     workUrl:
@@ -1073,59 +1127,5 @@ export const essays = {
       "http://www.amazon.com/Oedipus-Sphinx-Threshold-Sophocles-through/dp/022604808X/ref=sr_sp-atf_title_1_1?ie=UTF8&qid=1380674437&sr=8-1&keywords=oedipus+on+the+threshold",
     workTitle:
       "A book about Oedipus and the Sphinx I helped translate from the German",
-  },
-};
-
-export const podcasts = {
-  ZEISCHEGG: {
-    workUrl: "https://www.youtube.com/watch?v=ybmlA1ljkP4",
-    workTitle: "YouTube Interview with Chris Zeischegg",
-    venue: "Youtube",
-  },
-  DRIFTERWAKEISLAND: {
-    workUrl:
-      "https://anchor.fm/wake-island/episodes/David-Leo-Rice---Drifter-Stories-es8n0i",
-    workTitle: "Discussion about Drifter: Stories",
-    venue: "Wake Island",
-  },
-  DRIFTERSKYLIGHTBOOKSTORE: {
-    workUrl:
-      "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-drifter-w-matthew-spellberg/",
-    workTitle: "Discussion about Drifter: Stories",
-    venue: "Skylight Bookstore Podcast",
-  },
-  DRIFTERGHOULISH: {
-    workUrl:
-      "http://www.ghoulishpod.com/2021/06/21/97-dream-geography-with-david-leo-rice/",
-    workTitle: "Discussion about Drifter: Stories and Dream Geography",
-    venue: "Ghoulish",
-  },
-  DRIFTERRAPIDS: {
-    workUrl:
-      "https://player.fm/series/writing-the-rapids/post-secular-grifting-with-david-leo-rice",
-    workTitle: "Discussion about Drifter: Stories and Post-Secular Grifting",
-    venue: "Writing the Rapids",
-  },
-  DODGECITYTWOEVENSON: {
-    workUrl:
-      "https://skylightbooks.podbean.com/e/skylit-david-leo-rice-a-room-in-dodge-city-vol-2-w-brian-evenson/",
-    workTitle:
-      "A Room in Dodge City: Vol. 2 Podcast Interview with Brian Evenson",
-    venue: "Skylight Books",
-  },
-  DODGECITYTWOSELECTEDPROSE: {
-    workUrl:
-      "https://anchor.fm/selectedprose/episodes/1--David-Leo-Rice-ek37pi",
-    workTitle: "A Room in Dodge City: Vol. 2 Podcast Interview",
-    venue: "Selected Prose",
-  },
-  WHATTHEBOOK: {
-    workUrl: "https://www.youtube.com/watch?v=z84P1TgjA9U",
-    workTitle: "Discussion on What the Book?",
-  },
-  DRINKSWITHTONY: {
-    workUrl:
-      "https://www.stitcher.com/show/drinks-with-tony/episode/david-leo-rice-169-88855737",
-    workTitle: "Appearance on Drinks With Tony",
   },
 };
