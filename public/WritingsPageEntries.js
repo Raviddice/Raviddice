@@ -75,6 +75,17 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TBW_DC_BEST_2024: {
+    workUrl:
+      "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2024",
+    workTitle: `Dennis Cooper's Favorites of 2024`,
+    venue: "Dennis Cooper Blog",
+  },
+  TBW_GRANTA: {
+    workUrl: "https://granta.com/books-of-the-year-2024/",
+    workTitle: `Ryan Ruby's Best Books of 2024`,
+    venue: "Granta",
+  },
   TBW_XRAY2: {
     workUrl:
       "https://xraylitmag.com/dave-fitzgerald-recommends-etiquette-shit-list-and-the-berlin-wall/interviews-reviews/",
@@ -654,6 +665,12 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
+  JAKOB_AS_NAZI_HUNTER: {
+    workUrl:
+      "https://www.alwayscrashing.com/current/2024/12/17/david-leo-rice-jakob-as-nazi-hunter",
+    workTitle: "Jakob as Nazi Hunter",
+    venue: "Always Crashing",
+  },
   MUSEUM_OF_LEAVING_MY_ROOM: {
     workUrl:
       "https://www.ergot.press/authors/David_Leo_Rice/The_Museum_of_Leaving_My_Room",
