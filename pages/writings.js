@@ -187,7 +187,9 @@ export default function Writings() {
           </h2>
           <h2 className={styles.groupHeader}>... PODCAST APPEARANCES ...</h2>
           <div>{podcastEntries()}</div>
-          <h2 className={styles.groupHeader}>... PRINT INTERVIEWS ...</h2>
+          <h2 className={styles.groupHeader}>
+            ... PRINT REVIEWS AND INTERVIEWS ...
+          </h2>
           <div>{interviewEntries()}</div>
           <h2 className={styles.groupHeader}>... STORIES ...</h2>
           <div>{storyEntries()}</div>
