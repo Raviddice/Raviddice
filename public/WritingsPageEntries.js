@@ -75,6 +75,12 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TWB_SWR_NITLOK: {
+    workUrl:
+      "https://southwestreview.com/nightmares-in-the-language-of-kitsch/",
+    workTitle: `Nightmares in the Language of Kitsch`,
+    venue: "Southwest Review",
+  },
   TBW_DC_BEST_2024: {
     workUrl:
       "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2024",
