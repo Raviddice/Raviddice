@@ -671,6 +671,11 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
+  JAKOB_AS_WORM: {
+    workUrl: "https://www.litmagazine.org/jakob-as-worm/",
+    workTitle: "Jakob as Worm",
+    venue: "LIT Magazine",
+  },
   JAKOB_AS_NAZI_HUNTER: {
     workUrl:
       "https://www.alwayscrashing.com/current/2024/12/17/david-leo-rice-jakob-as-nazi-hunter",
