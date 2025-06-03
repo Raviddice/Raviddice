@@ -953,6 +953,13 @@ export const stories = {
 };
 
 export const essays = {
+  FEAST_FOOLS: {
+    workUrl:
+      "https://southwestreview.com/volume-110-number-1/the-feast-of-fools-on-carnival-imagination-and-heresy-in-the-age-of-the-trickster/",
+    workTitle:
+      "The Feast of Fools | On Carnival, Imagination, and Heresy in the Age of the Trickster",
+    venue: "Southwest Review",
+  },
   LYNCH_OZ: {
     workUrl:
       "https://southwestreview.com/volume-109-number-1/ive-been-scared-of-those-monkeys-all-my-life-on-lynch-oz-and-the-enduring-power-of-both/",
