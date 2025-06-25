@@ -671,6 +671,13 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
+  // https://www.alwayscrashing.com/current/2025/6/23/david-leo-rice-jakob-as-messiah
+  JAKOB_AS_MESSIAH: {
+    workUrl:
+      "https://www.alwayscrashing.com/current/2025/6/23/david-leo-rice-jakob-as-messiah",
+    workTitle: "Jakob as Messiah",
+    venue: "Always Crashing",
+  },
   JAKOB_AS_WORM: {
     workUrl: "https://www.litmagazine.org/jakob-as-worm/",
     workTitle: "Jakob as Worm",
