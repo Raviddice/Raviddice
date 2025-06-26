@@ -75,6 +75,12 @@ export const interviewsExcerptsEvents = {
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
   },
+  TWB_HR: {
+    workUrl:
+      "https://www.harvardmagazine.com/2025/07/harvard-david-leo-rice-berlin-wall",
+    workTitle: `Reconstructing the Berlin Wall`,
+    venue: "Harvard Magazine",
+  },
   TWB_SWR_NITLOK: {
     workUrl:
       "https://southwestreview.com/nightmares-in-the-language-of-kitsch/",
