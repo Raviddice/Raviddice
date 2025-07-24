@@ -175,7 +175,7 @@ export const interviewsExcerptsEvents = {
       "Can’t Miss Indie Press Speculative Fiction for May and June 2024",
     venue: "Reactor",
   },
-  // Children of the New Flesh Seciton
+  // Children of the New Flesh Section
   CHILDREN_OF_THE_NEW_FLESH_SECTION: {
     sectionName: "Children of the New Flesh",
   },
@@ -677,7 +677,11 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
-  // https://www.alwayscrashing.com/current/2025/6/23/david-leo-rice-jakob-as-messiah
+  JAKOB_AS_BIOGRAPHER: {
+    workUrl: "https://www.propagule.co/fiction/jakob-as-biographer",
+    workTitle: "Jakob as Biographer",
+    venue: "Propagule",
+  },
   JAKOB_AS_MESSIAH: {
     workUrl:
       "https://www.alwayscrashing.com/current/2025/6/23/david-leo-rice-jakob-as-messiah",
