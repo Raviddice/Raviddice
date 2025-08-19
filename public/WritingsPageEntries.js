@@ -689,7 +689,7 @@ export const stories = {
     venue: "Always Crashing",
   },
   JAKOB_AS_WORM: {
-    workUrl: "https://www.litmagazine.org/jakob-as-worm/",
+    workUrl: "https://www.litmagazine.org/jakob-as-worm",
     workTitle: "Jakob as Worm",
     venue: "LIT Magazine",
   },
