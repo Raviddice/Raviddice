@@ -713,7 +713,7 @@ export const stories = {
   },
   TOMANDTHETALKINGCHOCOLATEBAR: {
     workUrl:
-      "https://www.ligeiamagazine.com/fall-2021/tom-and-the-talking-chocolate-bar-david-leo-rice/",
+      "https://www.ligeiamagazine.com/fall-2021/tom-and-the-talking-chocolate-bar-david-leo-rice",
     workTitle: "Tom and The Talking Chocolate Bar",
     venue: "Ligea",
   },
