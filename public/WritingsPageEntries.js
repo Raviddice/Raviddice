@@ -71,6 +71,22 @@ export const podcasts = {
 };
 
 export const interviewsExcerptsEvents = {
+  // Squimbop Condition Section
+  SQUIMBOP_CONDITION_SECTION: {
+    sectionName: "The Squimbop Condition",
+  },
+  TSC_NOISEMAKER_JOE: {
+    workUrl:
+      "https://www.noisemakerjoe.com/wtr/2025/9/16/rejoinder-the-squimbop-condition-with-david-leo-rice",
+    workTitle: `Interview`,
+    venue: "Noisemaker Joe",
+  },
+  TSC_REACTOR: {
+    workUrl:
+      "https://reactormag.com/cant-miss-indie-press-speculative-fiction-for-september-and-october-2025",
+    workTitle: `Can't Miss Indie Press Spec Fic: Sep/Oct 2025`,
+    venue: "Reactor Magazine",
+  },
   // The Berlin Wall Section
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
