@@ -55,6 +55,13 @@ export default function Header(props) {
           >
             &#10154;&#10239;<i>amazon</i>&#10154;
           </a>
+          <a
+            href="https://spineandarp.substack.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            &#8668;substack&#8668;
+          </a>
         </div>
       </div>
     </>
