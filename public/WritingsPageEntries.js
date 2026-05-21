@@ -1,4 +1,9 @@
 export const podcasts = {
+  TSC_MAD_METHOD: {
+    workUrl: "https://www.madmethodpod.com/podcast/shadowticket-method",
+    workTitle: `Ep. 11.1 - Thomas Pynchon’s SHADOW TICKET`,
+    venue: "Mad Method Podcast",
+  },
   ZEISCHEGG: {
     workUrl: "https://www.youtube.com/watch?v=ybmlA1ljkP4",
     workTitle: "YouTube Interview with Chris Zeischegg",
@@ -75,6 +80,47 @@ export const interviewsExcerptsEvents = {
   SQUIMBOP_CONDITION_SECTION: {
     sectionName: "The Squimbop Condition",
   },
+  TSC_LARB: {
+    workUrl:
+      "https://www.litmagazine.org/the-squimbop-condition-an-interview-with-david-leo-rice-on-his-latest-novel/",
+    workTitle: `Interview`,
+    venue: "Lit Magazine",
+  },
+  TSC_LARB: {
+    workUrl:
+      "https://lareviewofbooks.org/article/im-gonna-act-as-though-what-seems-real-is/",
+    workTitle: `I’m Gonna Act as Though What Seems Real Is`,
+    venue: "LA Review of Books",
+  },
+  TSC_ZONA_MOTEL: {
+    workUrl:
+      "https://zonamotel.substack.com/p/interview-david-leo-rice-by-ben-russell",
+    workTitle: `The Void Is Where It’s At`,
+    venue: "Zona Motel",
+  },
+  TSC_DC: {
+    workUrl:
+      "https://denniscooperblog.com/mine-for-yours-my-favorite-fiction-poetry-non-fiction-music-film-art-and-internet-of-2025/",
+    workTitle: `Dennis Cooper's Favorites of 2024`,
+    venue: "Dennis Cooper's Blog",
+  },
+  TSC_MINOR_LITS: {
+    workUrl:
+      "https://minorliteratures.com/2026/02/24/holy-undead-life-an-interview-with-david-leo-rice-danny-elfanbaum/",
+    workTitle: `Holy, Undead Life: An Interview with David Leo Rice`,
+    venue: "minor literature[s]",
+  },
+  TSC_GNOSTIC_PULP: {
+    workUrl:
+      "https://gnosticpulp.substack.com/p/the-hidden-disease-that-might-be",
+    workTitle: `THE HIDDEN DISEASE THAT MIGHT BE SECRETLY KILLING YOU`,
+    venue: "Gnostic Pulp",
+  },
+  TSC_TRIYOU: {
+    workUrl: "https://triyou.com/f/the-squimbop-condition-by-david-leo-rice",
+    workTitle: `Review`,
+    venue: "The TRIYOU Blog",
+  },
   TSC_NOISEMAKER_JOE: {
     workUrl:
       "https://www.noisemakerjoe.com/wtr/2025/9/16/rejoinder-the-squimbop-condition-with-david-leo-rice",
@@ -90,6 +136,12 @@ export const interviewsExcerptsEvents = {
   // The Berlin Wall Section
   THE_BERLIN_WALL_SECTION: {
     sectionName: "The Berlin Wall",
+  },
+  TBW_MCPHAIL: {
+    workUrl:
+      "https://mcodymcphail.substack.com/p/book-review-the-berlin-wall-by-david",
+    workTitle: "Review of The Berlin Wall",
+    venue: "M Cody McPhail",
   },
   TWB_HR: {
     workUrl:

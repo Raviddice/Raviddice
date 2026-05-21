@@ -49,12 +49,11 @@ export default function About() {
           David&apos;s first three novels,{" "}
           <span className={styles.bookName}> A ROOM IN DODGE CITY </span>,{" "}
           <span className={styles.bookName}>A ROOM IN DODGE CITY: VOL. 2</span>{" "}
-          , and <span className={styles.bookName}>ANGEL HOUSE </span>, are out
-          now, as is his first story collection,{" "}
-          <span className={styles.bookName}>DRIFTER: STORIES</span>.
-          David&apos;s fourth novel,{" "}
-          <span className={styles.bookName}> THE NEW HOUSE </span>, is coming in
-          Spring 2022. He currently teaches at Parsons, The New School, and FIT.
+          , <span className={styles.bookName}>ANGEL HOUSE </span>,{" "}
+          <span className={styles.bookName}>ANGEL HOUSE 2</span> are out now, as
+          is his story collections,{" "}
+          <span className={styles.bookName}>DRIFTER: STORIES</span> and{" "}
+          <span className={styles.bookName}>The Squimbop Condition</span>.
         </div>
         <br />
         <br />
