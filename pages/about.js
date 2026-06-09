@@ -44,19 +44,6 @@ export default function About() {
         </div>
         <br />
         <br />
-        <div className={styles.aboutPageProseTwo}>
-          {" "}
-          David&apos;s first three novels,{" "}
-          <span className={styles.bookName}> A ROOM IN DODGE CITY </span>,{" "}
-          <span className={styles.bookName}>A ROOM IN DODGE CITY: VOL. 2</span>{" "}
-          , <span className={styles.bookName}>ANGEL HOUSE </span>,{" "}
-          <span className={styles.bookName}>ANGEL HOUSE 2</span> are out now, as
-          is his story collections,{" "}
-          <span className={styles.bookName}>DRIFTER: STORIES</span> and{" "}
-          <span className={styles.bookName}>The Squimbop Condition</span>.
-        </div>
-        <br />
-        <br />
         <div className={styles.aboutPageProseThree}>
           Contact David (for private workshops, review and interview queries, or
           for manuscript editing and development services) at:{" "}

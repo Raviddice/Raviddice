@@ -2,7 +2,7 @@ export const podcasts = {
   TSC_MAD_METHOD: {
     workUrl: "https://www.madmethodpod.com/podcast/shadowticket-method",
     workTitle: `Ep. 11.1 - Thomas Pynchon’s SHADOW TICKET`,
-    venue: "Mad Method Podcast",
+    venue: "Method & Madness Podcast",
   },
   ZEISCHEGG: {
     workUrl: "https://www.youtube.com/watch?v=ybmlA1ljkP4",
@@ -745,6 +745,11 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
+  THE_WARD_CLERK: {
+    workUrl: "https://heavyfeatherreview.org/2026/02/26/the-ward-clerk/",
+    workTitle: "The Ward Clerk",
+    venue: "Heavy Feather Review",
+  },
   JAKOB_AS_BIOGRAPHER: {
     workUrl: "https://www.propagule.co/fiction/jakob-as-biographer",
     workTitle: "Jakob as Biographer",
