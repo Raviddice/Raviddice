@@ -1,4 +1,9 @@
 export const podcasts = {
+  MIDNIGHT_AGE_OF_HOLY_SPIRIT: {
+    workUrl: "https://www.jamesreeves.co/the-age-of-the-holy-spirit/",
+    workTitle: `The Age of the Holy Spirit`,
+    venue: "Midnight Radio ep. 48",
+  },
   TSC_MAD_METHOD: {
     workUrl: "https://www.madmethodpod.com/podcast/shadowticket-method",
     workTitle: `Ep. 11.1 - Thomas Pynchon’s SHADOW TICKET`,
@@ -323,7 +328,11 @@ export const interviewsExcerptsEvents = {
   NEW_HOUSE_SECTION: {
     sectionName: "The New House",
   },
-
+  TNH_JEWISH_FICTION: {
+    workUrl: "https://www.readingjewishfiction.com/thenewhouse",
+    workTitle: "The New House Interview",
+    venue: "Reading Jewish Fiction",
+  },
   TNH_THE_LINEUP: {
     workUrl: "https://atlasminor.com/the-new-house-by-david-leo-rice/",
     workTitle: "The New House Recommended",
@@ -1043,6 +1052,13 @@ export const stories = {
 };
 
 export const essays = {
+  MASTER_OF_PUPPETS: {
+    workUrl:
+      "https://southwestreview.com/volume-111-number-1/master-of-puppets-on-my-mothers-death-and-the-last-chapter-of-the-history-of-the-world/",
+    workTitle:
+      "Master of Puppets | On My Mother’s Death and the Last Chapter of the History of the World",
+    venue: "Southwest Review",
+  },
   FEAST_FOOLS: {
     workUrl:
       "https://southwestreview.com/volume-110-number-1/the-feast-of-fools-on-carnival-imagination-and-heresy-in-the-age-of-the-trickster/",

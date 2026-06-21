@@ -62,6 +62,13 @@ export default function Header(props) {
           >
             &#8668;substack&#8668;
           </a>
+          <a
+            href="https://en.wikipedia.org/wiki/David_Leo_Rice"
+            target="_blank"
+            rel="noreferrer"
+          >
+            &#10154;&#10239;<i>wikipedia</i>&#10154;
+          </a>
         </div>
       </div>
     </>
