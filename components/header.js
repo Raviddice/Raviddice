@@ -53,7 +53,7 @@ export default function Header(props) {
             target="_blank"
             rel="noreferrer"
           >
-            &#10154;&#10239;<i>amazon</i>&#10154;
+            &#10154;<i>amazon</i>&#10154;
           </a>
           <a
             href="https://spineandarp.substack.com/"
@@ -67,7 +67,7 @@ export default function Header(props) {
             target="_blank"
             rel="noreferrer"
           >
-            &#10154;&#10239;<i>wikipedia</i>&#10154;
+            &#10154;<i>wikipedia</i>&#10154;
           </a>
         </div>
       </div>
