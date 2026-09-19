@@ -82,10 +82,14 @@ export const podcasts = {
 
 export const interviewsExcerptsEvents = {
   // Squimbop Condition Section
+  // https://www.alwayscrashing.com/current/2026/8/18/david-leo-rice-jakob-as-father
+  // NEW_HOUSE_2_SECTION: {
+  //   sectionName: "The New House 2",
+  // },
   SQUIMBOP_CONDITION_SECTION: {
     sectionName: "The Squimbop Condition",
   },
-  TSC_LARB: {
+  TSC_LM: {
     workUrl:
       "https://www.litmagazine.org/the-squimbop-condition-an-interview-with-david-leo-rice-on-his-latest-novel/",
     workTitle: `Interview`,
@@ -429,6 +433,11 @@ export const interviewsExcerptsEvents = {
   DODGE_CITY_TWO_SECTION: {
     sectionName: "A Room in Dodge City Vol. 2",
   },
+  DODGE_CITY_2_FARKAS: {
+    workUrl: "https://xraylitmag.com/andrew-farkas-recommends/fiction/",
+    workTitle: "Andrew Farkas Recommends",
+    venue: "X-R-A-Y",
+  },
   DODGECITYTWOINTERVIEW: {
     workUrl:
       "https://lareviewofbooks.org/article/the-mythmaker-gazes-at-himself-a-conversation-with-david-leo-rice/",
@@ -754,6 +763,12 @@ export const interviewsExcerptsEvents = {
 };
 
 export const stories = {
+  JAKOB_AS_FATHER: {
+    workUrl:
+      "https://www.alwayscrashing.com/current/2026/8/18/david-leo-rice-jakob-as-father",
+    workTitle: `Jakob as Father`,
+    venue: "Always Crashing",
+  },
   THE_WARD_CLERK: {
     workUrl: "https://heavyfeatherreview.org/2026/02/26/the-ward-clerk/",
     workTitle: "The Ward Clerk",
